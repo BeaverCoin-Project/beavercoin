@@ -1,9 +1,9 @@
-Building Litecoin
+Building BeaverCoin
 
-See doc/readme-qt.rst for instructions on building Litecoin-Qt,
+See doc/readme-qt.rst for instructions on building BeaverCoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Litecoin.
+implementation of BeaverCoin.
 
-See doc/build-*.txt for instructions on building litecoind,
+See doc/build-*.txt for instructions on building beavercoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Litecoin.
+implementation of BeaverCoin.
