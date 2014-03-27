@@ -2723,7 +2723,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x978e18142dfa35d0db8af2ea58943dcafd0c1597b4b303e5838235c46fd8c6e5");
+        hashGenesisBlock = uint256("0x81a5b8940b9bab20992501ab8232a5bcf9dac3ceed222e6be78c5237b4f0df6e");
     }
 
     //
@@ -2756,7 +2756,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "XXy 1337 NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56X";
+        const char* pszTimestamp = "NY Times 26/Mar/2014 Start-Up Unveils Bitcoin Payments Product";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2768,13 +2768,13 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1392926916;
+        block.nTime    = 1395912796;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 0;
 
         if (fTestNet)
         {
-            block.nTime    = 1392926916;
+            block.nTime    = 1395912796;
             block.nNonce   = 0;
         }
 
@@ -2783,7 +2783,8 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xe8d917d2060693d1bc18a75cc087e3898b4413f5d00fccafd18258465d32c059"));
+        assert(block.hashMerkleRoot == uint256("0xc1aa3a4245e3ae6aa7c080e3ba6d745752345b92aacbbabc9b945617f32ad52f"));
+        
         // If genesis block hash does not match, then generate new genesis hash.
         /*if (true && block.GetHash() != hashGenesisBlock)
         {
@@ -2827,6 +2828,7 @@ bool InitBlockIndex() {
             printf("block.nNonce = %u \n", block.nNonce);
             printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
         }*/
+        
         block.print();
         assert(hash == hashGenesisBlock);
 
