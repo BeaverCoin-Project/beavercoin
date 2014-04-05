@@ -10,14 +10,12 @@ Copyright (c) 2014 BeaverCoin Developers
 What is BeaverCoin?
 ----------------
 
-BeaverCoin is a cryptocurrency basend on Bitcoin and BeaverCoin, using scrypt as a proof-of-work algorithm.
+BeaverCoin is a cryptocurrency basend on Bitcoin and Litecoin, using scrypt as a proof-of-work algorithm.
  - 1 minute block targets
- - subsidy halves in 210k blocks (~1 year)
- - ~3.36 million total coins
-
-The rest is the same as Bitcoin.
  - 8 coins per block
- - 1440 blocks to retarget difficulty
+ - subsidy halves in 525k blocks (~1 year)
+ - ~3.36 million total coins
+ - 86400 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the BeaverCoin client sofware, see http://beavercoin.0url.de.
