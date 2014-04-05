@@ -1,7 +1,7 @@
 src/*.exe
-src/litecoin
-src/litecoind
-src/test_litecoin
+src/beavercoin
+src/beavercoind
+src/test_ beavercoin
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_litecoin
 *.orig
 *.o
 *.patch
-.litecoin
+.beavercoin
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-Litecoin-Qt.app
+beavercoin-qt
+Beavercoin-Qt.app
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+beavercoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
