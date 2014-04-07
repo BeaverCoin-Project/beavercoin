@@ -2756,7 +2756,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NY Times 26/Mar/2014 Start-Up Unveils Bitcoin Payments Product";
+        const char* pszTimestamp = "NY Times 6/Apr/2014 Apple’s Deep Pockets: What $159 Billion Could Do";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2768,13 +2768,13 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1395917431;
+        block.nTime    = 1396841847;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 1441358;
 
         if (fTestNet)
         {
-            block.nTime    = 1395917431;
+            block.nTime    = 1396841847;
             block.nNonce   = 1441358;
         }
 
