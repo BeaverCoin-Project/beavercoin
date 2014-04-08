@@ -31,7 +31,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x01955daae61af783be9e4019609ba071fe5992802b790dda7a4591d92e8f794a");
+uint256 hashGenesisBlock("0x4daea126edbcc5657db163e07e7ca44ffa095135599e2a9d1c73a125c539515f");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // BeaverCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2723,7 +2723,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x01955daae61af783be9e4019609ba071fe5992802b790dda7a4591d92e8f794a");
+        hashGenesisBlock = uint256("0x4daea126edbcc5657db163e07e7ca44ffa095135599e2a9d1c73a125c539515f");
     }
 
     //
@@ -2756,7 +2756,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NY Times 6/Apr/2014 Apple’s Deep Pockets: What $159 Billion Could Do";
+        const char* pszTimestamp = "NY Times 7/Apr/2014 Weak Rules Let Tax Preparers Get Big Cut of Refunds";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2768,14 +2768,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1396841847;
+        block.nTime    = 1396919590;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 1441358;
+        block.nNonce   = 1080338;
 
         if (fTestNet)
         {
-            block.nTime    = 1396841847;
-            block.nNonce   = 1441358;
+            block.nTime    = 1396919590;
+            block.nNonce   = 1080338;
         }
 
         //// debug print
@@ -2783,7 +2783,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xc1aa3a4245e3ae6aa7c080e3ba6d745752345b92aacbbabc9b945617f32ad52f"));
+        assert(block.hashMerkleRoot == uint256("0x5c8ac8f25d3325c785b75e6cc35258fe01cd7d42f29eb60b22f10490d21ebc16"));
         
         // If genesis block hash does not match, then generate new genesis hash.
         /*if (true && block.GetHash() != hashGenesisBlock)
