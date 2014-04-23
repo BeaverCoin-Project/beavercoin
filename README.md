@@ -1,7 +1,7 @@
 BeaverCoin integration/staging tree
 ================================
 
-http://beavercoin.0url.de
+http://beavercoin.org/
 
 ![BeaverCoin Logo](http://beavercoin.org/wp-content/uploads/2014/02/BeaverCoin.png "BeaverCoin Logo")
 
@@ -20,7 +20,7 @@ BeaverCoin is a cryptocurrency basend on Bitcoin and Litecoin, using scrypt as a
  - 86400 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the BeaverCoin client sofware, see http://beavercoin.0url.de.
+the BeaverCoin client sofware, see http://beavercoin.org/.
 
 License
 -------
