@@ -3,7 +3,7 @@ BeaverCoin integration/staging tree
 
 http://beavercoin.org/
 
-![BeaverCoin Logo](http://beavercoin.org/wp-content/uploads/Logo-Aufl%C3%B6sung.png "BeaverCoin Logo")
+![BeaverCoin Logo](http://beavercoin.org/wp-content/uploads/BeaverCoin-GitHub.png "BeaverCoin Logo")
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
