@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.2
+!define VERSION 1.0.0
 !define COMPANY "BeaverCoin project"
-!define URL http://www.beavercoin.org/
+!define URL http://beavercoin.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile beavercoin-0.8.6.2-win32-setup.exe
+OutFile beavercoin-${VERSION}-win32-setup.exe
 InstallDir $PROGRAMFILES\BeaverCoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.2
+VIProductVersion ${VERSION}
 VIAddVersionKey ProductName BeaverCoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
