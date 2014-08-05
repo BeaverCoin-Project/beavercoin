@@ -27,14 +27,19 @@ INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"c:/deps/boost_1_55_0" \
  -I"c:/deps/db-4.8.30.NC/build_unix" \
- -I"c:/deps/openssl-1.0.1e/include"
+ -I"c:/deps/openssl-1.0.1h/include" \
+ -I"c:/deps" \
+ -I"c:/deps/libpng-1.6.12" \
+ -I"c:/deps/qrencode-3.4.3"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
  -L"c:/deps/boost_1_55_0/stage/lib" \
  -L"c:/deps/db-4.8.30.NC/build_unix" \
- -L"c:/deps/openssl-1.0.1e"
-
+ -L"c:/deps/openssl-1.0.1h" \
+ -L"c:/deps/miniupnpc" \
+ -L"c:/deps/libpng-1.6.12/.libs" \
+ -L"c:/deps/qrencode-3.4.3/.libs"
 LIBS= \
  -l leveldb \
  -l memenv \
