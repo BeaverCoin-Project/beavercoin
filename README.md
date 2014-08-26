@@ -3,9 +3,9 @@ BeaverCoin integration/staging tree
 
 Official Website: http://beavercoin.org/
 
-BeaverCoin-Community: http://forum.beavercoin.org/
+BeaverCoin Community: http://forum.beavercoin.org/
 
-Mining-Pool: http://pool.beavercoin.org/
+Mining Pool: http://pool.beavercoin.org/
 
 ![BeaverCoin Logo](http://beavercoin.org/wp-content/uploads/BeaverCoin-GitHub.png "BeaverCoin Logo")
 
