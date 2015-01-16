@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.0.0
+!define VERSION 1.2.1
 !define COMPANY "BeaverCoin project"
 !define URL http://beavercoin.org/
 
