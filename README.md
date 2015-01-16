@@ -7,13 +7,17 @@ BeaverCoin Community: http://forum.beavercoin.org/
 
 Mining Pool: http://pool.beavercoin.org/
 
+Official Faucet: http://faucet.beavercoin.org/
+
+BeaverCoin Wheel: http://wheel.beavercoin.org/
+
 ![BeaverCoin Logo](http://beavercoin.org/wp-content/uploads/BeaverCoin-GitHub.png "BeaverCoin Logo")
 
 Copyright (c) 2009-2014 Bitcoin Developers
 
 Copyright (c) 2011-2014 Litecoin Developers
 
-Copyright (c) 2014 BeaverCoin Developers
+Copyright (c) 2014-2015 BeaverCoin Developers
 
 What is BeaverCoin?
 ----------------

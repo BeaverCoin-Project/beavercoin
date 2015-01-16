@@ -1086,7 +1086,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 8 * COIN;
 
-    // Subsidy is cut in half every 210000 blocks, which will occur approximately every year
+    // Subsidy is cut in half every 210000 blocks
     nSubsidy >>= (nHeight / 210000); // BeaverCoin: 210k blocks
 
     return nSubsidy + nFees;
