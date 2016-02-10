@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-BeaverCoin integration/staging tree
+BeaverCoin Core integration/staging tree
 ================================
 
 Official Website: http://beavercoin.org/
@@ -32,33 +31,11 @@ BeaverCoin is a cryptocurrency basend on Bitcoin and BeaverCoin, using scrypt as
 
 For more information, as well as an immediately useable, binary version of
 the BeaverCoin client sofware, see http://beavercoin.org/.
-=======
-BeaverCoin Core integration/staging tree
-=====================================
-
-https://beavercoin.org
-
-What is BeaverCoin?
-----------------
-
-BeaverCoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. BeaverCoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. BeaverCoin Core is the name of open source
-software which enables the use of this currency.
-
-For more information, as well as an immediately useable, binary version of
-the BeaverCoin Core software, see https://beavercoin.org
->>>>>>> pr/5
 
 License
 -------
 
-<<<<<<< HEAD
-BeaverCoin is released under the terms of the MIT license. See `COPYING` for more
-=======
 BeaverCoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
->>>>>>> pr/5
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -73,29 +50,15 @@ development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion with the devs and community.
-=======
-If it is a simple/trivial/non-controversial change, then one of the BeaverCoin
-development team members simply pulls it.
-
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](https://groups.google.com/forum/#!forum/beavercoin-dev).
->>>>>>> pr/5
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
 match the project's coding conventions (see [doc/coding.md](doc/coding.md)) or are
 controversial.
 
-<<<<<<< HEAD
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/beavercoin-project/beavercoin/tags) are created
-regularly to indicate new official, stable release versions of BeaverCoin.
-=======
 The `master-0.10` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/beavercoin-project/beavercoin/tags) are created
 regularly to indicate new official, stable release versions of BeaverCoin.
->>>>>>> pr/5
 
 Testing
 -------
@@ -122,12 +85,6 @@ pull from Transifex would automatically overwrite them again.
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
 Translations are converted to BeaverCoin periodically.
 
-<<<<<<< HEAD
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./beavercoin-qt_test
-
-=======
 Development tips and tricks
 ---------------------------
 
@@ -162,4 +119,3 @@ BeaverCoin Core is a multithreaded application, and deadlocks or other multithre
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.
->>>>>>> pr/5
