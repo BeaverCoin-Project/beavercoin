@@ -15,9 +15,9 @@ BeaverCoin Wheel: http://wheel.beavercoin.org/
 
 Copyright (c) 2009-2014 Bitcoin Developers
 
-Copyright (c) 2011-2014 BeaverCoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
 
-Copyright (c) 2014-2015 BeaverCoin Developers
+Copyright (c) 2014-2016 BeaverCoin Developers
 
 What is BeaverCoin?
 ----------------
@@ -44,7 +44,6 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-<<<<<<< HEAD
 If it is a simple/trivial/non-controversial change, then one of the BeaverCoin
 development team members simply pulls it.
 
