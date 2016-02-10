@@ -1,12 +1,17 @@
 Release Process
 ====================
 
+<<<<<<< HEAD
 * * *
 
 ###update (commit) version in sources
 
 
 	beavercoin-qt.pro
+=======
+###update (commit) version in sources
+
+>>>>>>> pr/5
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
@@ -14,16 +19,21 @@ Release Process
 
 ###tag version in git
 
+<<<<<<< HEAD
 	git tag -s v0.8.7
+=======
+	git tag -s v(new version, e.g. 0.8.0)
+>>>>>>> pr/5
 
 ###write release notes. git shortlog helps a lot, for example:
 
-	git shortlog --no-merges v0.7.2..v0.8.0
+	git shortlog --no-merges v(current version, e.g. 0.7.2)..v(new version, e.g. 0.8.0)
 
 * * *
 
-##perform gitian builds
+###update Gitian
 
+<<<<<<< HEAD
  From a directory containing the beavercoin source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
@@ -62,59 +72,171 @@ Release Process
 	pushd build/out
 	zip -r beavercoin-${VERSION}-win32.zip *
 	mv beavercoin-${VERSION}-win32.zip ../../
+=======
+ In order to take advantage of the new caching features in Gitian, be sure to update to a recent version (e9741525c or higher is recommended)
+
+###perform Gitian builds
+
+ From a directory containing the beavercoin source, gitian-builder and gitian.sigs.ltc
+  
+    export SIGNER=(your Gitian key, ie wtogami, coblee, etc)
+	export VERSION=(new version, e.g. 0.8.0)
+	pushd ./beavercoin
+	git checkout v${VERSION}
+>>>>>>> pr/5
 	popd
+	pushd ./gitian-builder
 
-  Build output expected:
+###fetch and build inputs: (first time, or when dependency versions change)
 
+<<<<<<< HEAD
   1. linux 32-bit and 64-bit binaries + source (beavercoin-${VERSION}-linux-gitian.zip)
   2. windows 32-bit binary, installer + source (beavercoin-${VERSION}-win32-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
+=======
+	mkdir -p inputs
+>>>>>>> pr/5
 
-repackage gitian builds for release as stand-alone zip/tar/installer exe
+ Register and download the Apple SDK: (see OS X Readme for details)
 
-**Linux .tar.gz:**
+ https://developer.apple.com/downloads/download.action?path=Developer_Tools/xcode_6.1.1/xcode_6.1.1.dmg
 
+<<<<<<< HEAD
 	unzip beavercoin-${VERSION}-linux-gitian.zip -d beavercoin-${VERSION}-linux
 	tar czvf beavercoin-${VERSION}-linux.tar.gz beavercoin-${VERSION}-linux
 	rm -rf beavercoin-${VERSION}-linux
+=======
+ Using a Mac, create a tarball for the 10.9 SDK and copy it to the inputs directory:
+>>>>>>> pr/5
 
-**Windows .zip and setup.exe:**
+	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.9.sdk.tar.gz MacOSX10.9.sdk
 
+<<<<<<< HEAD
 	unzip beavercoin-${VERSION}-win32-gitian.zip -d beavercoin-${VERSION}-win32
 	mv beavercoin-${VERSION}-win32/beavercoin-*-setup.exe .
 	zip -r beavercoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
 	rm -rf beavercoin-${VERSION}-win32
+=======
+###Optional: Seed the Gitian sources cache
+>>>>>>> pr/5
 
-**Perform Mac build:**
+  By default, Gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
+<<<<<<< HEAD
   OSX binaries are created on a dedicated 32-bit, OSX 10.6.8 machine.
-  Litecoin 0.8.x is built with MacPorts.  0.9.x will be Homebrew only.
+  BeaverCoin 0.8.x is built with MacPorts.  0.9.x will be Homebrew only.
 
 	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 share/qt/clean_mac_info_plist.py
-	python2.7 contrib/macdeploy/macdeployqtplus Litecoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+	python2.7 contrib/macdeploy/macdeployqtplus BeaverCoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
- Build output expected: Litecoin-Qt.dmg
+ Build output expected: BeaverCoin-Qt.dmg
+=======
+	make -C ../beavercoin/depends download SOURCES_PATH=`pwd`/cache/common
 
-###Next steps:
+  Only missing files will be fetched, so this is safe to re-run for each build.
 
-* Code-sign Windows -setup.exe (in a Windows virtual machine) and
-  OSX Bitcoin-Qt.app (Note: only Gavin has the code-signing keys currently)
+###Build BeaverCoin Core for Linux, Windows, and OS X:
+>>>>>>> pr/5
 
+	./bin/gbuild --commit beavercoin=v${VERSION} ../beavercoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../beavercoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/beavercoin-*.tar.gz build/out/src/beavercoin-*.tar.gz ../
+	./bin/gbuild --commit beavercoin=v${VERSION} ../beavercoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../beavercoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/beavercoin-*.zip build/out/beavercoin-*.exe ../
+	./bin/gbuild --commit beavercoin=v${VERSION} ../beavercoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../beavercoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/beavercoin-*-unsigned.tar.gz inputs/beavercoin-osx-unsigned.tar.gz
+	mv build/out/beavercoin-*.tar.gz build/out/beavercoin-*.dmg ../
+	popd
+  Build output expected:
+
+  1. source tarball (beavercoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (beavercoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (beavercoin-${VERSION}-win[32|64]-setup.exe, beavercoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer (beavercoin-${VERSION}-osx-unsigned.dmg)
+  5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your Gitian key)/
+
+<<<<<<< HEAD
 * update beavercoin.org version make sure all OS download links go to the right versions
-
-* update forum version
-
-* update wiki download links
+=======
+###Next steps:
 
 Commit your signature to gitian.sigs:
 
 	pushd gitian.sigs
-	git add ${VERSION}/${SIGNER}
-	git add ${VERSION}-win32/${SIGNER}
+	git add ${VERSION}-linux/${SIGNER}
+	git add ${VERSION}-win/${SIGNER}
+	git add ${VERSION}-osx-unsigned/${SIGNER}
 	git commit -a
 	git push  # Assuming you can push to the gitian.sigs tree
 	popd
+>>>>>>> pr/5
+
+  Wait for OS X detached signature:
+	Once the OS X build has 3 matching signatures, Warren/Coblee will sign it with the apple App-Store key.
+	He will then upload a detached signature to be combined with the unsigned app to create a signed binary.
+
+  Create the signed OS X binary:
+
+<<<<<<< HEAD
+Commit your signature to gitian.sigs:
+=======
+	pushd ./gitian-builder
+	# Fetch the signature as instructed by Warren/Coblee
+	cp signature.tar.gz inputs/
+	./bin/gbuild -i ../beavercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../beavercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/beavercoin-osx-signed.dmg ../beavercoin-${VERSION}-osx.dmg
+	popd
+
+Commit your signature for the signed OS X binary:
+>>>>>>> pr/5
+
+	pushd gitian.sigs
+	git add ${VERSION}-osx-signed/${SIGNER}
+	git commit -a
+	git push  # Assuming you can push to the gitian.sigs tree
+<<<<<<< HEAD
+	popd
+=======
+	popd
+
+-------------------------------------------------------------------------
+
+### After 3 or more people have gitian-built and their results match:
+
+- Perform code-signing.
+
+    - Code-sign Windows -setup.exe (in a Windows virtual machine using signtool)
+
+  Note: only Warren/Coblee has the code-signing keys currently.
+
+- Create `SHA256SUMS.asc` for the builds, and GPG-sign it:
+```bash
+sha256sum * > SHA256SUMS
+gpg --digest-algo sha256 --clearsign SHA256SUMS # outputs SHA256SUMS.asc
+rm SHA256SUMS
+```
+(the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
+
+- Update beavercoin.org version
+
+- Announce the release:
+
+  - Release sticky on beavercointalk: https://beavercointalk.org/index.php?board=1.0
+
+  - beavercoin-development mailing list
+
+  - Update title of #beavercoin on Freenode IRC
+
+  - Optionally reddit /r/beavercoin, ... but this will usually sort out itself
+
+- Add release notes for the new version to the directory `doc/release-notes` in git master
+
+- Celebrate 
+>>>>>>> pr/5

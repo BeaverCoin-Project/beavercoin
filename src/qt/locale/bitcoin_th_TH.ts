@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="th_TH" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,29 +34,21 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="th_TH" version="2.1">
+>>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>สมุดรายชื่อ</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>ดับเบิลคลิก เพื่อแก้ไขที่อยู่ หรือชื่อ</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>สร้างที่อยู่ใหม่</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-11"/>
         <source>&amp;New Address</source>
         <translation type="unfinished"/>
@@ -139,37 +132,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+260"/>
         <source>Export Address Book Data</source>
         <translation>ส่งออกรายชื่อทั้งหมด</translation>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;ลบ</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
+        <translation>คั่นไฟล์ด้วยเครื่องหมายจุลภาค (*.csv)</translation>
     </message>
-    <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>ส่งออกผิดพลาด</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>ไม่สามารถเขียนไปยังไฟล์ %1</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>ชื่อ</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>ที่อยู่</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
         <translation>(ไม่มีชื่อ)</translation>
     </message>
@@ -177,71 +160,51 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>ใส่รหัสผ่าน</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>รหัสผา่นใหม่</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>กรุณากรอกรหัสผ่านใหม่อีกครั้งหนึ่ง</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
         <translation>กระเป๋าสตางค์ที่เข้ารหัส</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation type="unfinished"/>
+        <translation>การดำเนินการนี้ต้องมีรหัสผ่านกระเป๋าเงินของคุณเพื่อปลดล็อคกระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>เปิดกระเป๋าสตางค์</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation type="unfinished"/>
+        <translation>การดำเนินการนี้ต้องมีรหัสผ่านกระเป๋าเงินของคุณในการถอดรหัสกระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
         <translation>ถอดรหัสกระเป๋าสตางค์</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>เปลี่ยนรหัสผ่าน</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>กรอกรหัสผ่านเก่าและรหัสผ่านใหม่สำหรับกระเป๋าสตางค์</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
         <translation>ยืนยันการเข้ารหัสกระเป๋าสตางค์</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
@@ -265,10 +228,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-130"/>
         <location line="+58"/>
+=======
+>>>>>>> pr/5
         <source>Wallet encrypted</source>
         <translation>กระเป๋าสตางค์ถูกเข้ารหัสเรียบร้อยแล้ว</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-56"/>
         <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
@@ -278,113 +244,70 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+7"/>
         <location line="+42"/>
         <location line="+6"/>
+=======
+>>>>>>> pr/5
         <source>Wallet encryption failed</source>
         <translation>การเข้ารหัสกระเป๋าสตางค์ผิดพลาด</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation type="unfinished"/>
+        <translation>กระเป๋าเงินเข้ารหัสล้มเหลวเนื่องจากข้อผิดพลาดภายใน กระเป๋าเงินของคุณไม่ได้เข้ารหัส</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
         <translation>รหัสผ่านที่คุณกรอกไม่ตรงกัน</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation type="unfinished"/>
+        <translation>ปลดล็อคกระเป๋าเงินล้มเหลว</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation type="unfinished"/>
+        <translation>ป้อนรหัสผ่านสำหรับการถอดรหัสกระเป๋าเงินไม่ถูกต้อง</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation type="unfinished"/>
+        <translation>ถอดรหัสกระเป๋าเงินล้มเหลว</translation>
     </message>
-    <message>
-        <location line="+14"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
-        <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished"/>
+        <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ภาพรวม</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished"/>
+        <translation>แสดงภาพรวมทั่วไปของกระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished"/>
+        <translation>&amp;การทำรายการ</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished"/>
+        <translation>เรียกดูประวัติการทำธุรกรรม</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>E&amp;xit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Quit application</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about BeaverCoin</source>
         <translation type="unfinished"/>
+=======
+        <translation>ออกจากโปรแกรม</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+2"/>
-        <source>About &amp;Qt</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show information about Qt</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -502,25 +425,29 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;ตัวเลือก...</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับการเข้ารหัสกระเป๋าเงิน</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
         <source>&amp;File</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ไฟล์</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished"/>
+        <translation>&amp;การตั้งค่า</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ช่วยเหลือ</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -563,70 +490,29 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+4"/>
         <source>%n day(s)</source>
         <translation type="unfinished"><numerusform></numerusform></translation>
+=======
+        <translation>แถบเครื่องมือ</translation>
+>>>>>>> pr/5
     </message>
     <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Litecoin</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>%1 behind</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Error</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation type="unfinished"/>
+        <translation>ทันสมัย</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
-        <translation type="unfinished"/>
+        <translation>จับได้...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
-        <translation type="unfinished"/>
+        <translation>รายการที่ส่ง</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -649,100 +535,89 @@ Address: %4
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
+=======
+        <translation>การทำรายการขาเข้า</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>ระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในขณะนี้ &lt;b&gt;ปลดล็อคแล้ว&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
+>>>>>>> pr/5
     </message>
 </context>
 <context>
     <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation type="unfinished"/>
+        <translation>แก้ไขที่อยู่</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ชื่อ</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ที่อยู่</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation type="unfinished"/>
+        <translation>ที่อยู่ผู้รับใหม่</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation type="unfinished"/>
+        <translation>ที่อยู่ผู้ส่งใหม่</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation type="unfinished"/>
+        <translation>แก้ไขที่อยู่ผู้รับ</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation type="unfinished"/>
+        <translation>แก้ไขที่อยู่ผู้ส่ง</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
         <translation type="unfinished"/>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>ป้อนที่อยู่ "%1" ที่มีอยู่แล้วในสมุดที่อยู่</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation type="unfinished"/>
+        <translation>ไม่สามารถปลดล็อคกระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation type="unfinished"/>
+        <translation>สร้างกุญแจใหม่ล้มเหลว</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>GUIUtil::HelpMessageBox</name>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
@@ -786,29 +661,66 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+>>>>>>> pr/5
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation>ตัวเลือก</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>รูป</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>ชื่อ</translation>
     </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start BeaverCoin after logging in to the system.</source>
         <translation type="unfinished"/>
@@ -817,48 +729,100 @@ Address: %4
         <location line="+3"/>
         <source>&amp;Start BeaverCoin on system login</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>ชื่อ</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> pr/5
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>ส่งเหรียญ</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation type="unfinished"/>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+>>>>>>> pr/5
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Today</source>
+        <translation>วันนี้</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>คั่นไฟล์ด้วยเครื่องหมายจุลภาค (*.csv)</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>ชื่อ</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
     </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
     <message>
+<<<<<<< HEAD
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
         <translation type="unfinished"/>
@@ -1280,106 +1244,14 @@ Address: %4
         <location line="+6"/>
         <location line="+5"/>
         <location line="+5"/>
+=======
+>>>>>>> pr/5
         <source>Send Coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+50"/>
-        <source>Send to multiple recipients at once</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Balance:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Confirm the send action</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <translation>ส่งเหรียญ</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>SendCoinsEntry</name>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
@@ -2914,4 +2786,11 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> pr/5
 </TS>

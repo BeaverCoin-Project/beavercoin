@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -38,284 +39,258 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Разработчики BeaverCoin</translation>
     </message>
 </context>
+=======
+<TS language="ru" version="2.1">
+>>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>&amp;Адресная книга</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Клик правой кнопкой для редактирования адреса или метки</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Для того, чтобы изменить адрес или метку, дважды кликните по изменяемому объекту</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Создать новый адрес</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>Новый</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Копировать текущий выделенный адрес в буфер обмена</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Новый адрес</translation>
+        <source>&amp;Copy</source>
+        <translation>Копировать</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
+=======
+        <source>C&amp;lose</source>
+        <translation>Закрыть</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Копировать адрес</translation>
+        <translation>Копировать адрес</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Показать &amp;QR код</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>&amp;Подписать сообщение</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
         <translation>Удалить выбранный адрес из списка</translation>
     </message>
     <message>
-        <location line="+27"/>
+<<<<<<< HEAD
+        <location line="+11"/>
+        <source>Sign a message to prove you own a BeaverCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом BeaverCoin</translation>
+=======
         <source>Export the data in the current tab to a file</source>
-        <translation>Экспортировать данные из вкладки в файл</translation>
+        <translation>Экспортировать данные текущей вкладки в файл</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation>&amp;Экспорт</translation>
+        <translation>Экспорт</translation>
     </message>
     <message>
+        <source>&amp;Delete</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Выберите адрес для отправки на него монет</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Выберите адрес для получения монет</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
         <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом BeaverCoin</translation>
+=======
+        <source>C&amp;hoose</source>
+        <translation>Выбрать</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Проверить сообщение</translation>
+        <source>Sending addresses</source>
+        <translation>Адреса отправки</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Delete</source>
-        <translation>&amp;Удалить</translation>
+        <source>Receiving addresses</source>
+        <translation>Адреса получения</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса Litecoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+13"/>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса Litecoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation>Копировать &amp;метку</translation>
+        <translation>Копировать &amp;Метку</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Правка</translation>
+        <translation>Правка</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>&amp;Отправить монеты</translation>
+        <source>Export Address List</source>
+        <translation>Экспортировать список адресов</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Экспортировать адресную книгу</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Текст, разделённый запятыми (*.csv)</translation>
+        <translation>Файл, разделённый запятыми (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Ошибка экспорта</translation>
+        <source>Exporting Failed</source>
+        <translation>Экспорт не удался</translation>
     </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Невозможно записать в файл %1.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>Метка</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>Адрес</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>[нет метки]</translation>
+        <translation>(нет метки)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Диалог ввода пароля</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Введите пароль</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Новый пароль</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Повторите новый пароль</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Введите новый пароль для бумажника. &lt;br/&gt; Пожалуйста, используйте фразы из &lt;b&gt;10 или более случайных символов,&lt;/b&gt; или &lt;b&gt;восьми и более слов.&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
         <translation>Зашифровать бумажник</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
+        <translation>Данная операция требует введения пароля для разблокировки вашего бумажника.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>Разблокировать бумажник</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
+        <translation>Данная операция требует введения пароля для расшифровки вашего бумажника.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
         <translation>Расшифровать бумажник</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>Сменить пароль</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Введите старый и новый пароль для бумажника.</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
         <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ BEAVERCOIN&lt;/b&gt;!</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Предупреждение: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОЙНЫ&lt;/b&gt;!</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы уверены, что хотите зашифровать ваш бумажник?</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ВАЖНО: все предыдущие резервные копии вашего кошелька должны быть заменены новым зашифрованным файлом. В целях безопасности предыдущие резервные копии нешифрованного кошелька станут бесполезны, как только вы начнёте использовать новый шифрованный кошелёк.</translation>
+        <translation>ВАЖНО: все предыдущие резервные копии вашего бумажника должны быть заменены новым зашифрованным файлом. В целях безопасности предыдущие резервные копии незашифрованного бумажника станут бесполезны, как только вы начнёте использовать новый зашифрованный бумажник.</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Внимание: Caps Lock включен!</translation>
     </message>
     <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Бумажник зашифрован</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-56"/>
         <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши BeaverCoin от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Введите новый пароль бумажника.&lt;br/&gt;Используйте пароль, состоящий из &lt;b&gt;десяти или более случайных символов&lt;/b&gt;, или &lt;b&gt;восьми или более слов&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткойны от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
         <source>Wallet encryption failed</source>
         <translation>Не удалось зашифровать бумажник</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Шифрование бумажника не удалось из-за внутренней ошибки. Ваш бумажник не был зашифрован.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
         <translation>Введённые пароли не совпадают.</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
         <translation>Разблокировка бумажника не удалась</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Указанный пароль не подходит.</translation>
+        <translation>Неверно указан пароль для расшиврования бумажника.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>Расшифрование бумажника не удалось</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Пароль бумажника успешно изменён.</translation>
     </message>
@@ -323,101 +298,100 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Подписать сообщение...</translation>
+        <translation>Подписать &amp;сообщение</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Синхронизация с сетью...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>О&amp;бзор</translation>
+        <translation>Обзор</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Узел</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Показать общий обзор действий с бумажником</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакции</translation>
+        <translation>Транзакции</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Показать историю транзакций</translation>
+        <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Изменить список сохранённых адресов и меток к ним</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Показать список адресов для получения платежей</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>В&amp;ыход</translation>
+        <translation>Выход</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Закрыть приложение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about BeaverCoin</source>
         <translation>Показать информацию о BeaverCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> pr/5
         <source>About &amp;Qt</source>
-        <translation>О &amp;Qt</translation>
+        <translation>О Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Показать информацию о Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>Оп&amp;ции...</translation>
+        <translation>Параметры</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Зашифровать бумажник...</translation>
+        <translation>Зашифровать бумажник...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Сделать резервную копию бумажника...</translation>
+        <translation>Сделать резервную копию бумажника...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Изменить пароль...</translation>
+        <translation>Сменить пароль</translation>
     </message>
     <message>
-        <location line="+285"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>Адреса отправки...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Адреса получения...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Открыть URI...</translation>
+    </message>
+    <message>
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core клиент</translation>
+    </message>
+    <message>
         <source>Importing blocks from disk...</source>
         <translation>Импортируются блоки с диска...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a BeaverCoin address</source>
         <translation>Отправить монеты на указанный адрес BeaverCoin</translation>
@@ -426,79 +400,82 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for BeaverCoin</source>
         <translation>Изменить параметры конфигурации BeaverCoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Отправить монеты на адрес Litecoin</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Изменить параметры конфигурации Litecoin</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Сделать резервную копию бумажника в другом месте</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Изменить пароль шифрования бумажника</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Окно отладки</translation>
+        <translation>Окно отладки</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Открыть консоль отладки и диагностики</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Проверить сообщение...</translation>
+        <translation>Проверить сообщение...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
         <source>BeaverCoin</source>
         <translation>BeaverCoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Бумажник</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>&amp;Отправить</translation>
+        <translation>Отправить</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>&amp;Получить</translation>
+        <translation>Получить</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Адреса</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>&amp;About BeaverCoin</source>
         <translation>&amp;О BeaverCoin</translation>
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Показать информацию о Litecoin Core</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Показать / Скрыть</translation>
+        <translation>Показать / Скрыть</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
         <translation>Показать или скрыть главное окно</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
         <translation>Подписать сообщения вашим адресом BeaverCoin, чтобы доказать, что вы им владеете</translation>
@@ -507,28 +484,33 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
         <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом BeaverCoin</translation>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Litecoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Litecoin</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Панель вкладок</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -583,43 +565,41 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Последний полученный блок был сгенерирован %1 назад.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+2"/>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Транзакции после этой пока не будут видны.</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Запросить платежи (создаёт QR-коды и litecoin: ссылки)</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>Error</source>
-        <translation>Ошибка</translation>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;О Litecoin Core</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning</source>
-        <translation>Внимание</translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Показать список использованных адресов отправки и меток</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Information</source>
-        <translation>Информация</translation>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Показать список использованных адресов получения и меток</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Транзакция превышает максимальный размер. Вы можете провести её, заплатив комиссию %1, которая достанется узлам, обрабатывающим эту транзакцию, и поможет работе сети. Вы действительно хотите заплатить комиссию?</translation>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Открыть litecoin: URI или запрос платежа</translation>
     </message>
     <message>
-        <location line="-140"/>
-        <source>Up to date</source>
-        <translation>Синхронизировано</translation>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Catching up...</source>
-        <translation>Синхронизируется...</translation>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Показать помощь по Litecoin Core и получить список доступных параметров командной строки.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+113"/>
         <source>Confirm transaction fee</source>
         <translation>Подтвердите комиссию</translation>
@@ -663,59 +643,42 @@ Address: %4
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
+=======
+        <source>No block source available...</source>
+        <translation>Нет доступного источника блоков...</translation>
+>>>>>>> pr/5
     </message>
-    <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часа</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
         <translation>Произошла неисправимая ошибка. BeaverCoin не может безопасно продолжать работу и будет закрыт.</translation>
+=======
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n день</numerusform><numerusform>%n дня</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform></translation>
+>>>>>>> pr/5
     </message>
-</context>
+    </context>
 <context>
     <name>ClientModel</name>
-    <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Сетевая Тревога</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>EditAddressDialog</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation>Изменить адрес</translation>
+        <source>Change:</source>
+        <translation>Размен:</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Label</source>
-        <translation>&amp;Метка</translation>
+        <source>Copy change</source>
+        <translation>Копировать размен</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Метка, связанная с данной записью</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Address</source>
-        <translation>&amp;Адрес</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Адрес, связанный с данной записью.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Новый адрес для получения</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>New sending address</source>
         <translation>Новый адрес для отправки</translation>
@@ -749,9 +712,14 @@ Address: %4
         <location line="+5"/>
         <source>New key generation failed.</source>
         <translation>Генерация нового ключа не удалась.</translation>
+=======
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+>>>>>>> pr/5
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>GUIUtil::HelpMessageBox</name>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
@@ -784,20 +752,55 @@ Address: %4
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Выберите язык, например &quot;de_DE&quot; (по умолчанию: как в системе)</translation>
     </message>
+=======
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+>>>>>>> pr/5
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>Запускать свёрнутым</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Показывать сплэш при запуске (по умолчанию: 1)</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
     </message>
-</context>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
 <context>
     <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Опции</translation>
@@ -901,111 +904,149 @@ Address: %4
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Показывать только иконку в системном лотке после сворачивания окна.</translation>
+=======
+        <source>Clear all fields of the form.</source>
+        <translation>Очистить все поля формы</translation>
+>>>>>>> pr/5
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Cворачивать в системный лоток вместо панели задач</translation>
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Метка</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Сворачивать вместо закрытия. Если данная опция будет выбрана — приложение закроется только после выбора соответствующего пункта в меню.</translation>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Change:</source>
+        <translation>Размен:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation>С&amp;ворачивать при закрытии</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation>О&amp;тображение</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation>&amp;Язык интерфейса:</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
         <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска BeaverCoin.</translation>
+=======
+        <source>Clear all fields of the form.</source>
+        <translation>Очистить все поля формы</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Отображать суммы в единицах: </translation>
+        <source>Copy change</source>
+        <translation>Копировать размен</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Выберите единицу измерения монет при отображении и отправке.</translation>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
         <translation>Показывать ли адреса BeaverCoin в списке транзакций.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> pr/5
+    </message>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Показывать адреса в списке транзакций</translation>
+        <source>Received with</source>
+        <translation>Получено на</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation>О&amp;К</translation>
+        <source>Sent to</source>
+        <translation>Отправлено на</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Отмена</translation>
+        <source>Mined</source>
+        <translation>Добытые</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Received with</source>
+        <translation>Получено на</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Применить</translation>
+        <source>Sent to</source>
+        <translation>Отправлено на</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation>по умолчанию</translation>
+        <source>Mined</source>
+        <translation>Добытые</translation>
     </message>
     <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation>Подтвердите сброс опций</translation>
+        <source>Exporting Failed</source>
+        <translation>Экспорт не удался</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>Некоторые настройки могут потребовать перезапуск клиента, чтобы вступить в силу.</translation>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Файл, разделённый запятыми (*.csv)</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Желаете продолжить?</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Внимание</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting BeaverCoin.</source>
         <translation>Эта настройка вступит в силу после перезапуска BeaverCoin</translation>
+=======
+        <source>Label</source>
+        <translation>Метка</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation>Адрес прокси неверен.</translation>
+        <source>Address</source>
+        <translation>Адрес</translation>
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>OverviewPage</name>
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
@@ -1018,16 +1059,27 @@ Address: %4
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью BeaverCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
+=======
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+>>>>>>> pr/5
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Баланс:</translation>
+        <source>&amp;Export</source>
+        <translation>Экспорт</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Не подтверждено:</translation>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Экспортировать данные текущей вкладки в файл</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location line="-78"/>
         <source>Wallet</source>
@@ -2938,3 +2990,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
 </context>
 </TS>
+=======
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+</TS>
+>>>>>>> pr/5

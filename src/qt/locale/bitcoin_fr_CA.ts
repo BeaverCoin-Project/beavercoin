@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="fr_CA" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -38,26 +39,18 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="fr_CA" version="2.1">
+>>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Carnet d&apos;adresses</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Double-cliquez afin de modifier l&apos;adress ou l&apos;étiquette</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Créer une nouvelle adresse</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
+<<<<<<< HEAD
         <translation>Copier l&apos;adresse surligné a votre presse-papier</translation>
     </message>
     <message>
@@ -117,10 +110,16 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <location line="+14"/>
+=======
+        <translation>Copier l'adresse surligné a votre presse-papier</translation>
+    </message>
+    <message>
+>>>>>>> pr/5
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
@@ -147,83 +146,56 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <location line="+1"/>
+=======
+>>>>>>> pr/5
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
+        <translation>Fichier séparé par une virgule (*.csv)</translation>
     </message>
-    <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation type="unfinished"/>
+        <translation>Record</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished"/>
+        <translation>Addresse</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation type="unfinished"/>
+        <translation>(pas de record)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Entrer Mot de Passe</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Nouveau Mot de passe</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Répéter Mot de Passe</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation type="unfinished"/>
+        <translation>Encrypter Porte-Feuille</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation type="unfinished"/>
+        <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour débarrer le porte-feuille.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation type="unfinished"/>
+        <translation>Débarrer Porte-Feuille</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -318,11 +290,21 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour le décrypter.</translation>
+>>>>>>> pr/5
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
@@ -618,60 +600,138 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <location line="+31"/>
         <source>Catching up...</source>
         <translation type="unfinished"/>
+=======
+        <source>(no label)</source>
+        <translation>(pas de record)</translation>
+>>>>>>> pr/5
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Addresse</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation type="unfinished"/>
+        <source>(no label)</source>
+        <translation>(pas de record)</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
     <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation type="unfinished"/>
+        <source>(no label)</source>
+        <translation>(pas de record)</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Addresse</translation>
+>>>>>>> pr/5
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fichier séparé par une virgule (*.csv)</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>Record</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Addresse</translation>
+>>>>>>> pr/5
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>ClientModel</name>
     <message>
         <location filename="../clientmodel.cpp" line="+104"/>
@@ -1069,65 +1129,18 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    <name>WalletFrame</name>
+    </context>
+>>>>>>> pr/5
 <context>
+    <name>WalletModel</name>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
@@ -2919,4 +2932,11 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> pr/5
 </TS>

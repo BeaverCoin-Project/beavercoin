@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="fa_IR" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,44 +34,43 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="fa_IR" version="2.1">
+>>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>دفترچه آدرس</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>برای ویرایش آدرس/برچسب دوبار کلیک نمایید</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>یک آدرس جدید بسازید</translation>
+        <translation>گشایش حسابی جدید</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>جدید</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>آدرس انتخاب شده را در کلیپ بوردِ سیستم کپی کنید</translation>
+        <translation>کپی کردن حساب انتخاب شده به حافظه سیستم - کلیپ بورد</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>و آدرس جدید</translation>
+        <source>&amp;Copy</source>
+        <translation>کپی</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
+=======
+        <source>C&amp;lose</source>
+        <translation>بستن</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>و کپی آدرس</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>نشان و کد QR</translation>
@@ -87,89 +87,91 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+25"/>
+=======
+>>>>>>> pr/5
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>حذف آدرس های انتخاب شده از لیست</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
         <translation>صدور داده نوار جاری به یک فایل</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>صدور</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>و حذف</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <location line="-44"/>
+        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
+        <translation type="unfinished"/>
+=======
+        <source>Choose the address to send coins to</source>
+        <translation>انتخاب آدرس جهت ارسال کوین ها</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>انتخاب آدرس جهت دریافت کوین ها از آن</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
+=======
+        <source>Sending addresses</source>
+        <translation>ارسال آدرس ها</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>Receiving addresses</source>
+        <translation>دریافت آدرس ها</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
         <translation>کپی و برچسب</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>و ویرایش</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation type="unfinished"/>
+        <source>Export Address List</source>
+        <translation>صدور لیست آدرس</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>انتقال اطلاعات دفترچه آدرس</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>سی.اس.وی. (فایل جداگانه دستوری)</translation>
+        <translation>Comma separated file (*.csv) فایل جداگانه دستوری</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>صدور پیام خطا</translation>
+        <source>Exporting Failed</source>
+        <translation>صدور با شکست مواجه شد</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>قابل کپی در فایل نیست %1</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>خطایی به هنگام ذخیره لیست آدرس در %1 رخ داده است. لطفا دوباره تلاش کنید.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>برچسب</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>حساب</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
         <translation>(برچسب ندارد)</translation>
     </message>
@@ -177,71 +179,55 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>دیالوگ رمزعبور</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>رمز/پَس فرِیز را وارد کنید</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>رمز/پَس فرِیز جدید را وارد کنید</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>رمز/پَس فرِیز را دوباره وارد کنید</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>رمز/پَس فرِیز جدید را در wallet وارد کنید. برای انتخاب رمز/پَس فرِیز از 10 کاراکتر تصادفی یا بیشتر و یا هشت کلمه یا بیشتر استفاده کنید. </translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
         <translation>wallet را رمزگذاری کنید</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>برای انجام این عملکرد به رمز/پَس فرِیزِwallet نیاز است تا آن را از حالت قفل درآورد.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>باز کردن قفل wallet </translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>برای کشف رمز wallet، به رمز/پَس فرِیزِwallet نیاز است.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
         <translation>کشف رمز wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>رمز/پَس فرِیزِ قدیم و جدید را در wallet  وارد کنید</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
         <translation>رمزگذاری wallet را تایید کنید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
@@ -259,150 +245,123 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+100"/>
         <location line="+24"/>
+=======
+>>>>>>> pr/5
         <source>Warning: The Caps Lock key is on!</source>
-        <translation type="unfinished"/>
+        <translation>اخطار: کلید Caps Lock فعال است!</translation>
     </message>
     <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>تایید رمزگذاری</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-56"/>
         <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
         <translation>BeaverCoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
         <source>Wallet encryption failed</source>
         <translation>رمزگذاری تایید نشد</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>رمزگذاری به علت خطای داخلی تایید نشد. wallet شما رمزگذاری نشد</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
         <translation>رمزهای/پَس فرِیزهایِ وارد شده با هم تطابق ندارند</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
         <translation>قفل wallet  باز نشد</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>رمزهای/پَس فرِیزهایِ وارد شده wallet برای کشف رمز اشتباه است.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>کشف رمز wallet انجام نشد</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
+        <translation>رمز عبور کیف پول با موفقیت تغییر کرد.</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>امضا و پیام</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>به روز رسانی با شبکه...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>و بازبینی</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>نمای کلی از wallet را نشان بده</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>و تراکنش</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>تاریخچه تراکنش را باز کن</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>فهرست آدرسها و برچسبهای ذخیره شده را ویرایش کن</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>فهرست آدرسها را برای دریافت وجه نشان بده</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>خروج</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
+<<<<<<< HEAD
         <translation>از &quot;درخواست نامه&quot;/ application خارج شو</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about BeaverCoin</source>
         <translation>اطلاعات در مورد BeaverCoin را نشان بده</translation>
+=======
+        <translation>از "درخواست نامه"/ application خارج شو</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>درباره و QT</translation>
+        <translation>درباره و Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>نمایش اطلاعات درباره QT</translation>
+        <translation>نمایش اطلاعات درباره Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>و انتخابها</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>و رمزگذاری wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
         <translation>و گرفتن نسخه پیشتیبان از wallet</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+285"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"/>
@@ -421,18 +380,21 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for BeaverCoin</source>
         <translation>اصلاح انتخابها برای پیکربندی BeaverCoin</translation>
+=======
+        <source>Modify configuration options for Litecoin</source>
+        <translation>اصلاح انتخابها برای پیکربندی Litecoin</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
         <translation>گرفتن نسخه پیشتیبان در آدرسی دیگر</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
@@ -452,15 +414,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+530"/>
         <source>BeaverCoin</source>
         <translation>beavercoin</translation>
+=======
+        <source>Litecoin</source>
+        <translation>litecoin</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>کیف پول</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -477,13 +442,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+22"/>
         <source>&amp;About BeaverCoin</source>
         <translation>&amp;در مورد بیتکویین</translation>
+=======
+        <translation>و ارسال</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;نمایش/ عدم نمایش و</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Show or hide the main Window</source>
         <translation type="unfinished"/>
@@ -505,25 +473,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+28"/>
+=======
+>>>>>>> pr/5
         <source>&amp;File</source>
         <translation>و فایل</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>و تنظیمات</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>و راهنما</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>نوار ابزار</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -587,51 +555,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
+=======
+>>>>>>> pr/5
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>خطا</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>روزآمد</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>در حال روزآمد سازی..</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>ارسال تراکنش</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>تراکنش دریافتی</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -641,6 +586,7 @@ Address: %4
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+33"/>
         <location line="+23"/>
         <source>URI handling</source>
@@ -654,97 +600,118 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
+=======
+>>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>wallet رمزگذاری شد و در حال حاضر از حالت قفل در آمده است</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>wallet رمزگذاری شد و در حال حاضر قفل است</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
         <translation>هشدار شبکه</translation>
     </message>
 </context>
 <context>
-    <name>EditAddressDialog</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation>ویرایش آدرسها</translation>
+        <source>Amount:</source>
+        <translation>میزان وجه:</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <source>Amount</source>
+        <translation>میزان</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>تایید شده</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>آدرس را کپی کنید</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>برچسب را کپی کنید</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>میزان وجه کپی شود</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(برچسب ندارد)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>ویرایش حساب</translation>
+    </message>
+    <message>
         <source>&amp;Label</source>
         <translation>و برچسب</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>برچسب مربوط به این دفترچه آدرس</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>و آدرس</translation>
+        <translation>حساب&amp;</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>برچسب مربوط به این دفترچه آدرس و تنها ب</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>آدرسِ دریافت کننده جدید</translation>
+        <translation>حساب دریافت کننده جدید
+</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation>آدرس ارسال کننده جدید</translation>
+        <translation>حساب ارسال کننده جدید</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>ویرایش آدرسِ دریافت کننده</translation>
+        <translation>ویرایش حساب دریافت کننده</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>ویرایش آدرسِ ارسال کننده</translation>
+        <translation>ویرایش حساب ارسال کننده</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>آدرس وارد شده %1 قبلا به فهرست آدرسها اضافه شده بوده است.</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
         <translation>آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای beavercoin نسشت</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای litecoin نسشت</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+10"/>
         <source>Could not unlock wallet.</source>
         <translation>عدم توانیی برای قفل گشایی wallet</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
         <translation>عدم توانیی در ایجاد کلید جدید</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>GUIUtil::HelpMessageBox</name>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
@@ -752,65 +719,54 @@ Address: %4
         <source>BeaverCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
+=======
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+>>>>>>> pr/5
     <message>
-        <location line="-12"/>
         <source>version</source>
         <translation>نسخه</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Usage:</source>
         <translation>میزان استفاده:</translation>
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>Error</source>
+        <translation>خطا</translation>
     </message>
-    <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>انتخاب/آپشن</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation type="unfinished"/>
+        <source>&amp;OK</source>
+        <translation>و تایید</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Cancel</source>
+        <translation>و رد</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished"/>
+        <source>default</source>
+        <translation>پیش فرض</translation>
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start BeaverCoin after logging in to the system.</source>
         <translation type="unfinished"/>
@@ -819,180 +775,214 @@ Address: %4
         <location line="+3"/>
         <source>&amp;Start BeaverCoin on system login</source>
         <translation type="unfinished"/>
+=======
+        <source>Form</source>
+        <translation>فرم</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه litecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <source>out of sync</source>
+        <translation>خارج از روزآمد سازی</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>میزان</translation>
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>نام کنسول RPC</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
+=======
+        <source>Client version</source>
+        <translation>ویرایش کنسول RPC</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished"/>
+        <source>Network</source>
+        <translation>شبکه</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
+=======
+        <source>Number of connections</source>
+        <translation>تعداد اتصال</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>Block chain</source>
+        <translation>زنجیره مجموعه تراکنش ها</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <source>Current number of blocks</source>
+        <translation>تعداد زنجیره های حاضر</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>به کنسول آر.پی.سی. LITECOIN خوش آمدید</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>و برچسب</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <source>Copy label</source>
+        <translation>برچسب را کپی کنید</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished"/>
+        <source>Copy amount</source>
+        <translation>میزان وجه کپی شود</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>حساب</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>میزان</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>برچسب</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation type="unfinished"/>
+        <source>Message</source>
+        <translation>پیام</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished"/>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>متن وارد شده طولانی است، متنِ برچسب/پیام را کوتاه کنید</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished"/>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>خطای تبدیل URI به کد QR</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>برچسب</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>Message</source>
+        <translation>پیام</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>میزان</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished"/>
+        <source>(no label)</source>
+        <translation>(برچسب ندارد)</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>سکه های ارسالی</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>و نمایش آدرسها در فهرست تراکنش</translation>
+        <source>Amount:</source>
+        <translation>میزان وجه:</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation>و تایید</translation>
+        <source>Send to multiple recipients at once</source>
+        <translation>ارسال همزمان به گیرنده های متعدد</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation>و رد</translation>
+        <source>Balance:</source>
+        <translation>مانده حساب:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>و به کار گرفتن</translation>
+        <source>Confirm the send action</source>
+        <translation>تایید عملیات ارسال </translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation>پیش فرض</translation>
+        <source>S&amp;end</source>
+        <translation>و ارسال</translation>
     </message>
     <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <source>Confirm send coins</source>
+        <translation>تایید ارسال Litecoins</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
+        <source>Copy amount</source>
+        <translation>میزان وجه کپی شود</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>میزان پرداخت باید بیشتر از 0 باشد</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
+        <source>The amount exceeds your balance.</source>
+        <translation>مقدار مورد نظر از مانده حساب بیشتر است.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting BeaverCoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>(no label)</source>
+        <translation>(برچسب ندارد)</translation>
+>>>>>>> pr/5
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation type="unfinished"/>
@@ -1391,15 +1381,17 @@ Address: %4
     </message>
     <message>
         <location line="+15"/>
+=======
+>>>>>>> pr/5
         <source>A&amp;mount:</source>
         <translation>و میزان وجه</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>پرداخت و به چه کسی</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
@@ -1407,89 +1399,82 @@ Address: %4
     <message>
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
+=======
+>>>>>>> pr/5
         <source>Enter a label for this address to add it to your address book</source>
         <translation>یک برچسب برای این آدرس بنویسید تا به دفترچه آدرسهای شما اضافه شود</translation>
     </message>
     <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
         <translation>و برچسب</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>آدرس از فهرست آدرس انتخاب کنید</translation>
-    </message>
-    <message>
-        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt و A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>آدرس را بر کلیپ بورد کپی کنید</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt و P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>این گیرنده را حذف کن</translation>
+        <source>Message:</source>
+        <translation>پیام:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>یک آدرس beavercoin وارد کنید (مثال Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+=======
+        <source>Pay To:</source>
+        <translation>پرداخت به:</translation>
+>>>>>>> pr/5
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>یادداشت:</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Litecoin Core is shutting down...</source>
+        <translation>هسته Litecoin در حال خاموش شدن است...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="+18"/>
+        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>یک آدرس beavercoin وارد کنید (مثال Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+=======
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>تا پیش از بسته شدن این پنجره کامپیوتر خود را خاموش نکنید.</translation>
+>>>>>>> pr/5
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
         <translation>و امضای پیام </translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>یک آدرس beavercoin وارد کنید (مثال Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>آدرس از فهرست آدرس انتخاب کنید</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
         <translation>Alt و A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
         <translation>آدرس را بر کلیپ بورد کپی کنید</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt و P</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
@@ -1648,180 +1633,58 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
+=======
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+>>>>>>> pr/5
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
 </context>
 <context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
         <translation>باز کن تا %1</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1 غیرقابل تایید</translation>
+        <translation>%1 / تایید نشده</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 تاییدها</translation>
+        <translation>%1 تایید</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Date</source>
         <translation>تاریخ</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
         <source>label</source>
         <translation>برچسب</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>Message</source>
         <translation>پیام</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Transaction ID</source>
-        <translation type="unfinished"/>
+        <translation>شناسه کاربری</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Amount</source>
         <translation>میزان</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>تا به حال با موفقیت انتشار نیافته است</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation>، هنوز با موفقیت ارسال نگردیده است</translation>
     </message>
     <message>
-        <location line="+70"/>
         <source>unknown</source>
         <translation>ناشناس</translation>
     </message>
@@ -1829,12 +1692,10 @@ Address: %4
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
         <translation>جزئیات تراکنش</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>این بخش جزئیات تراکنش را نشان می دهد</translation>
     </message>
@@ -1842,117 +1703,74 @@ Address: %4
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
         <translation>تاریخ</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
-        <translation>نوع</translation>
+        <translation>گونه</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>حساب</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>میزان وجه</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Open until %1</source>
         <translation>باز کن تا %1</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>برون خطی (%1 تاییدها)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>تایید نشده (%1 از %2 تاییدها)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>تایید شده (%1 تاییدها)</translation>
     </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
     <message>
-        <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>این block توسط گره های دیگری دریافت نشده است و ممکن است قبول نشود</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Generated but not accepted</source>
         <translation>تولید شده اما قبول نشده است</translation>
     </message>
     <message>
-        <location line="+43"/>
         <source>Received with</source>
-        <translation>قبول با </translation>
+        <translation>دریافت با</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
         <translation>دریافت شده از</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
         <translation>ارسال به</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
         <translation>وجه برای شما </translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
         <translation>استخراج شده</translation>
     </message>
     <message>
-        <location line="+38"/>
         <source>(n/a)</source>
         <translation>خالی</translation>
     </message>
     <message>
-        <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>وضعیت تراکنش. با اشاره به این بخش تعداد تاییدها نمایش داده می شود</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
         <translation>زمان و تاریخی که تراکنش دریافت شده است</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
         <translation>نوع تراکنش</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Destination address of transaction.</source>
         <translation>آدرس مقصد در تراکنش</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
         <translation>میزان وجه کم شده یا اضافه شده به حساب</translation>
     </message>
@@ -1960,176 +1778,131 @@ Address: %4
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
         <source>All</source>
         <translation>همه</translation>
     </message>
     <message>
-        <location line="-15"/>
         <source>Today</source>
         <translation>امروز</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
         <translation>این هفته</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
         <translation>این ماه</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
         <translation>ماه گذشته</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
         <translation>این سال</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
         <translation>حدود..</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Received with</source>
         <translation>دریافت با</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
         <translation>ارسال به</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
         <translation>به شما</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Mined</source>
         <translation>استخراج شده</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
         <translation>دیگر</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Enter address or label to search</source>
         <translation>آدرس یا برچسب را برای جستجو وارد کنید</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
         <translation>حداقل میزان وجه</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>Copy address</source>
         <translation>آدرس را کپی کنید</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
         <translation>برچسب را کپی کنید</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
         <translation>میزان وجه کپی شود</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Edit label</source>
         <translation>برچسب را ویرایش کنید</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation type="unfinished"/>
+        <source>Exporting Failed</source>
+        <translation>صدور با شکست مواجه شد</translation>
     </message>
     <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>داده های تراکنش را صادر کنید</translation>
+        <source>Exporting Successful</source>
+        <translation>صدور با موفقیت انجام شد</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Comma separated file (*.csv) فایل جداگانه دستوری</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Confirmed</source>
         <translation>تایید شده</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Date</source>
         <translation>تاریخ</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
-        <translation>نوع</translation>
+        <translation>گونه</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
         <translation>برچسب</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>حساب</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>میزان</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>ID</source>
         <translation>شناسه کاربری</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>خطا در ارسال</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>قابل کپی به فایل نیست %1.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
         <source>Range:</source>
         <translation>دامنه:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
         <translation>به</translation>
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
         <translation>سکه های ارسالی</translation>
     </message>
@@ -2137,49 +1910,31 @@ Address: %4
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>صدور</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
         <translation>صدور داده نوار جاری به یک فایل</translation>
     </message>
     <message>
-        <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation type="unfinished"/>
+        <translation>گرفتن نسخه پیشتیبان از Wallet</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
+        <translation>داده های Wallet  
+(*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"/>
+        <translation>عملیات گرفتن نسخه پیشتیبان انجام نشد</translation>
     </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>BeaverCoin version</source>
         <translation>نسخه beavercoin</translation>
@@ -2206,10 +1961,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
+=======
+>>>>>>> pr/5
         <source>Options:</source>
         <translation>انتخابها:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+24"/>
         <source>Specify configuration file (default: beavercoin.conf)</source>
         <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: beavercoin.conf)</translation>
@@ -2221,10 +1979,13 @@ Address: %4
     </message>
     <message>
         <location line="-1"/>
+=======
+>>>>>>> pr/5
         <source>Specify data directory</source>
         <translation>دایرکتوری داده را مشخص کن</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>حافظه بانک داده را به مگابایت تنظیم کنید (پیش فرض: 25)</translation>
@@ -2271,20 +2032,21 @@ Address: %4
     </message>
     <message>
         <location line="+37"/>
+=======
+>>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>command line  و JSON-RPC commands را قبول کنید</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
     </message>
     <message>
-        <location line="+37"/>
         <source>Use the test network</source>
         <translation>از تستِ شبکه استفاده نمایید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-112"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation type="unfinished"/>
@@ -2613,193 +2375,61 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <location line="+5"/>
         <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
+=======
+        <source>RPC server options:</source>
+        <translation>گزینه های سرویس دهنده RPC:</translation>
+>>>>>>> pr/5
     </message>
     <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>حذف تصادفی 1 مورد از هر &lt;n&gt; مورد پیغام های شبکه</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>ارسال اطاعات خطایابی/پیگیری به سیستم خطایاب</translation>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>ارسال تراکنش ها به صورت بدون کارمزد در صورت امکان (پیش فرض: %u)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>تعیین مدت زمان وقفه (time out) به هزارم ثانیه</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
         <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
         <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>ارتباطاتِ JSON-RPC  را از آدرس آی.پی. مشخصی برقرار کنید.</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>دستورات را به گره اجرا شده در&lt;ip&gt; ارسال کنید (پیش فرض:127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>دستور را وقتی بهترین بلاک تغییر کرد اجرا کن (%s در دستور توسط block hash جایگزین شده است)</translation>
     </message>
     <message>
-        <location line="+147"/>
         <source>Upgrade wallet to latest format</source>
         <translation>wallet را به جدیدترین نسخه روزآمد کنید</translation>
     </message>
     <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>حجم key pool  را به اندازه &lt;n&gt; تنظیم کنید (پیش فرض:100)</translation>
-    </message>
-    <message>
-        <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>زنجیره بلاک را برای تراکنش جا افتاده در WALLET دوباره اسکن کنید</translation>
     </message>
     <message>
-        <location line="+35"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>برای ارتباطاتِ JSON-RPC  از OpenSSL (https) استفاده کنید</translation>
     </message>
     <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>فایل certificate  سرور (پیش فرض server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>رمز اختصاصی سرور  (پیش فرض: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>ciphers  قابل قبول (پیش فرض: default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
         <source>This help message</source>
         <translation>این پیام راهنما</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
         <translation>لود شدن آدرسها..</translation>
     </message>
     <message>
-        <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
         <translation>خطا در هنگام لود شدن wallet.dat.  به نسخه جدید Bitocin برای wallet نیاز است.</translation>
@@ -2811,60 +2441,45 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="-95"/>
+=======
+>>>>>>> pr/5
         <source>Error loading wallet.dat</source>
         <translation>خطا در هنگام لود شدن wallet.dat</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>تنظیم کمینه اندازه بلاک بر حسب بایت (پیش فرض: %u)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>تنظیم تعداد ریسمان ها برای سرویس دهی فراخوانی های RPC (پیش فرض: %d)</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>فایل تنظیمات را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Specify pid file (default: %s)</source>
+        <translation>فایل pid را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>میزان اشتباه است</translation>
-    </message>
-    <message>
-        <location line="-6"/>
         <source>Insufficient funds</source>
         <translation>وجوه ناکافی</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>لود شدن نمایه بلاکها..</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>یک گره برای اتصال اضافه کنید و تلاش کنید تا اتصال را باز نگاه دارید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
         <translation type="unfinished"/>
@@ -2876,46 +2491,30 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>wallet در حال لود شدن است...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
         <translation>قابلیت برگشت به نسخه قبلی برای wallet امکان پذیر نیست</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
         <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>اسکنِ دوباره...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>اتمام لود شدن</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>برای استفاده از %s  از اختیارات</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>خطا</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>شما باید یک رمز rpcpassword=&lt;password&gt; را در فایل تنظیمات ایجاد کنید⏎ %s ⏎ اگر فایل ایجاد نشده است، آن را با یک فایل &quot;فقط متنی&quot; ایجاد کنید.
-</translation>
     </message>
 </context>
 </TS>

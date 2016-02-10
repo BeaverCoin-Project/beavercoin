@@ -1,5 +1,6 @@
 /* XPM */
-static char * C:\Users\Admin\Desktop\bitcoin256_xpm[] = {
+static char *bitcoin___[] = {
+/* columns rows colors chars-per-pixel */
 "256 256 22671 3",
 "   	c None",
 ".  	c #FEFEEF",

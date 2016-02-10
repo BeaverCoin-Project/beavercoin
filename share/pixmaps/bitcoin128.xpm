@@ -1,5 +1,6 @@
 /* XPM */
-static char * E:\BitCoins\BeaverCoin\BeaverCoin\Wallet\Logo\BVC_Logo\bitcoin128_xpm[] = {
+static char *bitcoin___[] = {
+/* columns rows colors chars-per-pixel */
 "128 128 7500 2",
 "  	c None",
 ". 	c #FEFEE9",

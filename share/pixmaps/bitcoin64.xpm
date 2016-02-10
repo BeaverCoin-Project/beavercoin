@@ -1,5 +1,6 @@
 /* XPM */
-static char * D:\BitCoins\BeaverCoin\BeaverCoin\Wallet\xpm\bitcoin64_xpm[] = {
+static char *bitcoin__[] = {
+/* columns rows colors chars-per-pixel */
 "64 64 2712 2",
 "  	c None",
 ". 	c #998E76",

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>540</width>
-    <height>380</height>
+    <width>560</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,9 +19,6 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabWidget">
-     <property name="tabPosition">
-      <enum>QTabWidget::North</enum>
-     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -33,6 +30,7 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Automatically start BeaverCoin after logging in to the system.</string>
          </property>
          <property name="text">
@@ -97,32 +95,45 @@
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
+=======
+          <string>Automatically start Litecoin after logging in to the system.</string>
+>>>>>>> pr/5
          </property>
-         <property name="wordWrap">
-          <bool>true</bool>
+         <property name="text">
+          <string>&amp;Start Litecoin on system login</string>
          </property>
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_1_Main">
+        <layout class="QHBoxLayout" name="horizontalLayout_2_Main">
          <item>
-          <widget class="QLabel" name="transactionFeeLabel">
+          <widget class="QLabel" name="databaseCacheLabel">
            <property name="text">
-            <string>Pay transaction &amp;fee</string>
+            <string>Size of &amp;database cache</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
            </property>
            <property name="buddy">
-            <cstring>transactionFee</cstring>
+            <cstring>databaseCache</cstring>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="BitcoinAmountField" name="transactionFee"/>
+          <widget class="QSpinBox" name="databaseCache"/>
          </item>
          <item>
-          <spacer name="horizontalSpacer_1_Main">
+          <widget class="QLabel" name="databaseCacheUnitLabel">
+           <property name="text">
+            <string>MB</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::PlainText</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2_Main">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -137,6 +148,7 @@
         </layout>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QLabel" name="label">
          <property name="text">
           <string>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</string>
@@ -152,6 +164,43 @@
           <string>Spend unconfirmed change  (experts only)</string>
          </property>
         </widget>
+=======
+        <layout class="QHBoxLayout" name="horizontalLayout_3_Main">
+         <item>
+          <widget class="QLabel" name="threadsScriptVerifLabel">
+           <property name="text">
+            <string>Number of script &amp;verification threads</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::PlainText</enum>
+           </property>
+           <property name="buddy">
+            <cstring>threadsScriptVerif</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="threadsScriptVerif">
+           <property name="toolTip">
+            <string>(0 = auto, &lt;0 = leave that many cores free)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3_Main">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+>>>>>>> pr/5
        </item>
        <item>
         <spacer name="verticalSpacer">
@@ -166,6 +215,58 @@
          </property>
         </spacer>
        </item>
+<<<<<<< HEAD
+=======
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabWallet">
+      <attribute name="title">
+       <string>W&amp;allet</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_Wallet">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Expert</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QCheckBox" name="coinControlFeatures">
+            <property name="toolTip">
+             <string>Whether to show coin control features or not.</string>
+            </property>
+            <property name="text">
+             <string>Enable coin &amp;control features</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="spendZeroConfChange">
+            <property name="toolTip">
+             <string>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</string>
+            </property>
+            <property name="text">
+             <string>&amp;Spend unconfirmed change</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_Wallet">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+>>>>>>> pr/5
       </layout>
      </widget>
      <widget class="QWidget" name="tabNetwork">
@@ -176,7 +277,11 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+=======
+          <string>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+>>>>>>> pr/5
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -184,17 +289,31 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="connectSocks">
+        <widget class="QCheckBox" name="allowIncoming">
          <property name="toolTip">
-          <string>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
+          <string>Accept connections from outside</string>
          </property>
          <property name="text">
-          <string>&amp;Connect through SOCKS proxy:</string>
+          <string>Allow incoming connections</string>
          </property>
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_Network">
+        <widget class="QCheckBox" name="connectSocks">
+         <property name="toolTip">
+<<<<<<< HEAD
+          <string>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
+=======
+          <string>Connect to the Litecoin network through a SOCKS5 proxy.</string>
+>>>>>>> pr/5
+         </property>
+         <property name="text">
+          <string>&amp;Connect through SOCKS5 proxy (default proxy):</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_1_Network">
          <item>
           <widget class="QLabel" name="proxyIpLabel">
            <property name="text">
@@ -210,6 +329,12 @@
          </item>
          <item>
           <widget class="QValidatedLineEdit" name="proxyIp">
+           <property name="minimumSize">
+            <size>
+             <width>140</width>
+             <height>0</height>
+            </size>
+           </property>
            <property name="maximumSize">
             <size>
              <width>140</width>
@@ -217,7 +342,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>IP address of the proxy (e.g. 127.0.0.1)</string>
+            <string>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</string>
            </property>
           </widget>
          </item>
@@ -236,6 +361,12 @@
          </item>
          <item>
           <widget class="QLineEdit" name="proxyPort">
+           <property name="minimumSize">
+            <size>
+             <width>55</width>
+             <height>0</height>
+            </size>
+           </property>
            <property name="maximumSize">
             <size>
              <width>55</width>
@@ -248,27 +379,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="socksVersionLabel">
-           <property name="text">
-            <string>SOCKS &amp;Version:</string>
-           </property>
-           <property name="textFormat">
-            <enum>Qt::PlainText</enum>
-           </property>
-           <property name="buddy">
-            <cstring>socksVersion</cstring>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QValueComboBox" name="socksVersion">
-           <property name="toolTip">
-            <string>SOCKS version of the proxy (e.g. 5)</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="horizontalSpacer_Network">
+          <spacer name="horizontalSpacer_1_Network">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -360,7 +471,11 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
+<<<<<<< HEAD
             <string>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</string>
+=======
+            <string>The user interface language can be set here. This setting will take effect after restarting Litecoin.</string>
+>>>>>>> pr/5
            </property>
           </widget>
          </item>
@@ -391,6 +506,7 @@
         </layout>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QCheckBox" name="displayAddresses">
          <property name="toolTip">
           <string>Whether to show BeaverCoin addresses in the transaction list or not.</string>
@@ -399,6 +515,30 @@
           <string>&amp;Display addresses in transaction list</string>
          </property>
         </widget>
+=======
+        <layout class="QHBoxLayout" name="horizontalLayout_3_Display">
+         <item>
+          <widget class="QLabel" name="thirdPartyTxUrlsLabel">
+           <property name="toolTip">
+            <string>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</string>
+           </property>
+           <property name="text">
+            <string>Third party transaction URLs</string>
+           </property>
+           <property name="buddy">
+            <cstring>thirdPartyTxUrls</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="thirdPartyTxUrls">
+           <property name="toolTip">
+            <string>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+>>>>>>> pr/5
        </item>
        <item>
         <widget class="QCheckBox" name="coinControlFeatures">
@@ -428,7 +568,66 @@
     </widget>
    </item>
    <item>
+    <widget class="QFrame" name="frame">
+     <layout class="QVBoxLayout" name="verticalLayout_Bottom">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_Bottom">
+        <item>
+         <widget class="QLabel" name="overriddenByCommandLineInfoLabel">
+          <property name="text">
+           <string>Active command-line options that override above options:</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::PlainText</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_Bottom">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="overriddenByCommandLineLabel">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::PlainText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout_Buttons">
+     <item>
+      <widget class="QPushButton" name="resetButton">
+       <property name="toolTip">
+        <string>Reset all client options to default.</string>
+       </property>
+       <property name="text">
+        <string>&amp;Reset Options</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
      <item>
       <spacer name="horizontalSpacer_1">
        <property name="orientation">
@@ -444,6 +643,12 @@
      </item>
      <item>
       <widget class="QLabel" name="statusLabel">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="font">
         <font>
          <weight>75</weight>
@@ -479,6 +684,12 @@
        <property name="text">
         <string>&amp;OK</string>
        </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item>
@@ -491,35 +702,20 @@
        </property>
       </widget>
      </item>
-     <item>
-      <widget class="QPushButton" name="applyButton">
-       <property name="text">
-        <string>&amp;Apply</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
     </layout>
    </item>
   </layout>
  </widget>
  <customwidgets>
   <customwidget>
-   <class>BitcoinAmountField</class>
-   <extends>QSpinBox</extends>
-   <header>bitcoinamountfield.h</header>
+   <class>QValidatedLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qvalidatedlineedit.h</header>
   </customwidget>
   <customwidget>
    <class>QValueComboBox</class>
    <extends>QComboBox</extends>
    <header>qvaluecombobox.h</header>
-  </customwidget>
-  <customwidget>
-   <class>QValidatedLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
