@@ -97,10 +97,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xfb;
-        pchMessageStart[1] = 0xc0;
-        pchMessageStart[2] = 0xb6;
-        pchMessageStart[3] = 0xdb;
+        pchMessageStart[0] = 0xfd;
+        pchMessageStart[1] = 0xc2;
+        pchMessageStart[2] = 0xb8;
+        pchMessageStart[3] = 0xdd;
         vAlertPubKey = ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9");
         nDefaultPort = 2333;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
@@ -142,11 +142,7 @@ public:
         assert(hashGenesisBlock == uint256("0x4daea126edbcc5657db163e07e7ca44ffa095135599e2a9d1c73a125c539515f"));
         assert(genesis.hashMerkleRoot == uint256("0x5c8ac8f25d3325c785b75e6cc35258fe01cd7d42f29eb60b22f10490d21ebc16"));
 
-        vSeeds.push_back(CDNSSeedData("beavercointools.com", "dnsseed.beavercointools.com"));
-        vSeeds.push_back(CDNSSeedData("beavercoinpool.org", "dnsseed.beavercoinpool.org"));
-        vSeeds.push_back(CDNSSeedData("xurious.com", "dnsseed.bvc.xurious.com"));
-        vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
-        vSeeds.push_back(CDNSSeedData("weminemnc.com", "dnsseed.weminemnc.com"));
+        vSeeds.push_back(CDNSSeedData("beavercoin.org", "dnsseed.beavercoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(25);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
@@ -206,9 +202,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("beavercointools.com", "testnet-seed.beavercointools.com"));
-        vSeeds.push_back(CDNSSeedData("xurious.com", "testnet-seed.bvc.xurious.com"));
-        vSeeds.push_back(CDNSSeedData("wemine-testnet.com", "dnsseed.wemine-testnet.com"));
+        vSeeds.push_back(CDNSSeedData("beavercoin.de", "testnet-seed.beavercoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(111);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
