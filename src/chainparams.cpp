@@ -134,7 +134,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1317972665;
+        genesis.nTime    = 1396919590;
         genesis.nBits    = 0x1e0ffff0;
         genesis.nNonce   = 1080338;
 
@@ -148,7 +148,7 @@ public:
         vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
         vSeeds.push_back(CDNSSeedData("weminemnc.com", "dnsseed.weminemnc.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(48);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(25);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
         base58Prefixes[SECRET_KEY] =     list_of(176);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
