@@ -1,42 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca_ES" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>Sobre BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; versió</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>\n Aquest és software experimental.\n\n Distribuït sota llicència de software MIT/11, veure l&apos;arxiu COPYING o http://www.opensource.org/licenses/mit-license.php.\n\nAquest producte inclou software desarrollat pel projecte OpenSSL per a l&apos;ús de OppenSSL Toolkit (http://www.openssl.org/) i de softwqre criptogràfic escrit per l&apos;Eric Young (eay@cryptsoft.com) i software UPnP escrit per en Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Copyright</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="ca_ES" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -60,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Copia</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces BeaverCoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>&amp;Tanca</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -82,14 +38,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Exporta les dades de la pestanya actual a un fitxer</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça BeaverCoin</translation>
-=======
         <source>&amp;Export</source>
         <translation>&amp;Exporta</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -108,14 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>T&amp;ria</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça BeaverCoin específica</translation>
-=======
         <source>Sending addresses</source>
         <translation>S'estan enviant les adreces</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Receiving addresses</source>
@@ -126,14 +70,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Aquestes són les vostres adreces de Litecoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de BeaverCoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Aquestes són les vostres adreces Litecoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -226,14 +164,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BEAVERCOINS&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES LITECOINS&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -252,18 +184,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Moneder encriptat</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus beavercoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Introduïu la contrasenya nova al moneder.&lt;br/&gt;Utilitzeu una contrasenya de &lt;b&gt;deu o més caràcters aleatoris&lt;/b&gt;, o &lt;b&gt;vuit o més paraules&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els litecoins de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -330,16 +256,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Quit application</source>
-<<<<<<< HEAD
-        <translation>Sortir de l&apos;aplicació</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Mostra informació sobre BeaverCoin</translation>
-=======
         <translation>Surt de l'aplicació</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -390,23 +307,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Enviar monedes a una adreça BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Modificar les opcions de configuració per beavercoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Envia monedes a una adreça Litecoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Modifica les opcions de configuració per litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -429,15 +335,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -456,15 +355,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mostra informació del Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;Sobre BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>&amp;Show / Hide</source>
         <translation>&amp;Mostra / Amaga</translation>
     </message>
@@ -477,23 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de BeaverCoin per provar que les poseeixes</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça BeaverCoin específica.</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Signa el missatges amb la seva adreça de Litecoin per provar que les poseeixes</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Litecoin específica.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -516,23 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Nucli de Litecoin</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>Client BeaverCoin</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa BeaverCoin</numerusform><numerusform>%n connexions actives a la xarxa BeaverCoin</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Sol·licita pagaments (genera codis QR i litecoin: URI)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>&amp;Quant al Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -632,23 +500,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-<<<<<<< HEAD
-        <translation>Data: %1\nQuantitat %2\n Tipus: %3\n Adreça: %4\n</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Manejant URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça BeaverCoin invalida o paràmetres URI malformats.</translation>
-=======
         <translation>Data: %1\nImport: %2\n Tipus: %3\n Adreça: %4\n</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -658,14 +510,6 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. BeaverCoin no pot continuar executant-se de manera segura i es tancará.</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -717,14 +561,8 @@ Address: %4
         <translation>(des)selecciona-ho tot</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça BeaverCoin valida.</translation>
-=======
         <source>Tree mode</source>
         <translation>Mode arbre</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -735,15 +573,8 @@ Address: %4
         <translation>Import</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Received with label</source>
         <translation>Rebut amb l'etiqueta</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -790,23 +621,12 @@ Address: %4
         <translation>Desbloqueja sense gastar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Iniciar automàticament BeaverCoin després de l&apos;inici de sessió del sistema.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Iniciar BeaverCoin al inici de sessió del sistema.</translation>
-=======
         <source>Copy quantity</source>
         <translation>Copia la quantitat</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>Copia la comissió</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -821,28 +641,16 @@ Address: %4
         <translation>Copia la prioritat</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de BeaverCoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
-=======
         <source>Copy dust</source>
         <translation>Copia el polsim</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Copia el canvi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa BeaverCoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
-=======
         <source>highest</source>
         <translation>El més alt</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -901,14 +709,8 @@ Address: %4
         <translation>Aquesta etiqueta es posa de color vermell si la mida de la transacció és més gran de 1000 bytes.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï BeaverCoin.</translation>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Això comporta una comissió d'almenys %1 per kB.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -919,14 +721,8 @@ Address: %4
         <translation>Les transaccions amb una major prioritat són més propenses a ser incloses en un bloc.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces BeaverCoin als llistats de transaccions o no.</translation>
-=======
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Aquesta etiqueta es torna vermella si la prioritat és menor que «mitjana».</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -968,15 +764,8 @@ Address: %4
         <translation>&amp;Adreça</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï BeaverCoin.</translation>
-=======
         <source>New receiving address</source>
         <translation>Nova adreça de recepció.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -987,15 +776,8 @@ Address: %4
         <translation>Edita les adreces de recepció</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa BeaverCoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
-=======
         <source>Edit sending address</source>
         <translation>Edita les adreces d'enviament</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1040,14 +822,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>No es pot iniciar beavercoin: manejador clicla-per-pagar</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Nucli de Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1175,14 +951,8 @@ Address: %4
         <translation>Opcions</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de BeaverCoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de BeaverCoin.</translation>
-=======
         <source>&amp;Main</source>
         <translation>&amp;Principal</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Automatically start Litecoin after logging in to the system.</source>
@@ -1197,34 +967,18 @@ Address: %4
         <translation>Mida de la memòria cau de la base de &amp;dades</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin -Finestra de debug</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>Nucli de BeaverCoin</translation>
-=======
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Nombre de fils de &amp;verificació d'scripts</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Accept connections from outside</source>
         <translation>Accepta connexions de fora</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de BeaverCoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
-=======
         <source>Allow incoming connections</source>
         <translation>Permet connexions entrants</translation>
     </message>
@@ -1809,7 +1563,6 @@ Address: %4
     <message>
         <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Obre el fitxer de registre de depuració de Litecoin del directori de dades actual. Això pot trigar uns quants segons per a fitxers de registre grans.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Clear console</source>
@@ -1832,14 +1585,8 @@ Address: %4
         <translation>%1 B</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de BeaverCoin</translation>
-=======
         <source>%1 KB</source>
         <translation>%1 KB</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>%1 MB</source>
@@ -2357,14 +2104,8 @@ Address: %4
         <translation>Elimina aquesta entrada</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>La adreça a on envia el pagament (per exemple: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Message:</source>
         <translation>Missatge:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This is a verified payment request.</source>
@@ -2398,14 +2139,8 @@ Address: %4
         <translation>S'està aturant el Litecoin Core...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de BeaverCoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>No apagueu l'ordinador fins que no desaparegui aquesta finestra.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2423,14 +2158,8 @@ Address: %4
         <translation>Podeu signar missatges amb la vostra adreça per provar que són vostres. Aneu amb compte no signar qualsevol cosa, ja que els atacs de pesca electrònica (phishing) poden provar de confondre-us perquè els signeu amb la vostra identitat. Només signeu als documents completament detallats amb què hi esteu d'acord.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>La adreça amb la que signat els missatges (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>L'adreça Litecoin amb què signar el missatge</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2461,14 +2190,8 @@ Address: %4
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça BeaverCoin</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2491,23 +2214,12 @@ Address: %4
         <translation>Introdueixi l'adreça signant, missatge (assegura't que copies salts de línia, espais, tabuladors, etc excactament tot el text) i la signatura a sota per verificar el missatge. Per evitar ser enganyat per un atac home-entre-mig, vés amb compte de no llegir més en la signatura del que hi ha al missatge signat mateix.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>La adreça amb el que el missatge va ser signat (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça BeaverCoin específica</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>L'adreça Litecoin amb què va ser signat el missatge</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Litecoin específica</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2518,25 +2230,8 @@ Address: %4
         <translation>Neteja tots els camps de verificació de missatge</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de BeaverCoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Clica &quot;Signar Missatge&quot; per a generar una signatura</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Introduïr una clau BeaverCoin</translation>
-=======
         <source>Click "Sign Message" to generate signature</source>
         <translation>Feu clic a «Signa el missatge» per a generar una signatura</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2590,18 +2285,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Els desenvolupadors del Bitcoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -3282,28 +2971,16 @@ Address: %4
         <translation>Defineix la mida màxim del bloc en bytes (per defecte: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>Versió de BeaverCoin</translation>
-=======
         <source>Specify wallet file (within data directory)</source>
         <translation>Especifica un fitxer de moneder (dins del directori de dades)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
         <translation>Això es així per a eines de proves de regressió per al desenvolupament d'aplicacions.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Enviar comanda a -servidor o beavercoind</translation>
-=======
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Utilitza UPnP per a mapejar el port d'escolta (per defecte: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3318,23 +2995,12 @@ Address: %4
         <translation>El moneder %s resideix fora del directori de dades %s</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: beavercoind.pid)</translation>
-=======
         <source>Wallet options:</source>
         <translation>Opcions de moneder:</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Cal que reconstruïu la base de dades fent servir -reindex per canviar -txindex</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
@@ -3345,14 +3011,8 @@ Address: %4
         <translation>Permet les connexions JSON-RPC d'una font específica. Vàlid per a &lt;ip&gt; són una IP individual (p. ex., 1.2.3.4), una xarxa / màscara de xarxa (p. ex., 1.2.3.4/255.255.255.0) o una xarxa/CIDR (p. ex., 1.2.3.4/24). Es pot especificar aquesta opció moltes vegades</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Escoltar connexions a &lt;port&gt; (per defecte: 9333 o testnet: 19333)</translation>
-=======
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Vincula l'adreça donada i posa a la llista blanca els iguals que s'hi connectin. Feu servir la notació [host]:port per a IPv6</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
@@ -3379,14 +3039,8 @@ Address: %4
         <translation>Error: s'ha trobat un argument no permès de -socks. Ja no es pot definir més la versió de SOCKS, només s'accepten els proxies de SOCKS5.ç</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 9332 o testnet:19332)</translation>
-=======
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Executa l'ordre quan es rebi un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3405,24 +3059,8 @@ Address: %4
         <translation>Import no vàlid per a -maxtxfee=&lt;amount&gt;: '%s' (cal que sigui com a mínim la comissió de minrelay de %s per evitar que les comissions s'encallin)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=beavercoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com</translation>
-=======
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Mida màxima de les dades en les transaccions de l'operador en què confiem i en les meves (per defecte: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
@@ -3433,14 +3071,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Consulta a adreces d'iguals a través de DNS, si es troba baix en adreces (per defecte: 1 a menys que -connect)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement BeaverCoin ja estigui en execució.</translation>
-=======
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
         <translation>Es requereix una prioritat alta per retransmetre transaccions gratuïtes o de baixa comissió (per defecte:%u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3494,14 +3126,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Litecoin" admin@foo.com</t
         <translation>Accepta sol·licituds REST públiques (per defecte: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, BeaverCoin no funcionará de manera apropiada.</translation>
-=======
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>No es pot resoldre l'adreça -whitebind: «%s»</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3700,14 +3326,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Litecoin" admin@foo.com</t
         <translation>Aquest misatge d'ajuda</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de BeaverCoin per a instruccions de configuració SSL)</translation>
-=======
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Permet consultes DNS per a -addnode, -seednode i -connect</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3858,23 +3478,12 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Litecoin" admin@foo.com</t
         <translation>Defineix el senyalador DB_PRIVATE en l'entorn db del moneder (per defecte: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de BeaverCoin més moderna</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia BeaverCoin per a completar la tasca</translation>
-=======
         <source>Specify configuration file (default: %s)</source>
         <translation>Especifica el fitxer de configuració (per defecte: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Especifica el temps d'espera de la connexió en milisegons (mínim: 1, per defecte: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -3918,21 +3527,7 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Litecoin" admin@foo.com</t
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-<<<<<<< HEAD
-        <translation>Afegir un node per a connectar&apos;s-hi i intentar mantenir la connexió oberta</translation>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement BeaverCoin ja estigui en execució.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Comisió a afegir per cada  KB de transaccions que enviïs</translation>
-=======
         <translation>Afegeix un node per a connectar-s'hi i intenta mantenir-hi la connexió oberta</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Loading wallet...</source>

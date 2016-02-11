@@ -80,49 +80,8 @@
         <iconset resource="../bitcoin.qrc">
          <normaloff>:/icons/editcopy</normaloff>:/icons/editcopy</iconset>
        </property>
-<<<<<<< HEAD
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="showQRCode">
-       <property name="text">
-        <string>Show &amp;QR Code</string>
-       </property>
-       <property name="icon">
-        <iconset resource="../bitcoin.qrc">
-         <normaloff>:/icons/qrcode</normaloff>:/icons/qrcode</iconset>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="signMessage">
-       <property name="toolTip">
-        <string>Sign a message to prove you own a BeaverCoin address</string>
-       </property>
-       <property name="text">
-        <string>Sign &amp;Message</string>
-       </property>
-       <property name="icon">
-        <iconset resource="../bitcoin.qrc">
-         <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="verifyMessage">
-       <property name="toolTip">
-        <string>Verify a message to ensure it was signed with a specified BeaverCoin address</string>
-       </property>
-       <property name="text">
-        <string>&amp;Verify Message</string>
-       </property>
-       <property name="icon">
-        <iconset resource="../bitcoin.qrc">
-         <normaloff>:/icons/transaction_0</normaloff>:/icons/transaction_0</iconset>
-=======
        <property name="autoDefault">
         <bool>false</bool>
->>>>>>> pr/5
        </property>
       </widget>
      </item>

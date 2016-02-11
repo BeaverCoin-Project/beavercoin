@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="el_GR" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>Σχετικά με το BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>Έκδοση BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Πνευματική ιδιοκτησία </translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation>Οι BeaverCoin προγραμματιστές </translation>
-    </message>
-</context>
-=======
 <TS language="el_GR" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -65,39 +22,14 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Αντιγραφή</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Αυτές είναι οι BeaverCoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>Κ&amp;λείσιμο</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Αντιγραφή διεύθυνσης</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Δείξε &amp;QR κωδικα</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>&amp;Υπέγραψε το μήνυμα</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-=======
->>>>>>> pr/5
         <source>Delete the currently selected address from the list</source>
         <translation>Αντιγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
@@ -110,14 +42,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Εξαγωγή</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση BeaverCoin</translation>
-=======
         <source>&amp;Delete</source>
         <translation>&amp;Διαγραφή</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -144,14 +70,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι BeaverCoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -244,14 +164,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Επιβεβαίωσε την κρυπτογραφηση του πορτοφολιού</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ BEAVERCOINS&lt;/b&gt;!
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ LITECOINS&lt;/b&gt;!
->>>>>>> pr/5
 Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
     </message>
     <message>
@@ -271,18 +185,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Κρυπτογραφημενο πορτοφολι</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>Το BeaverCoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα beavercoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Εισάγετε τον νέο κωδικό πρόσβασης στον πορτοφόλι &lt;br/&gt; Παρακαλώ χρησιμοποιείστε ένα κωδικό με &lt;b&gt; 10 ή περισσότερους τυχαίους χαρακτήρες&lt;/b&gt; ή &lt;b&gt; οχτώ ή παραπάνω λέξεις&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Το Litecoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα litecoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -352,15 +260,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Εξοδος από την εφαρμογή</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Εμφάνισε πληροφορίες σχετικά με το BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>Σχετικά με &amp;Qt</translation>
     </message>
@@ -409,23 +308,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Στείλε νομισματα σε μια διεύθυνση beavercoin</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Επεργασία  ρυθμισεων επιλογών για το BeaverCoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Στείλε νομίσματα σε μια διεύθυνση litecoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Επεργασία  ρυθμισεων επιλογών για το Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -448,15 +336,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -475,15 +356,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Σχετικά με το Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;Σχετικα:BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>&amp;Show / Hide</source>
         <translation>&amp;Εμφάνισε/Κρύψε</translation>
     </message>
@@ -496,23 +368,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση BeaverCoin</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -535,23 +396,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>Πελάτης BeaverCoin</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο BeaverCoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις litecoin: )</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>&amp;Σχετικά με το Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -654,22 +504,6 @@ Address: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Χειρισμός URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση BeaverCoin ή ακατάλληλη παραμέτρο URI.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;ξεκλείδωτο&lt;/b&gt;</translation>
     </message>
@@ -677,14 +511,6 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;κλειδωμένο&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το BeaverCoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -728,14 +554,8 @@ Address: %4
         <translation>Ταρίφα αλλαγής</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη BeaverCoin διεύθυνση.</translation>
-=======
         <source>Change:</source>
         <translation>Ρέστα:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>(un)select all</source>
@@ -746,15 +566,8 @@ Address: %4
         <translation>Εμφάνιση τύπου δέντρο</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>beavercoin-qt</translation>
-=======
         <source>List mode</source>
         <translation>Λίστα εντολών</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Amount</source>
@@ -801,23 +614,12 @@ Address: %4
         <translation>Αντιγραφη του ID Συναλλαγής</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Αυτόματη εκκίνηση του BeaverCoin μετά την εισαγωγή στο σύστημα</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
-=======
         <source>Lock unspent</source>
         <translation>Κλείδωμα αξόδευτων</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
         <translation>Ξεκλείδωμα αξόδευτων</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy quantity</source>
@@ -832,28 +634,16 @@ Address: %4
         <translation>Αντιγραφή ταρίφας</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών BeaverCoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
-=======
         <source>Copy bytes</source>
         <translation>Αντιγραφή των byte</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy priority</source>
         <translation>Αντιγραφή προτεραιότητας</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Σύνδεση στο BeaverCoin δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
-=======
         <source>Copy dust</source>
         <translation>Αντιγραφή 'σκόνης'</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
@@ -912,14 +702,8 @@ Address: %4
         <translation>όχι</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του BeaverCoin.</translation>
-=======
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Η ετικετα γινετε κοκκινη , αν το μεγεθος της συναλαγης ειναι μεγαλητερο απο 1000 bytes.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
@@ -930,14 +714,8 @@ Address: %4
         <translation>Συναλλαγές με υψηλότερη προτεραιότητα είναι πιο πιθανό να περιλαμβάνονται σε ένα μπλοκ.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις BeaverCoin στη λίστα συναλλαγών.</translation>
-=======
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Η ετικέτα γίνεται κόκκινη , αν το μέγεθος της συναλαγής είναι μεγαλύτερο απο το ",μεσαίο",</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -980,15 +758,8 @@ Address: %4
         <translation>&amp;Διεύθυνση</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του BeaverCoin.</translation>
-=======
         <source>New receiving address</source>
         <translation>Νέα διεύθυνση λήψης</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -999,15 +770,8 @@ Address: %4
         <translation>Επεξεργασία διεύθυνσης λήψης</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο BeaverCoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
-=======
         <source>Edit sending address</source>
         <translation>Επεξεργασία διεύθυνσης αποστολής</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1052,14 +816,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του BeaverCoin: click-to-pay handler</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1725,14 +1483,8 @@ Address: %4
         <translation>&amp;Κονσόλα</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Εμφανιση του BeaverCoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές BeaverCoin γραμμής εντολών.</translation>
-=======
         <source>&amp;Network Traffic</source>
         <translation>&amp;Κίνηση δικτύου</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Clear</source>
@@ -1747,35 +1499,19 @@ Address: %4
         <translation>Εισερχόμενα:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin - Παράθυρο αποσφαλμάτωσης</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>BeaverCoin Core</translation>
-=======
         <source>Out:</source>
         <translation>Εξερχόμενα:</translation>
     </message>
     <message>
         <source>Build date</source>
         <translation>Ημερομηνία κατασκευής</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug log file</source>
         <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-=======
         <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
->>>>>>> pr/5
         <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
     </message>
     <message>
@@ -1783,14 +1519,8 @@ Address: %4
         <translation>Καθαρισμός κονσόλας</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Καλώς ήρθατε στην BeaverCoin RPC κονσόλα.</translation>
-=======
         <source>Welcome to the Litecoin RPC console.</source>
         <translation>Καλώς ήρθατε στην Litecoin RPC κονσόλα.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2212,16 +1942,6 @@ Address: %4
         <translation>Πληρωμή &amp;σε:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-=======
->>>>>>> pr/5
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Εισάγετε μια επιγραφή για αυτή τη διεύθυνση ώστε να καταχωρηθεί στο βιβλίο διευθύνσεων</translation>
     </message>
@@ -2266,11 +1986,6 @@ Address: %4
         <translation>Εισάγεται μία ετικέτα για αυτή την διεύθυνση για να προστεθεί στη λίστα με τις χρησιμοποιημένες διευθύνσεις</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση BeaverCoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>This is an unverified payment request.</source>
         <translation>Αυτή είναι μία ανεπιβεβαίωτη αίτηση πληρωμής.</translation>
     </message>
@@ -2292,7 +2007,6 @@ Address: %4
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Μην απενεργοποιήσετε τον υπολογιστή μέχρι να κλείσει αυτό το παράθυρο.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2310,14 +2024,8 @@ Address: %4
         <translation>Μπορείτε να υπογράφετε μηνύματα με τις διευθύνσεις σας, ώστε ν' αποδεικνύετε πως αυτές σας ανήκουν. Αποφεύγετε να υπογράφετε κάτι αόριστο καθώς ενδέχεται να εξαπατηθείτε. Υπογράφετε μόνο πλήρης δηλώσεις με τις οποίες συμφωνείτε.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση BeaverCoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>Διεύθυνση Litecoin που θα σταλεί το μήνυμα</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2348,14 +2056,8 @@ Address: %4
         <translation>Αντέγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση BeaverCoin</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2378,23 +2080,12 @@ Address: %4
         <translation>Πληκτρολογήστε την υπογραφή διεύθυνσης, μήνυμα (βεβαιωθείτε ότι έχετε αντιγράψει τις αλλαγές γραμμής, κενά, tabs, κ.λπ. ακριβώς) και την υπογραφή παρακάτω, για να ελέγξει το μήνυμα. Να είστε προσεκτικοί για να μην διαβάσετε περισσότερα στην υπογραφή ό, τι είναι στην υπογραφή ίδιο το μήνυμα , για να μην εξαπατηθούν από έναν άνθρωπο -in - the-middle επίθεση.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση BeaverCoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση BeaverCoin</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>Διεύθυνση Litecoin η οποία το μήνυμα έχει υπογραφεί</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2405,31 +2096,10 @@ Address: %4
         <translation>Επαναφορά όλων επαλήθευμενων πεδίων μήνυματος </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση BeaverCoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Κάντε κλικ στο &quot;Υπογραφή Μηνύματος&quot; για να λάβετε την υπογραφή</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Εισαγωγή υπογραφής BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-=======
         <source>Click "Sign Message" to generate signature</source>
         <translation>Κάντε κλικ στο "Υπογραφή Μηνύματος" για να λάβετε την υπογραφή</translation>
     </message>
     <message>
->>>>>>> pr/5
         <source>The entered address is invalid.</source>
         <translation>Η διεύθυνση που εισήχθη είναι λάθος.</translation>
     </message>
@@ -2481,18 +2151,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation>Οι BeaverCoin προγραμματιστές </translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Οι προγραμματιστές του Bitcoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2965,76 +2629,14 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>Έκδοση BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Χρήση:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο beavercoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Λίστα εντολών</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Επεξήγηση εντολής</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-=======
->>>>>>> pr/5
         <source>Options:</source>
         <translation>Επιλογές:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: beavercoind.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-=======
->>>>>>> pr/5
         <source>Specify data directory</source>
         <translation>Ορισμός φακέλου δεδομένων</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Όρισε το μέγεθος της βάσης προσωρινής αποθήκευσης σε megabytes(προεπιλογή:25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Εισερχόμενες συνδέσεις στη θύρα &lt;port&gt; (προεπιλογή: 9333 ή στο testnet: 19333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Μέγιστες αριθμός συνδέσεων με τους peers &lt;n&gt; (προεπιλογή: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
-=======
->>>>>>> pr/5
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Σύνδεση σε έναν κόμβο για την ανάκτηση διευθύνσεων από ομοτίμους, και αποσυνδέσh</translation>
     </message>
@@ -3043,30 +2645,6 @@ Address: %4
         <translation>Διευκρινίστε τη δικιά σας δημόσια διεύθυνση.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Όριο αποσύνδεσης προβληματικών peers (προεπιλογή: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Δευτερόλεπτα πριν επιτραπεί ξανά η σύνδεση των προβληματικών peers (προεπιλογή: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Ένα σφάλμα συνέβη καθώς προετοιμαζόταν η πόρτα RPC %u για αναμονή IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Εισερχόμενες συνδέσεις JSON-RPC στη θύρα &lt;port&gt; (προεπιλογή: 9332 or testnet: 19332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-=======
->>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Αποδοχή εντολών κονσόλας και JSON-RPC</translation>
     </message>
@@ -3083,63 +2661,12 @@ Address: %4
         <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Ένα σφάλμα συνέβη καθώς προετοιμαζόταν η υποδοχη RPC %u για αναμονη του IPv6, επεσε πισω στο IPv4:%s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Αποθηκευση σε συγκεκριμένη διεύθυνση. Χρησιμοποιήστε τα πλήκτρα [Host] : συμβολισμός θύρα για IPv6</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το BeaverCoin να είναι ήδη ενεργό.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Σφάλμα: Η συναλλαγή απορρίφθηκε.
-Αυτό ίσως οφείλεται στο ότι τα νομίσματά σας έχουν ήδη ξοδευτεί, π.χ. με την αντιγραφή του wallet.dat σε άλλο σύστημα και την χρήση τους εκεί, χωρίς η συναλλαγή να έχει καταγραφεί στο παρόν σύστημα.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Σφάλμα: Αυτή η συναλλαγή απαιτεί αμοιβή συναλλαγής τουλάχιστον %s λόγω του μεγέθους, πολυπλοκότητας ή της χρήσης πρόσφατης παραλαβής κεφαλαίου</translation>
-=======
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Εισαγωγή δοκιμαστικής λειτουργίας παλινδρόμησης, που χρησιμοποιεί μια ειδική αλυσίδα στην οποία τα μπλοκ επιλύονται στιγμιαία.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3154,20 +2681,6 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Προειδοποίηση: Η παράμετρος -paytxfee είναι πολύ υψηλή. Πρόκειται για την αμοιβή που θα πληρώνετε για κάθε συναλλαγή που θα στέλνετε.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Προειδοποίηση: Εμφανίσεις συναλλαγων δεν μπορεί να είναι σωστες! Μπορεί να χρειαστεί να αναβαθμίσετε, ή άλλοι κόμβοι μπορεί να χρειαστεί να αναβαθμίστουν. </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το BeaverCoin.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Προειδοποίηση : Σφάλμα wallet.dat κατα την ανάγνωση ! Όλα τα κλειδιά αναγνωρισθηκαν σωστά, αλλά τα δεδομένα των συναλλαγών ή καταχωρήσεις στο βιβλίο διευθύνσεων μπορεί να είναι ελλιπείς ή λανθασμένα. </translation>
     </message>
@@ -3320,14 +2833,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο BeaverCoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
-=======
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
         <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3438,16 +2945,6 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Σφάλμα φόρτωσης wallet.dat: Κατεστραμμένο Πορτοφόλι</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του BeaverCoin</translation>
-=======
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Πόσο εξονυχιστική να είναι η επιβεβαίωση του μπλοκ (0-4, προεπιλογή: %u)</translation>
     </message>
@@ -3458,7 +2955,6 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation>Δευτερόλεπτα πριν επιτραπεί ξανά η σύνδεση των προβληματικών peers (προεπιλογή: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3529,20 +3025,6 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Προσέθεσε ένα κόμβο για σύνδεση και προσπάθησε να κρατήσεις την σύνδεση ανοιχτή</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το BeaverCoin είναι πιθανώς ήδη ενεργό.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Αμοιβή ανά KB που θα προστίθεται στις συναλλαγές που στέλνεις</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>Φόρτωση πορτοφολιού...</translation>
     </message>

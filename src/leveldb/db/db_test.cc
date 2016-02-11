@@ -1542,30 +1542,6 @@ TEST(DBTest, NoSpace) {
   ASSERT_LT(CountFiles(), num_files + 3);
 }
 
-TEST(DBTest, ExponentialBackoff) {
-  Options options = CurrentOptions();
-  options.env = env_;
-  Reopen(&options);
-
-  ASSERT_OK(Put("foo", "v1"));
-  ASSERT_EQ("v1", Get("foo"));
-  Compact("a", "z");
-  env_->non_writable_.Release_Store(env_);  // Force errors for new files
-  env_->sleep_counter_.Reset();
-  env_->sleep_time_counter_.Reset();
-  for (int i = 0; i < 5; i++) {
-    dbfull()->TEST_CompactRange(2, NULL, NULL);
-  }
-  env_->non_writable_.Release_Store(NULL);
-
-  // Wait for compaction to finish
-  DelayMilliseconds(1000);
-
-  ASSERT_GE(env_->sleep_counter_.Read(), 5);
-  ASSERT_LT(env_->sleep_counter_.Read(), 10);
-  ASSERT_GE(env_->sleep_time_counter_.Read(), 10e6);
-}
-
 TEST(DBTest, NonWritableFileSystem) {
   Options options = CurrentOptions();
   options.write_buffer_size = 1000;

@@ -1,46 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="la" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>Informatio de BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; versio</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Hoc est experimentale programma.
-
-Distributum sub MIT/X11 licentia programmatum, vide comitantem plicam COPYING vel http://www.opensource.org/licenses/mit-license.php.
-
-Hoc productum continet programmata composita ab OpenSSL Project pro utendo in OpenSSL Toolkit (http://www.openssl.org/) et programmata cifrarum scripta ab Eric Young (eay@cryptsoft.com) et UPnP programmata scripta ab Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Copyright</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation>BeaverCoin curatores</translation>
-    </message>
-</context>
-=======
 <TS language="la" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -52,43 +10,10 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Copia inscriptionem iam selectam in latibulum systematis</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Nova Inscriptio</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Haec sunt inscriptiones BeaverCoin tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-=======
->>>>>>> pr/5
         <source>&amp;Copy Address</source>
         <translation>&amp;Copia Inscriptionem</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Monstra codicem &amp;QR</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Signa nuntium ut demonstres inscriptionem BeaverCoin a te possessam esse</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Signa &amp;Nuntium</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-=======
->>>>>>> pr/5
         <source>Delete the currently selected address from the list</source>
         <translation>Dele active selectam inscriptionem ex enumeratione</translation>
     </message>
@@ -101,30 +26,11 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Exporta</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verifica Nuntium</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-=======
->>>>>>> pr/5
         <source>&amp;Delete</source>
         <translation>&amp;Dele</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-=======
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
->>>>>>> pr/5
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -206,14 +112,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS LITECOINS&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -232,14 +132,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Cassidile cifratum</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
-=======
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -305,15 +199,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Exi applicatione</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Monstra informationem de BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>Informatio de &amp;Qt</translation>
     </message>
@@ -346,23 +231,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Mitte nummos ad inscriptionem BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Muta configurationis optiones pro BeaverCoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Mitte nummos ad inscriptionem Litecoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Muta configurationis optiones pro Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -385,15 +259,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -408,20 +275,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Accipe</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Inscriptiones</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;Informatio de BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>&amp;Show / Hide</source>
         <translation>&amp;Monstra/Occulta</translation>
     </message>
@@ -434,23 +287,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus BeaverCoin ut demonstres te eas possidere</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus BeaverCoin</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Signa nuntios cum tuis inscriptionibus Litecoin ut demonstres te eas possidere</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -469,23 +311,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>BeaverCoin cliens</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n activa conexio ad rete BeaverCoin</numerusform><numerusform>%n activae conexiones ad rete BeaverCoin</numerusform></translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Nucleus</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n activa conexio ad rete Litecoin</numerusform><numerusform>%n activae conexiones ad rete Litecoin</numerusform></translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>No block source available...</source>
@@ -556,22 +387,6 @@ Inscriptio: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Tractatio URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>URI intellegi non posse!  Huius causa possit inscriptionem BeaverCoin non validam aut URI parametra maleformata.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;reseratum&lt;/b&gt;</translation>
     </message>
@@ -579,14 +394,6 @@ Inscriptio: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>Error fatalis accidit.  BeaverCoin nondum pergere tute potest, et exibit.</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -669,14 +476,8 @@ Inscriptio: %4
         <translation>Inserta inscriptio "%1" iam in libro inscriptionum est.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio BeaverCoin est.</translation>
-=======
         <source>The entered address "%1" is not a valid Litecoin address.</source>
         <translation>Inscriptio inserta "%1" non valida inscriptio Litecoin est.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -693,15 +494,8 @@ Inscriptio: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Nucleus</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -761,33 +555,12 @@ Inscriptio: %4
         <translation>&amp;Princeps</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Optionalis merces transactionum singulis kB quae adiuvat curare tuas transactiones processas esse celeriter.  Plurimi transactiones 1kB sunt.</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Solve &amp;mercedem transactionis</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Pelle BeaverCoin per se postquam in systema inire.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Pelle BeaverCoin cum inire systema</translation>
-=======
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation>Pelle Litecoin per se postquam in systema inire.</translation>
     </message>
     <message>
         <source>&amp;Start Litecoin on system login</source>
         <translation>&amp;Pelle Litecoin cum inire systema</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -802,34 +575,14 @@ Inscriptio: %4
         <translation>&amp;Rete</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis BeaverCoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
-=======
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aperi per se portam clientis Litecoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Designa portam utendo &amp;UPnP</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecte ad rete BeaverCoin per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Conecte per SOCKS vicarium:</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>Proxy &amp;IP:</source>
         <translation>&amp;IP vicarii:</translation>
     </message>
@@ -870,14 +623,8 @@ Inscriptio: %4
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam BeaverCoin iterum initiatum erit.</translation>
-=======
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Litecoin iterum initiatum erit.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -888,20 +635,6 @@ Inscriptio: %4
         <translation>Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Num monstrare inscriptiones BeaverCoin in enumeratione transactionum.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Monstra inscriptiones in enumeratione transactionum</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-=======
->>>>>>> pr/5
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -918,32 +651,6 @@ Inscriptio: %4
         <translation>Confirma optionum reconstituere</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>Aliis configurationibus fortasse necesse est clientem iterum initiare ut effectivae sint.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Vis procedere?</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Monitio</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Haec configuratio effectiva erit postquam BeaverCoin iterum initiatum erit.</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-=======
->>>>>>> pr/5
         <source>The supplied proxy address is invalid.</source>
         <translation>Inscriptio vicarii tradita non valida est.</translation>
     </message>
@@ -955,15 +662,8 @@ Inscriptio: %4
         <translation>Schema</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete BeaverCoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
-=======
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Litecoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Immature:</source>
@@ -981,47 +681,8 @@ Inscriptio: %4
 <context>
     <name>PaymentServer</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>BeaverCoin incipere non potest: cliccare-ad-pensandum handler</translation>
-    </message>
-</context>
-<context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>Dialogus QR Codicis</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Posce Pensitationem</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Quantitas:</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Titulus:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Nuntius:</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Salva ut...</translation>
-=======
         <source>URI handling</source>
         <translation>Tractatio URI</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Cannot start litecoin: click-to-pay handler</source>
@@ -1104,14 +765,8 @@ Inscriptio: %4
         <translation>&amp;Terminale</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Monstra nuntium auxilii BeaverCoin-Qt ut videas enumerationem possibilium optionum BeaverCoin mandati initiantis.</translation>
-=======
         <source>Build date</source>
         <translation>Dies aedificandi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug log file</source>
@@ -1134,16 +789,6 @@ Inscriptio: %4
         <translation>Utere sagittis sursum deorsumque ut per historiam naviges, et &lt;b&gt;Ctrl+L&lt;/b&gt; ut scrinium vacuefacias.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin - Fenestra debug</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>BeaverCoin Nucleus</translation>
-=======
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Scribe &lt;b&gt;help&lt;/b&gt; pro summario possibilium mandatorum.</translation>
     </message>
@@ -1184,7 +829,6 @@ Inscriptio: %4
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Resultato URI nimis longo, conare minuere verba pro titulo / nuntio.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
@@ -1194,28 +838,16 @@ Inscriptio: %4
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de BeaverCoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
-=======
         <source>Date</source>
         <translation>Dies</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Label</source>
         <translation>Titulus</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Bene ventio in terminale RPC de BeaverCoin.</translation>
-=======
         <source>Message</source>
         <translation>Nuntius</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Amount</source>
@@ -1304,16 +936,6 @@ Inscriptio: %4
         <translation>Pensa &amp;Ad:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inscriptio cui mittere pensitationem (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-=======
->>>>>>> pr/5
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Insero titulum huic inscriptioni ut eam in tuum librum inscriptionum addas.</translation>
     </message>
@@ -1334,19 +956,8 @@ Inscriptio: %4
         <translation>Alt+P</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Remove hunc accipientem</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Insero inscriptionem BeaverCoin (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Message:</source>
         <translation>Nuntius:</translation>
->>>>>>> pr/5
     </message>
     </context>
 <context>
@@ -1367,22 +978,6 @@ Inscriptio: %4
         <translation>Potes nuntios signare inscriptionibus tuis ut demonstres te eas possidere.  Cautus es non amibiguum signare, quia impetus phiscatorum conentur te fallere ut signes identitatem tuam ad eos.  Solas signa sententias cuncte descriptas quibus convenis.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inscriptio qua signare nuntium (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>Selige inscriptionem ex librum inscriptionum</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <location line="+213"/>
-=======
->>>>>>> pr/5
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1407,14 +1002,8 @@ Inscriptio: %4
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem BeaverCoin a te possessa esse</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Signa nuntium ut demonstres hanc inscriptionem Litecoin a te possessa esse</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1437,19 +1026,8 @@ Inscriptio: %4
         <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inscriptio qua nuntius signatus est (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione BeaverCoin</translation>
-=======
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1460,31 +1038,10 @@ Inscriptio: %4
         <translation>Reconstitue omnes campos verificandi nuntii</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Insere inscriptionem BeaverCoin (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Clicca &quot;Signa Nuntium&quot; ut signatio generetur</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Insere signationem BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-=======
         <source>Click "Sign Message" to generate signature</source>
         <translation>Clicca "Signa Nuntium" ut signatio generetur</translation>
     </message>
     <message>
->>>>>>> pr/5
         <source>The entered address is invalid.</source>
         <translation>Inscriptio inserta non valida est.</translation>
     </message>
@@ -1536,14 +1093,8 @@ Inscriptio: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation>BeaverCoin curatores</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Nucleus</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -1928,76 +1479,14 @@ Inscriptio: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>Versio de BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Usus:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Mitte mandatum ad -server vel beavercoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Enumera mandata</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Accipe auxilium pro mandato</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-=======
->>>>>>> pr/5
         <source>Options:</source>
         <translation>Optiones:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: beavercoin.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-=======
->>>>>>> pr/5
         <source>Specify data directory</source>
         <translation>Specifica indicem datorum</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Constitue magnitudinem databasis cache in megabytes (praedefinitum: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 9333 vel testnet: 19333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Manutene non plures quam &lt;n&gt; conexiones ad paria (praedefinitum: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
-=======
->>>>>>> pr/5
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Conecta ad nodum acceptare inscriptiones parium, et disconecte</translation>
     </message>
@@ -2006,30 +1495,6 @@ Inscriptio: %4
         <translation>Specifica tuam propriam publicam inscriptionem</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Limen pro disconectendo paria improba (praedefinitum: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Numerum secundorum prohibere ne paria improba reconectant (praedefinitum: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Error erat dum initians portam RPC %u pro auscultando in IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 9332 vel testnet: 19332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-=======
->>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Accipe terminalis et JSON-RPC mandata.</translation>
     </message>
@@ -2046,68 +1511,10 @@ Inscriptio: %4
         <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
-%s
-Hortatur te hanc fortuitam tesseram uti:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(non est necesse te hanc tesseram meminisse)
-Nomen usoris et tessera eadem esse NON POSSUNT.
-Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
-Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
-exempli gratia: alertnotify=echo %%s | mail -s &quot;BeaverCoin Notificatio&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Error erat dum initians portam RPC %u pro auscultando in IPv6, labens retrorsum ad IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Conglutina ad inscriptionem datam et semper in eam ausculta.  Utere [moderatrum]:porta notationem pro IPv6</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>Non posse serare datorum indicem %s.  BeaverCoin probabiliter iam operatur.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: Transactio eiecta est! Hoc possit accidere si alii nummorum in cassidili tuo iam soluti sint, ut si usus es exemplar de wallet.dat et nummi soluti sunt in exemplari sed non hic notati ut soluti.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Error: Huic transactioni necesse est merces saltem %s propter eius magnitudinem, complexitatem, vel usum recentum acceptorum nummorum!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Facere mandatum quotiescumque notificatio affinis accipitur (%s in mandato mutatur in nuntium) </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Facere mandatum quotiescumque cassidilis transactio mutet (%s in mandato sbstituitur ab TxID)</translation>
     </message>
@@ -2120,20 +1527,6 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BeaverCoin Notificatio&quot
         <translation>Monitio: -paytxfee constitutum valde magnum!  Hoc est merces transactionis solves si mittis transactionem.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Monitio: Monstratae transactiones fortasse non recta sint! Forte oportet tibi progredere, an aliis nodis progredere.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, BeaverCoin non proprie fungetur.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Monitio: error legendo wallet.dat!  Omnes claves recte lectae, sed data transactionum vel libri inscriptionum fortasse desint vel prava sint.</translation>
     </message>
@@ -2222,50 +1615,6 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BeaverCoin Notificatio&quot
         <translation>Quantitas non valida pro -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maxima magnitudo memoriae pro datis mittendis singulis conexionibus, &lt;n&gt;*1000 octetis/bytes (praedefinitum: 1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Tantum accipe catenam frustorum convenientem internis lapidibus (praedefinitum: 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Tantum conecte ad nodos in rete &lt;net&gt; (IPv4, IPv6 aut Tor)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Exscribe additiciam informationem pro debug.  Implicat omnes alias optiones -debug*</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>Exscribe additiciam informationem pro retis debug.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Antepone pittacium temporis ante exscriptum de debug </translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>Optiones SSL: (vide vici de BeaverCoin pro instructionibus SSL configurationis)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Selige versionem socks vicarii utendam (4-5, praedefinitum: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Mitte informationem vestigii/debug ad terminale potius quam plicam debug.log</translation>
     </message>
@@ -2346,20 +1695,6 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BeaverCoin Notificatio&quot
         <translation>Error legendi wallet.dat: Cassidile corruptum</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Cassidili necesse erat rescribi: Repelle BeaverCoin ut compleas</translation>
-    </message>
-    <message>
-        <location line="-95"/>
-=======
->>>>>>> pr/5
         <source>Error loading wallet.dat</source>
         <translation>Error legendi wallet.dat</translation>
     </message>
@@ -2396,20 +1731,6 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BeaverCoin Notificatio&quot
         <translation>Adice nodum cui conectere et conare sustinere conexionem apertam</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Non posse conglutinare ad %s in hoc cumputatro.  BeaverCoin probabiliter iam operatur.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Merces per KB addere ad transactiones tu mittas</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>Legens cassidile...</translation>
     </message>

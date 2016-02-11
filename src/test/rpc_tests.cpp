@@ -50,7 +50,7 @@ BOOST_AUTO_TEST_SUITE(rpc_tests)
 
 BOOST_AUTO_TEST_CASE(rpc_rawparams)
 {
-    // Test RPC calls for various wallet statistics
+    // Test raw transaction API argument handling
     Value r;
 
     BOOST_CHECK_THROW(CallRPC("getrawtransaction"), runtime_error);

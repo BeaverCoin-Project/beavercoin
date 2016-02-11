@@ -1,42 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fa" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>در مورد BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>نسخه BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>⏎ ⏎ این نسخه نرم افزار آزمایشی است⏎ ⏎ نرم افزار تحت لیسانس MIT/X11 منتشر شده است. به فایل coping یا آدرس http://www.opensource.org/licenses/mit-license.php. مراجعه شود⏎ ⏎ این محصول شامل نرم افزاری است که با OpenSSL برای استفاده از OpenSSL Toolkit (http://www.openssl.org/) و نرم افزار نوشته شده توسط اریک یانگ (eay@cryptsoft.com ) و UPnP توسط توماس برنارد طراحی شده است.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="fa" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -60,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;رونوشت</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>این آدرسها، آدرسهای beavercoin شما برای دریافت وجوه هستند. شما ممکن است آدرسهای متفاوت را به هر گیرنده اختصاص دهید که بتوانید مواردی که پرداخت می کنید را پیگیری نمایید</translation>
-=======
         <source>C&amp;lose</source>
         <translation>&amp;بستن</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -78,14 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>حذف نشانی انتخاب‌شده از لیست</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>پیام را برای اثبات آدرس BeaverCoin خود امضا کنید</translation>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>خروجی گرفتن داده‌های برگهٔ فعلی به یک پرونده</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -104,14 +54,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>آدرس موردنظر برای دریافت کوین ها را انتخاب کنید.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>یک پیام را برای حصول اطمینان از ورود به سیستم با آدرس beavercoin مشخص، شناسایی کنید</translation>
-=======
         <source>Sending addresses</source>
         <translation>آدرس های ارسال کننده</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Receiving addresses</source>
@@ -122,14 +66,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>این‌ها نشانی‌های Litecoin شما برای ارسال وجود هستند. همیشه قبل از ارسال سکه‌ها، نشانی دریافت‌کننده و مقدار ارسالی را بررسی کنید.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>این‌ها نشانی‌های Litecoin شما برای دریافت وجوه هستند. توصیه می‌شود یک نشانی دریافت جدید برای هر تبادل استفاده کنید.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -218,14 +156,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>تأیید رمزنگاری کیف پول</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>هشدار: اگر wallet رمزگذاری شود و شما passphrase را گم کنید شما همه اطلاعات beavercoin را از دست خواهید داد.</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>هشدار: اگر کیف پول خود را رمزنگاری کنید و گذرواژه را فراموش کنید، &lt;b&gt;تمام دارایی LITECOINS خود را از دست خواهید داد&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -248,14 +180,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>رمز جدید کیف پول خود را وارد کنید.&lt;br/&gt;از رمز عبوری استفاده کنید که&lt;b&gt; حداقل 10  کاراکتر تصادفی &lt;/b&gt; و یا &lt;b&gt; حداقل 8 حرف داشته باشد.&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>Biticon هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کیف پولتان نمی‌تواند به طور کامل بیتیکون‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه شما را آلوده می‌کنند، محافظت نماید.</translation>
-=======
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کردن کیف پول‌تان نمی‌تواند به طور کامل Litecoin‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که احتمالاً رایانهٔ شما را آلوده می‌کنند، محافظت نماید.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -322,16 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Quit application</source>
-<<<<<<< HEAD
-        <translation>خروج از برنامه </translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>نمایش اطلاعات در مورد بیتکویین</translation>
-=======
         <translation>خروج از برنامه</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -378,23 +295,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>سکه ها را به آدرس bitocin ارسال کن</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>انتخابهای پیکربندی را برای beavercoin اصلاح کن</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>ارسال وجه به نشانی Litecoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>تغییر و اصلاح تنظیمات پیکربندی Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -417,15 +323,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>یت کویین </translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -440,14 +339,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;دریافت</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>در مورد beavercoin</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>نمایش اطلاعات در مورد Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -462,23 +355,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation type="unfinished"/>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Litecoin خود امضا کنید</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -501,19 +383,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation> هسته Litecoin </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>مشتری BeaverCoin</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>در صد ارتباطات فعال بیتکویین با شبکه %n</numerusform></translation>
-=======
         <source>&amp;About Litecoin Core</source>
         <translation>درباره هسته ی Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -589,30 +460,11 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-<<<<<<< HEAD
-        <translation>تاریخ %1
-مبلغ%2
-نوع %3
-آدرس %4</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>مدیریت URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>URI قابل تحلیل نیست. این خطا ممکن است به دلیل ادرس BEAVERCOIN اشتباه یا پارامترهای اشتباه URI رخ داده باشد</translation>
-=======
         <translation>تاریخ: %1
 مبلغ: %2
 نوع: %3
 نشانی: %4
 </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -620,16 +472,7 @@ Address: %4
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-<<<<<<< HEAD
-        <translation>زمایش شبکه</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>خطا روی داده است. BeaverCoin نمی تواند بدون مشکل ادامه دهد و باید بسته شود</translation>
-=======
         <translation>کیف پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;قفل&lt;/b&gt; است</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -817,14 +660,8 @@ Address: %4
         <translation>نشانی وارد شده «%1» در حال حاضر در دفترچه وجود دارد.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>آدرس وارد شده %1 یک ادرس صحیح beavercoin نیست</translation>
-=======
         <source>The entered address "%1" is not a valid Litecoin address.</source>
         <translation>نشانی وارد شده «%1» یک نشانی معتبر Litecoin نیست.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -861,15 +698,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Litecoin Core</source>
         <translation> هسته Litecoin </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -931,23 +761,12 @@ Address: %4
         <translation>استفاده از مسیر پیش‌فرض</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>در زمان ورود به سیستم به صورت خودکار beavercoin را اجرا کن</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>اجرای beavercoin در زمان ورود به سیستم</translation>
-=======
         <source>Use a custom data directory:</source>
         <translation>استفاده از یک مسیر سفارشی:</translation>
     </message>
     <message>
         <source>Litecoin Core</source>
         <translation> هسته Litecoin </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error</source>
@@ -968,28 +787,16 @@ Address: %4
         <translation>&amp;عمومی</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>اتوماتیک باز کردن بندر بیتکویین در روتر . این فقط در مواردی می باشد که روتر با کمک یو پ ن پ کار می کند</translation>
-=======
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation>اجرای خودکار Litecoin در زمان ورود به سیستم.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Start Litecoin on system login</source>
         <translation>&amp;اجرای Litecoin با ورود به سیستم</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>اتصال به شبکه BEAVERCOIN از طریق پراکسی ساکس (برای مثال وقتی از طریق نرم افزار TOR متصل می شوید)</translation>
-=======
         <source>Reset all client options to default.</source>
         <translation>بازنشانی تمام تنظیمات به پیش‌فرض.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -1052,14 +859,8 @@ Address: %4
         <translation>زبان &amp;رابط کاربری:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>زبان میانجی کاربر می تواند در اینجا تنظیم شود. این تنظیمات بعد از شروع دوباره RESTART در BEAVERCOIN اجرایی خواهند بود.</translation>
-=======
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>زبان رابط کاربر می‌تواند در این‌جا تنظیم شود. تنظیمات بعد از ظروع مجدد Litecoin اعمال خواهد شد.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1067,16 +868,7 @@ Address: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-<<<<<<< HEAD
-        <translation>بخش فرعی پیش فرض را برای نمایش میانجی و زمان ارسال سکه ها مشخص و انتخاب نمایید</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>تا آدرسهای bITCOIN در فهرست تراکنش نمایش داده شوند یا نشوند.</translation>
-=======
         <translation>انتخاب واحد پول مورد استفاده برای نمایش در پنجره‌ها و برای ارسال سکه.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1099,15 +891,8 @@ Address: %4
         <translation>تأییدِ بازنشانی گزینه‌ها</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>این تنظیمات پس از اجرای دوباره BeaverCoin اعمال می شوند</translation>
-=======
         <source>This change would require a client restart.</source>
         <translation>برای این تغییرات بازنشانی مشتری ضروری است</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1121,15 +906,8 @@ Address: %4
         <translation>فرم</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده روزآمد نیستند.wallet  شما به صورت خودکار با شبکه beavercoin بعد از برقراری اتصال روزآمد می شود اما این فرایند هنوز کامل نشده است.</translation>
-=======
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Litecoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Available:</source>
@@ -1164,23 +942,8 @@ Address: %4
         <translation>تراز کل فعلی شما</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>روزآمد نشده</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-=======
         <source>Spendable:</source>
         <translation>:قابل خرج کردن</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1298,14 +1061,8 @@ Address: %4
         <translation>سرویس ها</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>پیام راهنمای BeaverCoin-Qt  را برای گرفتن فهرست گزینه های command-line نشان بده</translation>
-=======
         <source>Last block time</source>
         <translation>زمان آخرین بلوک</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1324,16 +1081,6 @@ Address: %4
         <translation>ساخت تاریخ</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>صفحه اشکال زدایی BeaverCoin </translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation> هسته BeaverCoin </translation>
-=======
         <source>Debug log file</source>
         <translation>فایلِ لاگِ اشکال زدایی</translation>
     </message>
@@ -1344,7 +1091,6 @@ Address: %4
     <message>
         <source>Clear console</source>
         <translation>پاکسازی کنسول</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Welcome to the Litecoin RPC console.</source>
@@ -1455,28 +1201,16 @@ Address: %4
         <translation>بایت ها:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>فایلِ لاگِ اشکال زدایی BeaverCoin  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
-=======
         <source>Amount:</source>
         <translation>مبلغ:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Priority:</source>
         <translation>اولویت:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>به کنسول BeaverCoin RPC خوش آمدید</translation>
-=======
         <source>Fee:</source>
         <translation>هزینه:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>After Fee:</source>
@@ -1563,16 +1297,7 @@ Address: %4
     </message>
     <message>
         <source>Pay &amp;To:</source>
-<<<<<<< HEAD
-        <translation>به&amp;پر داخت :</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-=======
         <translation>پرداخ&amp;ت به:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1611,14 +1336,8 @@ Address: %4
         <translation>حذف این مدخل</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Message:</source>
         <translation>پیام:</translation>
->>>>>>> pr/5
     </message>
     </context>
 <context>
@@ -1639,14 +1358,8 @@ Address: %4
         <translation>برای احراز اینکه پیام‌ها از جانب شما هستند، می‌توانید آن‌ها را با نشانی خودتان امضا کنید. مراقب باشید چیزی که بدان اطمینان ندارید را امضا نکنید زیرا حملات فیشینگ ممکن است بخواهند از.پیامی با امضای شما سوءاستفاده کنند. تنها مواردی را که حاوی اطلاعات دقیق و قابل قبول برای شما هستند امضا کنید.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>آدرس برای امضا کردن پیام با (برای مثال Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>نشانی Litecoin برای امضاء پیغام با آن</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1677,14 +1390,8 @@ Address: %4
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>پیام را برای اثبات آدرس BEAVERCOIN خود امضا کنید</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1707,23 +1414,12 @@ Address: %4
         <translation>برای شناسایی پیام، نشانیِ امضا کننده و متن پیام را وارد کنید. (مطمئن شوید که فاصله‌ها، تب‌ها و خطوط را عیناً کپی می‌کنید.) مراقب باشید در امضا چیزی بیشتر از آنچه در پیام می‌بینید وجود نداشته باشد تا فریب دزدان اینترنتی و حملات از نوع MITM را نخورید.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>آدرس برای امضا کردن پیام با (برای مثال Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>پیام را برای اطمنان از ورود به سیستم با آدرس BEAVERCOIN مشخص خود،تایید کنید</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>نشانی Litecoin که پیغام با آن امضاء شده</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1731,31 +1427,11 @@ Address: %4
     </message>
     <message>
         <source>Reset all verify message fields</source>
-<<<<<<< HEAD
-        <translation>تنظیم دوباره تمامی فیلدهای پیام تایید شده</translation>
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>با کلیک بر &quot;امضای پیام&quot; شما یک امضای جدید درست می کنید</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>امضای BITOCOIN خود را وارد کنید</translation>
-=======
         <translation>بازنشانی تمام فیلدهای پیام</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>برای ایجاد یک امضای جدید روی «امضای پیام» کلیک کنید</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1809,18 +1485,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation> هسته Litecoin </translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>توسعه‌دهندگان هسته بیت‌کوین</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2221,73 +1891,12 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>سخه بیتکویین</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>ستفاده :</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>ارسال فرمان به سرور یا باتکویین</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>لیست فومان ها</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>کمک برای فرمان </translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation>تنظیمات</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>(: beavercoin.confپیش فرض: )فایل تنظیمی خاص </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>(beavercoind.pidپیش فرض : ) فایل پید خاص</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation>دایرکتور اطلاعاتی خاص</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>سایز کَش بانک داده را بر حسب مگابایت تنظیم کنید (پیش فرض:25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>برای اتصالات به &lt;port&gt; (پیش‌فرض: 9333 یا تست‌نت: 19333) گوش کنید</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>حداکثر &lt;n&gt; اتصال با همکاران برقرار داشته باشید (پیش‌فرض: 125)</translation>
-=======
         <source>Options:</source>
         <translation>گزینه‌ها:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
         <translation>مشخص کردن دایرکتوری داده‌ها</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
@@ -2298,30 +1907,6 @@ Address: %4
         <translation>آدرس عمومی خود را مشخص کنید</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>آستانه برای قطع ارتباط با همکاران بدرفتار (پیش‌فرض: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>مدت زمان به ثانیه برای جلوگیری از همکاران بدرفتار برای اتصال دوباره (پیش‌فرض: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>در زمان تنظیم درگاه RPX %u در فهرست کردن %s اشکالی رخ داده است</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>( 9332پیش فرض :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-=======
->>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>پذیرش دستورات خط فرمان و دستورات JSON-RPC</translation>
     </message>
@@ -2338,54 +1923,8 @@ Address: %4
         <translation>پذیرش اتصالات از بیرون (پیش فرض:1 بدون پراکسی یا اتصال)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
-=======
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>مقید به نشانی داده شده باشید و همیشه از آن پیروی کنید. از نشانه گذاری استاندار IPv6 به صورت Host]:Port] استفاده کنید.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2397,36 +1936,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-<<<<<<< HEAD
-        <translation>هشدار:paytxfee  بسیار بالا تعریف شده است! این هزینه تراکنش است که باید در زمان ارسال تراکنش بپردازید</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>هشدار: تراکنش نمایش داده شده ممکن است صحیح نباشد! شما/یا یکی از گره ها به روزآمد سازی نیاز دارید </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد beavercoin ممکن است صحیح کار نکند</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
-=======
         <translation>هشدار: مبلغ paytxfee بسیار بالایی تنظیم شده است! این مبلغ هزینه‌ای است که شما برای تراکنش‌ها پرداخت می‌کنید.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2486,76 +1996,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
     </message>
     <message>
         <source>Information</source>
-<<<<<<< HEAD
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>آدرس نرم افزار تور غلط است %s</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>حداکثر بافر دریافت شده بر اساس اتصال &lt;n&gt;*  1000 بایت  (پیش فرض:5000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>حداکثر بافر دریافت شده بر اساس اتصال &lt;n&gt;*  1000 بایت  (پیش فرض:1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>تنها =به گره ها در شبکه متصا شوید  &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>برونداد اطلاعات اشکال زدایی اضافی. گزینه های اشکال زدایی دیگر رفع شدند</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>برونداد اطلاعات  اشکال زدایی اضافی برای شبکه</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>به خروجی اشکال‌زدایی برچسب زمان بزنید</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>گزینه ssl (به ویکیbeavercoin برای راهنمای راه اندازی ssl مراجعه شود)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>نسخه ای از پراکسی ساکس را برای استفاده انتخاب کنید (4-5 پیش فرض:5)</translation>
-=======
         <translation>اطلاعات</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2618,20 +2059,6 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>خطا در بارگیری wallet.dat: کیف پول خراب شده است</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Biticon نیاز دارد</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>سلام</translation>
-    </message>
-    <message>
-        <location line="-95"/>
-=======
->>>>>>> pr/5
         <source>Error loading wallet.dat</source>
         <translation>خطا در بارگیری wallet.dat</translation>
     </message>
@@ -2668,20 +2095,6 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>به اتصال یک گره اضافه کنید و اتصال را باز نگاه دارید</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>اتصال به %s از این رایانه امکان پذیر نیست. BeaverCoin احتمالا در حال اجراست.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>پر داجت برای هر کیلو بیت برای اضافه به معامله ارسال</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>بار گیری والت</translation>
     </message>

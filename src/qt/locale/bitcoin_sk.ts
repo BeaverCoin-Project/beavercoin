@@ -1,42 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>O BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; verzia</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="sk" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -60,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Kopírovať</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú Vaše BeaverCoin adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>Zatvoriť</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -78,14 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Vymaž vybranú adresu zo zoznamu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Podpísať správu a dokázať že vlastníte túto adresu</translation>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>Exportovať tento náhľad do súboru</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -104,14 +54,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Zvoľte adresu na ktorú prijať coins</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation type="unfinished"/>
-=======
         <source>C&amp;hoose</source>
         <translation>Vybrať</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sending addresses</source>
@@ -126,14 +70,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Toto sú Vaše Litecoin adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Toto sú vaše Litecoin adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -226,14 +164,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BEAVERCOINY&lt;/b&gt;!⏎</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE LITECOINY&lt;/b&gt;!⏎</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -252,18 +184,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou beavercoinov pomocou škodlivého software.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou aspoň &lt;b&gt;10 alebo viac náhodných znakov&lt;/b&gt;, alebo &lt;b&gt;8 alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou litecoinov pomocou škodlivého software.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -333,15 +259,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ukončiť program</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Zobraziť informácie o BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
@@ -390,23 +307,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Poslať beavercoins na adresu</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Upraviť možnosti nastavenia pre beavercoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Poslať litecoins na adresu</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Upraviť možnosti nastavenia pre litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -429,15 +335,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Overiť správu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -452,14 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;O BeaverCoin</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>Zobraziť informácie o Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -474,23 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation type="unfinished"/>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Podpísať správu s vašou adresou Litecoin aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Overiť či správa bola podpísaná uvedenou Litecoin adresou</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -513,23 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Jadro Litecoin</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>BeaverCoin klient</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n aktívne spojenie v BeaverCoin sieti</numerusform><numerusform>%n aktívne spojenia v BeaverCoin sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Vyžiadať platbu (vygeneruje QR kód a litecoin: URI)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>O jadre Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -635,22 +506,6 @@ Typ: %3
 Adresa: %4</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
     </message>
@@ -658,14 +513,6 @@ Adresa: %4</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -717,14 +564,8 @@ Adresa: %4</translation>
         <translation>(ne)vybrať všetko</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou beavercoin.</translation>
-=======
         <source>Tree mode</source>
         <translation>Stromový režim</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -735,15 +576,8 @@ Adresa: %4</translation>
         <translation>Suma</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation type="unfinished"/>
-=======
         <source>Received with label</source>
         <translation>Prijaté s označením</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -790,23 +624,12 @@ Adresa: %4</translation>
         <translation>Odomknúť neminuté</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť BeaverCoin po zapnutí počítača</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Spustiť BeaverCoin pri spustení systému správy okien</translation>
-=======
         <source>Copy quantity</source>
         <translation>Kopírovať množstvo</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>Kopírovať poplatok</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -821,28 +644,16 @@ Adresa: %4</translation>
         <translation>Kopírovať prioritu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre BeaverCoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
-=======
         <source>Copy dust</source>
         <translation>Kopírovať prach</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Kopírovať zmenu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť do siete BeaverCoin cez SOCKS proxy (napr. keď sa pripájate cez Tor)</translation>
-=======
         <source>highest</source>
         <translation>najvyššie</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -901,14 +712,8 @@ Adresa: %4</translation>
         <translation>Tento popis zčervená ak veľkosť transakcie presiahne 1000 bytov.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation type="unfinished"/>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>To znamená že požadovaný poplatok je aspoň  %1  za kB.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -919,14 +724,8 @@ Adresa: %4</translation>
         <translation>Transakcie s vysokou prioritou sa pravdepodobnejsie dostanú do bloku.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"/>
-=======
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Tento popis zčervenie ak je priorita nižčia ako "medium".</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -968,15 +767,8 @@ Adresa: %4</translation>
         <translation>&amp;Adresa</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation type="unfinished"/>
-=======
         <source>New receiving address</source>
         <translation>Nová adresa pre prijímanie</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -987,15 +779,8 @@ Adresa: %4</translation>
         <translation>Upraviť prijímacie adresy</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"/>
-=======
         <source>Edit sending address</source>
         <translation>Upraviť odosielaciu adresu</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1040,14 +825,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Jadro Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1848,14 +1627,8 @@ Adresa: %4</translation>
         <translation>&amp;Správa:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation type="unfinished"/>
-=======
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>Znovu použiť jednu z už použitých adries pre prijímanie. Znovu používanie adries je sporná otázka bezpečnosti aj súkromia. Používajte to len v prípade ak znovu generujete výzvu na zaplatenie ktorú ste už vyrobili v minulosti.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
@@ -1870,51 +1643,28 @@ Adresa: %4</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation type="unfinished"/>
-=======
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
         <translation>Použite tento formulár pre vyžiadanie platby. Všetky polia sú &lt;b&gt;voliteľné&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete určitú sumu.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Clear all fields of the form.</source>
         <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"/>
-=======
         <source>Clear</source>
         <translation>Vyčistiť</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Requested payments history</source>
         <translation>História vyžiadaných platieb</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation type="unfinished"/>
-=======
         <source>&amp;Request payment</source>
         <translation>Vyžiadať platbu</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
@@ -2035,9 +1785,6 @@ Adresa: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
-        <translation>Poslať BeaverCoins</translation>
-=======
         <translation>Poslať Litecoins</translation>
     </message>
     <message>
@@ -2163,7 +1910,6 @@ Adresa: %4</translation>
     <message>
         <source>(confirmation may take longer)</source>
         <translation>(potvrdenie môže trvať dlhšie)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2202,11 +1948,6 @@ Adresa: %4</translation>
         <translation>Potvrdiť odoslanie litecoins</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie beavercoins</translation>
-=======
         <source>%1 to %2</source>
         <translation>%1 do %2</translation>
     </message>
@@ -2217,7 +1958,6 @@ Adresa: %4</translation>
     <message>
         <source>Copy amount</source>
         <translation>Kopírovať sumu</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy fee</source>
@@ -2315,16 +2055,6 @@ Adresa: %4</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-=======
->>>>>>> pr/5
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
     </message>
@@ -2396,14 +2126,8 @@ Adresa: %4</translation>
         <translation>Jadro Litecoin sa ukončuje...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte BeaverCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2418,16 +2142,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-<<<<<<< HEAD
-        <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu &quot;phishing&quot; Vás môžu lákať k ich podpísaniu.</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte BeaverCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2458,12 +2173,7 @@ Adresa: %4</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
->>>>>>> pr/5
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -2487,23 +2197,12 @@ Adresa: %4</translation>
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte BeaverCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation type="unfinished"/>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>Adresa Litecoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Overím správy sa uistiť že bola podpísaná označenou Litecoin adresou</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2511,31 +2210,11 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-<<<<<<< HEAD
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte BeaverCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Kliknite &quot;Podpísať Správu&quot; na získanie podpisu</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation type="unfinished"/>
-=======
         <translation>Obnoviť všetky polia v overiť správu</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>Kliknite "Podpísať Správu" na získanie podpisu</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2589,18 +2268,12 @@ Adresa: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Jadro Litecoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Vývojári jadra Bitcoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -3028,11 +2701,7 @@ Adresa: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
-        <translation>Poslať BeaverCoins</translation>
-=======
         <translation>Poslať Litecoins</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -3073,76 +2742,14 @@ Adresa: %4</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>BeaverCoin verzia</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Použitie:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Odoslať príkaz -server alebo beavercoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Zoznam príkazov</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Dostať pomoc pre príkaz</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-=======
->>>>>>> pr/5
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: beavercoind.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-=======
->>>>>>> pr/5
         <source>Specify data directory</source>
         <translation>Určiť priečinok s dátami</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Veľkosť vyrovnávajúcej pamäte pre databázu v megabytoch (predvolené:25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Načúvať spojeniam na &lt;port&gt; (prednastavené: 9333 alebo testovacia sieť: 19333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Udržiavať maximálne &lt;n&gt; spojení (predvolené: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
-=======
->>>>>>> pr/5
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Pripojiť sa k uzlu, získať adresy ďalších počítačov v sieti a odpojiť sa</translation>
     </message>
@@ -3151,30 +2758,6 @@ Adresa: %4</translation>
         <translation>Určite vašu vlastnú verejnú adresu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Hranica pre odpojenie zle sa správajúcich peerov (predvolené: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Počet sekúnd kedy sa zabráni zle sa správajúcim peerom znovupripojenie (predvolené: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 9332 or testnet: 19332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-=======
->>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
@@ -3188,45 +2771,15 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-<<<<<<< HEAD
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-=======
         <translation>Prijať spojenia zvonku (predvolené: 1 ak žiadne -proxy alebo -connect)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-=======
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3267,14 +2820,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
 The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation type="unfinished"/>
-=======
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3601,14 +3148,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Podpora RPC pre trvalé HTTP spojenia (predvolené: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite BeaverCoin Wiki pre návod na nastavenie SSL)</translation>
-=======
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
         <translation>Náhodne zahadzuj 1 z každých &lt;n&gt; sieťových správ</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
@@ -3755,16 +3296,6 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním BeaverCoin</translation>
-=======
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
     </message>
@@ -3779,7 +3310,6 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Vždy sa dotazovať adresy partnerských uzlov cez vyhľadávanie DNS (predvolené: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3898,20 +3428,6 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Pridať nód na pripojenie a pokus o udržanie pripojenia otvoreného</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Poplatok za kB ktorý treba pridať k odoslanej transakcii</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>Načítavam peňaženku...</translation>
     </message>

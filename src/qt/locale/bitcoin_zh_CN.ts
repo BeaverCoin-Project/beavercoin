@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>关于莱特币</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;莱特币&lt;/b&gt;版本</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>版权</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation>BeaverCoin-qt 客户端开发团队</translation>
-    </message>
-</context>
-=======
 <TS language="zh_CN" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -65,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>复制(&amp;C)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来收款的莱特币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
-=======
         <source>C&amp;lose</source>
         <translation>关闭(&amp;C)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -83,14 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>从列表中删除选中的地址</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>签名消息，证明这个地址属于您。</translation>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>导出当前数据到文件</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -109,14 +54,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>选择收款地址</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>验证消息，确保消息是由指定的莱特币地址签名过的。</translation>
-=======
         <source>C&amp;hoose</source>
         <translation>选择(&amp;H)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sending addresses</source>
@@ -127,12 +66,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>正在接收地址</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-=======
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
->>>>>>> pr/5
         <translation>这是您用来付款的莱特币地址。在付款前，请总是核实付款金额和收款地址。</translation>
     </message>
     <message>
@@ -230,12 +164,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>确认加密钱包</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
->>>>>>> pr/5
         <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的莱特币&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -255,18 +184,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>钱包已加密</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的莱特币还是有可能丢失。</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>请输入新的钱包密码. &lt;br/&gt;密码须包含&lt;b&gt;10个以上字符&lt;/b&gt;,或&lt;b&gt;8个以上单词&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>莱特币客户端将关闭软件以完成加密过程。请您谨记：钱包加密并不是万能的，电脑中毒等原因仍可能导致您的莱特币意外丢失。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -336,15 +259,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>退出程序</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>显示莱特币的相关信息</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>关于 &amp;Qt</translation>
     </message>
@@ -393,21 +307,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>正在为数据块建立索引...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>向一个莱特币地址发送莱特币</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>向一个莱特币地址发送莱特币</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
->>>>>>> pr/5
         <translation>设置选项</translation>
     </message>
     <message>
@@ -431,13 +335,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>验证消息(&amp;V)...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-=======
         <source>Litecoin</source>
->>>>>>> pr/5
         <translation>莱特币</translation>
     </message>
     <message>
@@ -453,14 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>接收(&amp;R)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;关于莱特币</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>显示有关莱特币核心钱包信息</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -475,21 +367,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>对钱包中的私钥加密</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>用莱特币地址关联的私钥为消息签名，以证明您拥有这个莱特币地址</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>用莱特币地址关联的私钥为消息签名，以证明您拥有这个莱特币地址</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
->>>>>>> pr/5
         <translation>校验消息，确保该消息是由指定的莱特币地址所有者签名的</translation>
     </message>
     <message>
@@ -513,23 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>莱特币核心</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>莱特币客户端</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>到莱特币网络的连接共有%n条</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>请求支付（生成二维码和 litecoin: URI）</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>关于莱特币核心(&amp;A)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -604,15 +475,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>信息</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于莱特币网络的运行。您愿意支付这笔交易费用吗？</translation>
-    </message>
-    <message>
-        <location line="-140"/>
-=======
->>>>>>> pr/5
         <source>Up to date</source>
         <translation>已是最新</translation>
     </message>
@@ -645,22 +507,6 @@ Address: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>URI 处理</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>URI无法解析！原因可能是莱特币地址不正确，或者URI参数错误。</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
     </message>
@@ -668,14 +514,6 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>发生严重错误。</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -727,14 +565,8 @@ Address: %4
         <translation>(不)全选</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>您输入的 &quot;%1&quot; 不是合法的莱特币地址.</translation>
-=======
         <source>Tree mode</source>
         <translation>树状模式</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -745,15 +577,8 @@ Address: %4
         <translation>金额</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Received with label</source>
         <translation>按标签收款</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -800,23 +625,12 @@ Address: %4
         <translation>解锁未花费</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>登录系统后自动开启莱特币客户端</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>启动时&amp;运行</translation>
-=======
         <source>Copy quantity</source>
         <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>复制交易费</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -831,28 +645,16 @@ Address: %4
         <translation>复制优先级</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开莱特币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
-=======
         <source>Copy dust</source>
         <translation>复制小额</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>复制零钱</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>通过代理服务器连接莱特币网络(例如：通过Tor连接)</translation>
-=======
         <source>highest</source>
         <translation>最高</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -911,31 +713,6 @@ Address: %4
         <translation>如果这笔交易大于1000字节，标签会变成红色。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>在这里设置用户界面的语言。设置将在客户端重启后生效。</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;莱特币金额单位:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择莱特币单位。</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>是否需要在交易清单中显示莱特币地址。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>在交易清单中&amp;显示莱特币地址</translation>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>这意味着将对交易收取 %1/千字节 的交易费。</translation>
     </message>
@@ -954,7 +731,6 @@ Address: %4
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>如果收款地址收到小于%1的莱特币，标签将变成红色。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>(no label)</source>
@@ -992,15 +768,8 @@ Address: %4
         <translation>地址(&amp;A)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>需要重启客户端软件才能生效。</translation>
-=======
         <source>New receiving address</source>
         <translation>新建接收地址</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -1011,15 +780,8 @@ Address: %4
         <translation>编辑接收地址</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的. 在连接上莱特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
-=======
         <source>Edit sending address</source>
         <translation>编辑发送地址</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1064,14 +826,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>暂时无法启动莱特币：点击支付功能</translation>
-=======
         <source>Litecoin Core</source>
         <translation>莱特币核心</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1158,14 +914,8 @@ Address: %4
         <translation>错误：无法创建 指定的数据目录 "%1" </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>当前为莱特币测试网络</translation>
-=======
         <source>Error</source>
         <translation>错误</translation>
->>>>>>> pr/5
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
@@ -1864,14 +1614,8 @@ Address: %4
         <translation>传入</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>显示BeaverCoin命令行选项帮助信息</translation>
-=======
         <source>Outbound</source>
         <translation>传出</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Unknown</source>
@@ -1889,51 +1633,28 @@ Address: %4
         <translation>总额(&amp;A)：</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>莱特币 - 调试窗口</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>莱特币核心</translation>
-=======
         <source>&amp;Label:</source>
         <translation>标签(&amp;L)：</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
         <translation>消息(&amp;M)：</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>重复使用以前用过的接收地址。重用地址有安全和隐私方面的隐患。除非是为重复生成同一项支付请求，否则请不要这样做。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>打开当前目录中的调试日志文件。日志文件大的话可能要等上几秒钟。</translation>
-=======
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation>重用现有的接收地址（不推荐）</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过莱特币网络传送。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>欢迎来到 RPC 控制台.</translation>
-=======
         <source>An optional label to associate with the new receiving address.</source>
         <translation>可为新建的收款地址添加一个标签。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2317,11 +2038,6 @@ Address: %4
         <translation>只支付最小费用 %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的莱特币已经被使用，但本地的这个钱包尚没有记录。</translation>
-=======
         <source>Estimated to begin confirmation within %1 block(s).</source>
         <translation>预计%1 个数据块后确认。</translation>
     </message>
@@ -2348,7 +2064,6 @@ Address: %4
     <message>
         <source>added as transaction fee</source>
         <translation>已添加交易费</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2359,16 +2074,7 @@ Address: %4
     </message>
     <message>
         <source>Pay &amp;To:</source>
-<<<<<<< HEAD
-        <translation>付款&amp;给：</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>付款给这个地址  (例如 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <translation>付给(&amp;T)：</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -2442,14 +2148,8 @@ Address: %4
         <translation>莱特币核心正在关机...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>请输入莱特币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>在此窗口消失前不要关闭计算机。</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2467,14 +2167,8 @@ Address: %4
         <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>用来对消息签名的地址 </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2505,12 +2199,7 @@ Address: %4
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
->>>>>>> pr/5
         <translation>签名消息，证明这个地址属于您。</translation>
     </message>
     <message>
@@ -2534,21 +2223,11 @@ Address: %4
         <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用于签名消息的地址(例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>消息使用的签名地址</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
->>>>>>> pr/5
         <translation>验证消息，确保消息是由指定的莱特币地址签名过的。</translation>
     </message>
     <message>
@@ -2558,31 +2237,12 @@ Address: %4
     <message>
         <source>Reset all verify message fields</source>
         <translation>清空所有验证消息栏</translation>
-<<<<<<< HEAD
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>请输入莱特币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
->>>>>>> pr/5
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>输入莱特币签名</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-=======
->>>>>>> pr/5
         <source>The entered address is invalid.</source>
         <translation>输入的地址非法。</translation>
     </message>
@@ -2634,18 +2294,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation>BeaverCoin-qt 客户端开发团队</translation>
-=======
         <source>Litecoin Core</source>
         <translation>莱特币核心</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Bitcoin Core 的开发者</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2770,14 +2424,8 @@ Address: %4
         <translation>商店</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>新挖出的莱特币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的莱特币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
-=======
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>生成的莱特币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug information</source>
@@ -2915,11 +2563,7 @@ Address: %4
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-<<<<<<< HEAD
-        <translation>接收莱特币的时间</translation>
-=======
         <translation>接收到交易的时间</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -3338,14 +2982,8 @@ Address: %4
         <translation>设置以MB为单位的数据库缓存大小(%d 到 %d, 默认值: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>发送莱特币</translation>
-=======
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>设置最大区块大小 (默认: %d，单位字节)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -3380,29 +3018,16 @@ Address: %4
         <translation>您需要将 -reindex 改为 -txindex 以重建数据库</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>莱特币版本</translation>
-=======
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>从blk000??.dat文件导入数据块</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>允许来自指定地址的 JSON-RPC 连接。 &lt;ip&gt;为单一IP (如: 1.2.3.4), 网络/掩码 (如: 1.2.3.4/255.255.255.0), 网络/CIDR (如:  1.2.3.4/24)。该选项可多次指定。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>发送命令到服务器或者 beavercoind
-</translation>
-=======
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
         <translation>设置RPC监听端口 %s:%u 时发生错误: %s</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3417,25 +3042,12 @@ Address: %4
         <translation>无法获取数据目录的 %s. 莱特币核心钱包可能已经在运行.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>指定配置文件 (默认为 beavercoin.conf)
-</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 beavercoind.pid)
-</translation>
-=======
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>创建系统默认权限的文件，而不是 umask 077 (只在关闭钱包功能时有效) </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3446,14 +3058,8 @@ Address: %4
         <translation>错误：不支持的 -socks 参数。不再支持设置SOCKS版本，现在只支持 SOCKS5代理。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>监听端口连接 &lt;port&gt; (缺省: 9333 or testnet: 19333)</translation>
-=======
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>当收到相关提醒或者我们看到一个长分叉时执行命令（%s 将替换为消息）</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3480,14 +3086,8 @@ Address: %4
         <translation>单笔钱包交易中最多使用的交易费，设置过低可能中止大笔交易 (默认: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>JSON-RPC连接监听端口&lt;port&gt; (缺省：9332　testnet：19332)</translation>
-=======
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>通过DNS查询每个地址，如果短地址 (默认值: 1 除非 -连接)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3509,61 +3109,12 @@ Address: %4
         <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=beavercoinrpc
-=======
 rpcuser=litecoinrpc
->>>>>>> pr/5
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, 您必须在配置文件设置rpcpassword:
- %s
-建议您使用下面的随机密码:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(您无需记住此密码)
-用户名和密码 必! 须! 不一样。
-如果配置文件不存在，请自行建立一个只有所有者拥有只读权限的文件。
-推荐您开启提示通知以便收到错误通知，
-像这样: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>在IPv6模式下设置RPC监听端口 %u 失败，返回到IPv4模式: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>无法给数据目录 %s上锁。本软件可能已经在运行。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的莱特币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了莱特币，但是这个钱包文件中没有记录。</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>错误：因为该交易的数量、复杂度或者动用了刚收到不久的资金，您需要支付不少于%s的交易费用。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>当收到相关通知时执行命令（命令行中的 %s 的替换为消息）</translation>
-=======
 for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
 </source>
         <translation>要使用 litecoind 或者 litecoin-qt 中的 -server 选项，您必须在配置文件中设置一个密码：
@@ -3581,7 +3132,6 @@ rpcpassword=%s
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
         <translation>警告：-maxtxfee 设置的太高了！每进行一笔交易时您都要花费这么多费用。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
@@ -3596,14 +3146,8 @@ rpcpassword=%s
         <translation>接受公共 REST 请求 (默认: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致莱特币客户端运行异常。</translation>
-=======
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>无法解析 -whitebind 地址: '%s'</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3803,15 +3347,9 @@ rpcpassword=%s
         <translation>为 JSON-RPC 连接使用 OpenSSL (https) 连接</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL选项：(参见BeaverCoin Wiki关于SSL设置栏目)</translation>
-=======
         <source>This help message</source>
         <translation>本帮助信息
 </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -3962,23 +3500,12 @@ rpcpassword=%s
         <translation>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>wallet.dat钱包文件加载错误：请升级到最新BeaverCoin客户端</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>钱包文件需要重写：请退出并重新启动BeaverCoin客户端</translation>
-=======
         <source>Specify configuration file (default: %s)</source>
         <translation>指定配置文件 (默认: %s) </translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>指定连接超时毫秒数 (最小: 1, 默认: %d) </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4025,20 +3552,6 @@ rpcpassword=%s
         <translation>添加节点并与其保持连接</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>无法在本机绑定 %s 端口 . 莱特币客户端软件可能已经在运行.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>每发送1KB交易所需的费用</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>正在加载钱包...</translation>
     </message>

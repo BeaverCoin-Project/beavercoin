@@ -301,14 +301,6 @@ Value getblock(const Array& params, bool fHelp)
         return strHex;
     }
 
-    if (!fVerbose)
-    {
-        CDataStream ssBlock(SER_NETWORK, PROTOCOL_VERSION);
-        ssBlock << block;
-        std::string strHex = HexStr(ssBlock.begin(), ssBlock.end());
-        return strHex;
-    }
-
     return blockToJSON(block, pblockindex);
 }
 

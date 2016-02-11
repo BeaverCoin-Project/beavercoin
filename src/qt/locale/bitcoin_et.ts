@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="et" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>BeaverCoinist</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoini&lt;/b&gt; versioon</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>⏎
-See on eksperimentaalne tarkvara.⏎
-⏎
-Levitatud MIT/X11 tarkvara litsentsi all, vaata kaasasolevat faili COPYING või http://www.opensource.org/licenses/mit-license.php⏎
-⏎
-Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenSSL Toolkitis (http://www.openssl.org/) ja Eric Young&apos;i poolt loodud krüptograafilist tarkvara (eay@cryptsoft.com) ning Thomas Bernard&apos;i loodud UPnP tarkvara.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Autoriõigus</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="et" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -61,39 +18,14 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Kopeeri</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad BeaverCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>S&amp;ulge</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Aadressi kopeerimine</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Kuva %QR kood</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Allkirjasta &amp;Sõnum</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-=======
->>>>>>> pr/5
         <source>Delete the currently selected address from the list</source>
         <translation>Kustuta märgistatud aadress loetelust</translation>
     </message>
@@ -103,39 +35,19 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <source>&amp;Export</source>
-<<<<<<< HEAD
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud BeaverCoini aadressiga.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Kinnita Sõnum</translation>
-=======
         <translation>&amp;Ekspordi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;Kustuta</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu BeaverCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
-=======
         <source>C&amp;hoose</source>
         <translation>V&amp;ali</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Need on sinu Litecoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -220,14 +132,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Kinnita rahakoti krüpteering</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BEAVERCOINID&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA LITECOINID&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -246,14 +152,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Rahakott krüpteeritud</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista beavercoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
-=======
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista litecoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -319,15 +219,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Väljumine</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Kuva info BeaverCoini kohta</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>Teave &amp;Qt kohta</translation>
     </message>
@@ -364,23 +255,12 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Saada münte BeaverCoini aadressile</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Muuda BeaverCoini seadeid</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Saada münte Litecoini aadressile</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Muuda Litecoini seadeid</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -403,15 +283,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -426,20 +299,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Saama</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Aadressid</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>%BeaverCoinist</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>&amp;Show / Hide</source>
         <translation>&amp;Näita / Peida</translation>
     </message>
@@ -452,23 +311,12 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma BeaverCoini aadressiga</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud BeaverCoini aadressiga</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Litecoini aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Litecoini aadressiga</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,44 +335,12 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-    <message>
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>BeaverCoini klient</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n aktiivne ühendus BeaverCoini võrku</numerusform><numerusform>%n aktiivset ühendust BeaverCoini võrku</numerusform></translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>Protsessitud %1 (arvutuslikult) tehingu ajaloo blokki %2-st.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>Protsessitud %1 tehingute ajaloo blokki.</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiivne ühendus Litecoini võrku</numerusform><numerusform>%n aktiivset ühendust Litecoini võrku</numerusform></translation>
->>>>>>> pr/5
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -594,22 +410,6 @@ Tüüp: %3⏎
 Aadress: %4⏎</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>URI käsitsemine</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu BeaverCoini aadress või vigased URI parameetrid.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;avatud&lt;/b&gt;</translation>
     </message>
@@ -617,14 +417,6 @@ Aadress: %4⏎</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;suletud&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. BeaverCoin suletakse turvakaalutluste tõttu.</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -759,14 +551,8 @@ Aadress: %4⏎</translation>
         <translation>Selline aadress on juba olemas: "%1"</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole BeaverCoinis kehtiv.</translation>
-=======
         <source>The entered address "%1" is not a valid Litecoin address.</source>
         <translation>Sisestatud aadress "%1" ei ole Litecoinis kehtiv.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -787,15 +573,8 @@ Aadress: %4⏎</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoini-Qt</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoini tuumik</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -871,23 +650,12 @@ Aadress: %4⏎</translation>
         <translation>Käivita Litecoin süsteemi logimisel.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Käivita BeaverCoin süsteemi logimisel.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Start BeaverCoin sisselogimisel</translation>
-=======
         <source>&amp;Start Litecoin on system login</source>
         <translation>&amp;Start Litecoin sisselogimisel</translation>
     </message>
     <message>
         <source>MB</source>
         <translation>MB</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -902,28 +670,16 @@ Aadress: %4⏎</translation>
         <translation>&amp;Võrk</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>BeaverCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
-=======
         <source>W&amp;allet</source>
         <translation>R&amp;ahakott</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Expert</source>
         <translation>Ekspert</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta BeaverCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
-=======
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Litecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -970,14 +726,8 @@ Aadress: %4⏎</translation>
         <translation>Kasutajaliidese &amp;keel:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub BeaverCoini käivitamisel.</translation>
-=======
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>Kasutajaliidese keele valimise koht. Valik rakendub Litecoini käivitamisel.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -988,20 +738,6 @@ Aadress: %4⏎</translation>
         <translation>Vali liideses ning müntide saatmisel kuvatav vaikimisi alajaotus.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Kuvada BeaverCoini aadress tehingute loetelus või mitte.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>Tehingute loetelu &amp;Display aadress</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-=======
->>>>>>> pr/5
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -1018,32 +754,6 @@ Aadress: %4⏎</translation>
         <translation>Kinnita valikute algseadistamine</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>Mõned seadete muudatused rakenduvad programmi käivitumisel.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Kas soovid jätkata?</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Hoiatus</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Tehtud valik rakendub BeaverCoini käivitamisel.</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-=======
->>>>>>> pr/5
         <source>The supplied proxy address is invalid.</source>
         <translation>Sisestatud kehtetu proxy aadress.</translation>
     </message>
@@ -1055,30 +765,8 @@ Aadress: %4⏎</translation>
         <translation>Vorm</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
-    </message>
-    <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Jääk:</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Kinnitamata:</translation>
-    </message>
-    <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Rahakott</translation>
-=======
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Litecoin võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Immature:</source>
@@ -1100,47 +788,8 @@ Aadress: %4⏎</translation>
 <context>
     <name>PaymentServer</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>BeaverCoin ei käivitu: vajuta-maksa toiming</translation>
-    </message>
-</context>
-<context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>QR koodi dialoog</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Makse taotlus</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Summa:</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Märgis:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Sõnum:</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Salvesta nimega...</translation>
-=======
         <source>URI handling</source>
         <translation>URI käsitsemine</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Cannot start litecoin: click-to-pay handler</source>
@@ -1251,14 +900,8 @@ Aadress: %4⏎</translation>
         <translation>&amp;Konsool</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks BeaverCoini-Qt abiteksti</translation>
-=======
         <source>Build date</source>
         <translation>Valmistusaeg</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug log file</source>
@@ -1390,55 +1033,31 @@ Aadress: %4⏎</translation>
         <translation>(sõnum puudub)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin - debugimise aken</translation>
-=======
         <source>(no amount)</source>
         <translation>(summa puudub)</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-<<<<<<< HEAD
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>BeaverCoini tuumik</translation>
-=======
         <source>Send Coins</source>
         <translation>Müntide saatmine</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Quantity:</source>
         <translation>Kogus:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava BeaverCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
-=======
         <source>Amount:</source>
         <translation>Summa:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Fee:</source>
         <translation>Tasu:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Teretulemast BeaverCoini RPC konsooli.</translation>
-=======
         <source>Choose...</source>
         <translation>Vali...</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Recommended:</source>
@@ -1528,16 +1147,6 @@ Aadress: %4⏎</translation>
         <translation>Maksa &amp;:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Tehingu saaja aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-=======
->>>>>>> pr/5
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Aadressiraamatusse sisestamiseks märgista aadress</translation>
     </message>
@@ -1558,19 +1167,8 @@ Aadress: %4⏎</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Saaja eemaldamine</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta BeaverCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Message:</source>
         <translation>Sõnum:</translation>
->>>>>>> pr/5
     </message>
     </context>
 <context>
@@ -1591,22 +1189,6 @@ Aadress: %4⏎</translation>
         <translation>Omandiõigsuse tõestamiseks saad sõnumeid allkirjastada oma aadressiga. Ettevaatust petturitega, kes üritavad saada sinu allkirja endale saada. Allkirjasta ainult korralikult täidetud avaldusi, millega nõustud.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sõnumi signeerimise aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>Vali aadress aadressiraamatust</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <location line="+213"/>
-=======
->>>>>>> pr/5
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1631,14 +1213,8 @@ Aadress: %4⏎</translation>
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Allkirjasta sõnum BeaverCoini aadressi sulle kuulumise tõestamiseks</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Allkirjasta sõnum Litecoini aadressi sulle kuulumise tõestamiseks</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1661,19 +1237,8 @@ Aadress: %4⏎</translation>
         <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud BeaverCoini aadressiga.</translation>
-=======
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1684,25 +1249,8 @@ Aadress: %4⏎</translation>
         <translation>Tühjenda kõik sõnumi kinnitamise väljad</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta BeaverCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Signatuuri genereerimiseks vajuta &quot;Allkirjasta Sõnum&quot;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Sisesta BeaverCoini allkiri</translation>
-=======
         <source>Click "Sign Message" to generate signature</source>
         <translation>Signatuuri genereerimiseks vajuta "Allkirjasta Sõnum"</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1756,18 +1304,12 @@ Aadress: %4⏎</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoini tuumik</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Bitcoini Tuuma arendajad</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2160,76 +1702,14 @@ Aadress: %4⏎</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>BeaverCoini versioon</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Kasutus:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Saada käsklus -serverile või beavercoindile</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Käskluste loetelu</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Käskluste abiinfo</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-=======
->>>>>>> pr/5
         <source>Options:</source>
         <translation>Valikud:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: beavercoin.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-=======
->>>>>>> pr/5
         <source>Specify data directory</source>
         <translation>Täpsusta andmekataloog</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Sea andmebaasi vahemälu suurus MB (vaikeväärtus: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 9333 või testnet: 19333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Säilita vähemalt &lt;n&gt; ühendust peeridega (vaikeväärtus: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
-=======
->>>>>>> pr/5
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Peeri aadressi saamiseks ühendu korraks node'iga</translation>
     </message>
@@ -2238,30 +1718,6 @@ Aadress: %4⏎</translation>
         <translation>Täpsusta enda avalik aadress</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Ulakate peeride valulävi (vaikeväärtus: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Mitme sekundi pärast ulakad peerid tagasi võivad tulla (vaikeväärtus: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv4&apos;l: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 9332 või testnet: 19332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-=======
->>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Luba käsurea ning JSON-RPC käsklusi</translation>
     </message>
@@ -2278,68 +1734,10 @@ Aadress: %4⏎</translation>
         <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, sul tuleb rpcpassword määrata seadete failis:
-%s
-Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(seda parooli ei pea meeles pidama)
-Kasutajanimi ning parool EI TOHI kattuda.
-Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
-Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv6&apos;l, lülitumine tagasi IPv4&apos;le : %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Määratud aadressiga sidumine ning sellelt kuulamine. IPv6 jaoks kasuta vormingut [host]:port</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on BeaverCoin juba avatud.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Tõrge: Tehingust keelduti! Põhjuseks võib olla juba kulutatud mündid, nt kui wallet.dat fail koopias kulutatid mündid, kuid ei märgitud neid siin vastavalt.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Tõrge: Selle tehingu jaoks on nõutav lisatasu vähemalt %s. Põhjuseks võib olla summa suurus, keerukus või hiljuti saadud summade kasutamine!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Käivita käsklus, kui saabub tähtis hoiatus (%s cmd&apos;s asendatakse sõnumiga)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd's muudetakse TxID'ks)</translation>
     </message>
@@ -2352,20 +1750,6 @@ nt: alertnotify=echo %%s | email -s &quot;BeaverCoin Alert&quot; admin@foo.com
         <translation>Hoiatus: -paytxfee on seatud väga kõrgeks! See on sinu poolt makstav tehingu lisatasu.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Hoiatus: Kuvatavad tehingud ei pruugi olla korrektsed! Sina või node&apos;id peate tegema uuenduse.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis BeaverCoin ei tööta korralikult</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Hoiatus: ilmnes tõrge wallet.dat faili lugemisel! Võtmed on terved, kuid tehingu andmed või aadressiraamatu kirjed võivad olla kadunud või vigased.</translation>
     </message>
@@ -2450,55 +1834,6 @@ nt: alertnotify=echo %%s | email -s &quot;BeaverCoin Alert&quot; admin@foo.com
         <translation>RPC serveri valikud:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maksimaalne saamise puhver -connection kohta , &lt;n&gt;*1000 baiti (vaikeväärtus: 5000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maksimaalne saatmise puhver -connection kohta , &lt;n&gt;*1000 baiti (vaikeväärtus: 1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Tunnusta ainult sisseehitatud turvapunktidele vastavaid bloki jadu (vaikeväärtus: 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Ühenda ainult node&apos;idega &lt;net&gt; võrgus (IPv4, IPv6 või Tor)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Väljund lisa debug&apos;imise infoks. Tuleneb kõikidest teistest -debug* valikutest</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>Lisa võrgu debug&apos;imise info väljund</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Varusta debugi väljund ajatempliga</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata BeaverCoini Wikist või SSL sätete juhendist)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Vali turva proxi SOCKS versioon (4-5, vaikeväärtus: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-=======
->>>>>>> pr/5
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Saada jälitus/debug, debug.log faili asemel, konsooli</translation>
     </message>
@@ -2579,19 +1914,8 @@ nt: alertnotify=echo %%s | email -s &quot;BeaverCoin Alert&quot; admin@foo.com
         <translation>Viga wallet.dat käivitamisel. Vigane rahakkott</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab BeaverCoini uusimat versiooni</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita BeaverCoin</translation>
-=======
         <source>(default: %s)</source>
         <translation>(vaikimisi: %s)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -2630,20 +1954,6 @@ nt: alertnotify=echo %%s | email -s &quot;BeaverCoin Alert&quot; admin@foo.com
         <translation>Lisa node ning hoia ühendus avatud</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. BeaverCoin juba töötab.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Minu saadetavate tehingute lisatasu KB kohta</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>Rahakoti laadimine...</translation>
     </message>

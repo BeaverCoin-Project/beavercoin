@@ -1,42 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro_RO" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>Despre BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; versiunea</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="ro_RO" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -60,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Copiază</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră BeaverCoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>Închide</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -82,14 +38,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Exportă datele din tab-ul curent într-un fişier</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii aceasta adresa Bitocin</translation>
-=======
         <source>&amp;Export</source>
         <translation>&amp;Exportă</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -108,14 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Alegeţi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa beavercoin specifica</translation>
-=======
         <source>Sending addresses</source>
         <translation>Adresa destinatarului</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Receiving addresses</source>
@@ -126,14 +70,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Acestea sînt adresele dumneavoastră Litecoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Acestea sînt adresele dumneavoastră Litecoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -226,14 +164,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Confirmaţi criptarea portofelului</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE BEAVERCOIN ACUMULATĂ&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Atenţie: Dacă pierdeţi parola portofelului electronic după criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE LITECOIN ACUMULATĂ&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -256,14 +188,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Introduceţi noua parolă a portofelului electronic.&lt;br/&gt;Vă rugăm să folosiţi o parolă de&lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate beavercoins dvs. de a fi furate de intentii rele.</translation>
-=======
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -330,16 +256,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Quit application</source>
-<<<<<<< HEAD
-        <translation>Părăsiţi aplicaţia</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Informaţii despre BeaverCoin</translation>
-=======
         <translation>Închide aplicaţia</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -390,23 +307,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>&amp;Trimiteţi BeaverCoin către o anumită adresă</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Modifică setările pentru BeaverCoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Trimite monede către o adresă Litecoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Modifică opţiunile de configurare pentru Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -429,15 +335,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -452,14 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>P&amp;rimeşte</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;Despre BeaverCoin</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>Arată informaţii despre Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -474,23 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation type="unfinished"/>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Semnaţi mesaje cu adresa dvs. Litecoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Litecoin specificată</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -513,23 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Nucleul Litecoin</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>Client BeaverCoin</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n active connections to BeaverCoin network</numerusform><numerusform>%n active connections to BeaverCoin network</numerusform><numerusform>%n active connections to BeaverCoin network</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Cereţi plăţi (generează coduri QR şi litecoin-uri: URls)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>&amp;Despre Nucleul Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -629,27 +500,11 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-<<<<<<< HEAD
-        <translation>Data: %1⏎ Suma: %2⏎ Tipul: %3⏎ Addresa: %4⏎</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
-=======
         <translation>Data: %1
 Suma: %2
 Tipul: %3
 Adresa: %4
 </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -657,16 +512,7 @@ Adresa: %4
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-<<<<<<< HEAD
-        <translation>Portofelul electronic este &lt;b&gt;criptat&lt;/b&gt; iar in momentul de faţă este &lt;b&gt;blocat&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
-=======
         <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; iar în momentul de faţă este &lt;b&gt;blocat&lt;/b&gt;</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -719,14 +565,8 @@ Adresa: %4
         <translation>(de)selectare tot</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă beavercoin valabilă.</translation>
-=======
         <source>Tree mode</source>
         <translation>Mod arbore</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -737,15 +577,8 @@ Adresa: %4
         <translation>Sumă</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Received with label</source>
         <translation>Primite cu eticheta</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -792,23 +625,12 @@ Adresa: %4
         <translation>Deblocare necheltuiţi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Porneşte automat programul BeaverCoin la pornirea computerului.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;S Porneşte BeaverCoin la pornirea sistemului</translation>
-=======
         <source>Copy quantity</source>
         <translation>Copiază cantitea</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>Copiază taxa</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -823,28 +645,16 @@ Adresa: %4
         <translation>Copiază prioritatea</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului BeaverCoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
-=======
         <source>Copy dust</source>
         <translation>Copiază praf</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Copiază rest</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectare la reţeaua BeaverCoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
-=======
         <source>highest</source>
         <translation>cea mai mare</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -903,37 +713,20 @@ Adresa: %4
         <translation>Poate varia +/- 1 octet pentru fiecare intrare.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea BeaverCoin.</translation>
-=======
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Tranzacţiile cu prioritate mai mare sînt mai susceptibile de fi incluse într-un bloc.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Această etichetă devine roşie dacă prioritatea e mai mică decît "medie".</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de beavercoin.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele BeaverCoin sunt în lista de tranzacție sau nu</translation>
-=======
         <source>(no label)</source>
         <translation>(fără etichetă)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
         <translation>restul de la %1 (%2)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>(change)</source>
@@ -979,17 +772,6 @@ Adresa: %4
         <translation>Editează adresa de trimitere</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa beavercoin pe care a-ti specificat-o este invalida</translation>
-=======
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Adresa introdusă "%1" se află deja în lista de adrese.</translation>
     </message>
@@ -1004,7 +786,6 @@ Adresa: %4
     <message>
         <source>New key generation failed.</source>
         <translation>Generarea noii chei nu a reuşit.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -1014,15 +795,8 @@ Adresa: %4
         <translation>Va fi creat un nou dosar de date.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua BeaverCoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
-=======
         <source>name</source>
         <translation>nume</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
@@ -1088,14 +862,8 @@ Adresa: %4
         <translation>Afişează pe ecran splash la pornire (implicit: 1)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-=======
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Alege dosarul de date la pornire (implicit: 0)</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -1223,11 +991,6 @@ Adresa: %4
         <translation>Resetează toate setările clientului la valorile implicite.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Arata mesajul de ajutor BeaverCoin-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor BeaverCoin</translation>
-=======
         <source>&amp;Reset Options</source>
         <translation>&amp;Resetează opţiunile</translation>
     </message>
@@ -2144,7 +1907,6 @@ Adresa: %4
     <message>
         <source>Confirm send coins</source>
         <translation>Confirmă trimiterea de monede</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2159,51 +1921,28 @@ Adresa: %4
         <translation>Copiază suma</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin-Fereastra pentru debug</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>BeaverCoin Core</translation>
-=======
         <source>Copy fee</source>
         <translation>Copiază taxa</translation>
     </message>
     <message>
         <source>Copy after fee</source>
         <translation>Copiază după taxă</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy bytes</source>
         <translation>Copiază octeţi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
-=======
         <source>Copy priority</source>
         <translation>Copiază prioritatea</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Copiază rest</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Bun venit la consola beavercoin RPC</translation>
-=======
         <source>or</source>
         <translation>sau</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2214,21 +1953,8 @@ Adresa: %4
         <translation>Suma de plată trebuie să fie mai mare decît 0.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation>Trimite BeaverCoin</translation>
-=======
         <source>The amount exceeds your balance.</source>
         <translation>Suma depăşeşte soldul contului.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
@@ -2267,14 +1993,8 @@ Adresa: %4
         <translation>Copiază praf</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de beavercoin</translation>
-=======
         <source>Are you sure you want to send?</source>
         <translation>Sigur doriţi să trimiteţi?</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>added as transaction fee</source>
@@ -2312,14 +2032,8 @@ Adresa: %4
         <translation>Adresa litecoin către care se face plata</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de beavercoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
-=======
         <source>Alt+A</source>
         <translation>Alt+A</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2334,14 +2048,8 @@ Adresa: %4
         <translation>Înlătură această intrare</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-=======
         <source>Message:</source>
         <translation>Mesaj:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This is a verified payment request.</source>
@@ -2375,14 +2083,8 @@ Adresa: %4
         <translation>Nucleul Litecoin se închide...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă BeaverCoin (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Nu închide calculatorul pînă ce această fereastră nu dispare.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2400,14 +2102,8 @@ Adresa: %4
         <translation>Puteţi semna mesaje cu adresa dvs. pentru a demostra ca sînteti proprietarul lor. Aveţi grijă să nu semnaţi nimic vag, deoarece atacurile de tip phishing vă pot păcăli să le transferaţi identitatea. Semnaţi numai declaraţiile detaliate cu care sînteti de acord.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă BeaverCoin (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>Adresa cu care semnaţi mesajul</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2438,14 +2134,8 @@ Adresa: %4
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa BeaverCoin</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2468,23 +2158,12 @@ Adresa: %4
         <translation>Introduceţi adresa de semnatură, mesajul (asiguraţi-vă că aţi copiat spaţiile, taburile etc. exact) şi semnatura dedesubt pentru a verifica mesajul. Aveţi grijă să nu citiţi mai mult în semnatură decît mesajul în sine, pentru a evita să fiţi păcăliţi de un atac de tip man-in-the-middle.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă BeaverCoin (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa BeaverCoin specifica</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>Introduceţi o adresă Litecoin</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Litecoin specificată</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2492,31 +2171,11 @@ Adresa: %4
     </message>
     <message>
         <source>Reset all verify message fields</source>
-<<<<<<< HEAD
-        <translation>Reseteaza toate spatiile mesajelor semnate.</translation>
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă BeaverCoin (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Click &quot;Semneaza msajul&quot; pentru a genera semnatura</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Introduce semnatura bitocin</translation>
-=======
         <translation>Resetează toate cîmpurile mesajelor semnate</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>Faceţi clic pe "Semneaza msaj" pentru a genera semnătura</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2570,18 +2229,12 @@ Adresa: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Nucleul Litecoin</translation>
     </message>
     <message>
         <source>The Litecoin Core developers</source>
         <translation>Dezvoltatorii Nucleului Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2706,14 +2359,8 @@ Adresa: %4
         <translation>Comerciant</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele beavercoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
-=======
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Monezile generate trebuie să crească %1 blocuri înainte să poată fi cheltuite. Cînd aţi generat acest bloc, a fost transmis reţelei pentru a fi adaugat la lanţul de blocuri. Aceasta  se poate întîmpla ocazional dacă alt nod generează un bloc la numai cîteva secunde de al dvs.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug information</source>
@@ -3023,11 +2670,7 @@ Adresa: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
-        <translation>Trimite BeaverCoin</translation>
-=======
         <translation>Trimitere litecoin</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -3068,67 +2711,12 @@ Adresa: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>versiunea BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Uz:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Trimite comanda la -server sau beavercoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Listă de comenzi</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Ajutor pentru o comandă</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-=======
->>>>>>> pr/5
         <source>Options:</source>
         <translation>Opţiuni:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Specifica-ți configurația fisierului (in mod normal: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation>Specifica datele directorului</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Seteaza marimea cache a bazei de date in MB (initial: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Lista a conectiunile in &lt;port&gt; (initial:  9333 sau testnet: 19333)</translation>
-=======
         <source>Specify data directory</source>
         <translation>Specificaţi dosarul de date</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
@@ -3139,15 +2727,6 @@ Adresa: %4
         <translation>Specificaţi adresa dvs. publică</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+37"/>
-=======
->>>>>>> pr/5
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Acceptă comenzi din linia de comandă şi comenzi JSON-RPC</translation>
     </message>
@@ -3161,46 +2740,15 @@ Adresa: %4
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-<<<<<<< HEAD
-        <translation>Accepta conexiuni de la straini (initial: 1  if no -proxy or -connect)
-</translation>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-=======
         <translation>Acceptă conexiuni din afară (implicit: 1 dacă nu se foloseşte -proxy sau -connect)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Ataşaţi adresei date şi ascultaţi totdeauna pe ea. Folosiţi notaţia [host]:port pentru IPv6</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-=======
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuit sub licenţa de programe MIT/X11, vezi fişierul însoţitor COPYING sau &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3235,14 +2783,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Atenţie: Reţeaua nu pare să fie de acord în totalitate! Aparent nişte mineri au probleme.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation type="unfinished"/>
-=======
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Atenţie: Aparent, nu sîntem de acord cu toţi partenerii noştri! Va trebui să faceţi o actualizare, sau alte noduri necesită actualizare.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3461,14 +3003,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Sumă nevalidă pentru -mintxfee=&lt;suma&gt;: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>Optiuni SSl (vezi BeaverCoin wiki pentru intructiunile de instalare)</translation>
-=======
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Sumă nevalidă pentru -paytxfee=&lt;suma&gt;: '%s' (trebuie să fie cel puţin %s)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
@@ -3639,23 +3175,12 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Eroare la încărcarea wallet.dat</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune BeaverCoin mai noua</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Portofelul trebuie rescris: restarteaza aplicatia beavercoin pentru a face asta.</translation>
-=======
         <source>Force safe mode (default: %u)</source>
         <translation>Forţează mod sigur (implicit: %u)</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
         <translation>Generează monede (implicit: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3706,14 +3231,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>Fonduri insuficiente</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Imposibilitatea de a lega la% s pe acest computer. BeaverCoin este, probabil, deja în execuție.</translation>
-=======
         <source>Loading block index...</source>
         <translation>Încărcare index bloc...</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>

@@ -1,42 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>BeaverCoinについて</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; バージョン</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="ja" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -60,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>コピー(&amp;C)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished"/>
-=======
         <source>C&amp;lose</source>
         <translation>閉じる(&amp;C)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -78,14 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>選択されたアドレスを一覧から削除する</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation type="unfinished"/>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>ファイルに現在のタブのデータをエクスポート</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -104,14 +54,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>支払いを受け取るアドレスを指定する</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation type="unfinished"/>
-=======
         <source>C&amp;hoose</source>
         <translation>選択(&amp;C)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sending addresses</source>
@@ -122,14 +66,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>アドレス受信中</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-=======
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>これらは支払いを送信するためのあなたの Litecoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -226,14 +164,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished"/>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Litecoin はすべて失われます&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -252,18 +184,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"/>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>ウォレットの新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;10文字以上のランダムな文字&lt;/b&gt;で構成されたものか、&lt;b&gt;8単語以上の単語&lt;/b&gt;で構成されたパスフレーズを使用してください。</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin は暗号化プロセスを終了するために今すぐ終了します。あなたのコンピュータがマルウェアに感染してコインを盗まれることもあるので、暗号化してもあなたのウォレットを完全に保護できないことを覚えていてください。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -333,15 +259,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>アプリケーションを終了</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>BeaverCoinに関する情報を見る</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>Qt について(&amp;Q)</translation>
     </message>
@@ -390,23 +307,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation type="unfinished"/>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Litecoin アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Litecoin の設定を変更する</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -429,15 +335,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -456,15 +355,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Litecoinコアに関する情報を表示</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>&amp;Show / Hide</source>
         <translation>見る/隠す (&amp;S)</translation>
     </message>
@@ -477,23 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation type="unfinished"/>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>あなたが所有していることを証明するために、あなたの Litecoin アドレスでメッセージに署名してください</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>指定された Litecoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -516,23 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Litecoin のコア</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>支払いを要求する (QRコードとlitecoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>ライトコインコアについて (&amp;A)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -632,26 +500,10 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-<<<<<<< HEAD
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
-=======
         <translation>日付: %1
 総額: %2
 種類: %3
 アドレス: %4</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -659,16 +511,7 @@ Address: %4
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-<<<<<<< HEAD
-        <translation>ウォレットは&lt;b&gt;暗号化され、ロックされています&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
-=======
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -721,14 +564,8 @@ Address: %4
         <translation>すべて選択/選択解除</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation type="unfinished"/>
-=======
         <source>Tree mode</source>
         <translation>ツリーモード</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -739,15 +576,8 @@ Address: %4
         <translation>総額</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation type="unfinished"/>
-=======
         <source>Received with label</source>
         <translation>ラベルに対する入金一覧</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -794,23 +624,12 @@ Address: %4
         <translation>未使用トランザクションをアンロックする</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation type="unfinished"/>
-=======
         <source>Copy quantity</source>
         <translation>数量をコピーする</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>手数料をコピーする</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -825,28 +644,16 @@ Address: %4
         <translation>優先度をコピーする</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"/>
-=======
         <source>Copy dust</source>
         <translation>ダストをコピーする</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>釣り銭をコピー</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
-=======
         <source>highest</source>
         <translation>最高</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -905,14 +712,8 @@ Address: %4
         <translation>トランザクションサイズが1000バイトを超える場合にはこのラベルは赤くなります。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation type="unfinished"/>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>これは少なくとも1kBあたり %1 の手数料が必要であることを意味します。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -923,14 +724,8 @@ Address: %4
         <translation>より高い優先度を持つトランザクションの方がブロックに取り込まれやすくなります。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"/>
-=======
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>優先度が「中」未満の場合には、このラベルは赤くなります。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -972,15 +767,8 @@ Address: %4
         <translation>アドレス帳 (&amp;A)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation type="unfinished"/>
-=======
         <source>New receiving address</source>
         <translation>新しい受信アドレス</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -991,15 +779,8 @@ Address: %4
         <translation>受信アドレスを編集</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"/>
-=======
         <source>Edit sending address</source>
         <translation>送信アドレスを編集</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1044,14 +825,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin のコア</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1175,14 +950,8 @@ Address: %4
 <context>
     <name>OptionsDialog</name>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation type="unfinished"/>
-=======
         <source>Options</source>
         <translation>設定</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Main</source>
@@ -1197,51 +966,28 @@ Address: %4
         <translation>システムにログインした時に Litecoin を起動 (&amp;S)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation type="unfinished"/>
-=======
         <source>Size of &amp;database cache</source>
         <translation>データベースキャッシュのサイズ (&amp;D)</translation>
     </message>
     <message>
         <source>MB</source>
         <translation>MB</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>スクリプト検証用スレッド数 (&amp;V)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"/>
-=======
         <source>Accept connections from outside</source>
         <translation>外部からの接続を許可する</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Allow incoming connections</source>
         <translation>外部からの接続を許可する</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation type="unfinished"/>
-=======
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>プロキシのIPアドレス (例えば IPv4: 127.0.0.1 / IPv6: ::1)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1344,14 +1090,8 @@ Address: %4
         <translation>表示 (&amp;D)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-=======
         <source>User Interface &amp;language:</source>
         <translation>ユーザインターフェースの言語 (&amp;l) :</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
@@ -2406,14 +2146,8 @@ Address: %4
         <translation>Litecoin Coreをシャットダウンしています。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>このウィンドウが消えるまでコンピュータをシャットダウンしないで下さい。</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2431,14 +2165,8 @@ Address: %4
         <translation>あなた自身を立証するためにあなたのアドレスでメッセージに署名することができます。フィッシング攻撃によってあなたを騙して署名を譲渡させようとするかもしれないので、不明確なものは絶対に署名しないように注意してください。あなたが同意する完全に詳細な声明にだけ署名してください。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>メッセージを署名するLitecoinアドレス</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2469,14 +2197,8 @@ Address: %4
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation type="unfinished"/>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>この Litecoin アドレスを所有していることを証明するためにメッセージに署名</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2499,23 +2221,12 @@ Address: %4
         <translation>メッセージを検証するために、署名するアドレスとメッセージ(改行、スペース、タブなどを正確にコピーしてください)、そして署名を入力します。中間者攻撃によってだまされることを避けるために、署名されたメッセージそのものよりも、署名を読み取られないように注意してください。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation type="unfinished"/>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>メッセージの署名に使われたLitecoinアドレス</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>指定された Litecoin アドレスで署名されたことを保証するメッセージを検証</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2523,31 +2234,11 @@ Address: %4
     </message>
     <message>
         <source>Reset all verify message fields</source>
-<<<<<<< HEAD
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation type="unfinished"/>
-=======
         <translation>入力項目の内容をすべて消去します</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>署名を作成するには"メッセージの署名"をクリック</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2601,18 +2292,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin のコア</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>ビットコインコアの開発者</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -3097,28 +2782,16 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>BeaverCoin Bertsio</translation>
-=======
         <source>Options:</source>
         <translation>オプション:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify data directory</source>
         <translation>データ ディレクトリの指定</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation type="unfinished"/>
-=======
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>ピア アドレスを取得するためにノードに接続し、そして切断します</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify your own public address</source>
@@ -3133,23 +2806,12 @@ Address: %4
         <translation>デーモンとしてバックグランドで実行しコマンドを許可</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation type="unfinished"/>
-=======
         <source>Use the test network</source>
         <translation>テストのためのネットワークを使用</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -3160,14 +2822,8 @@ Address: %4
         <translation>ウォレットの全トランザクションを削除し、これらを-rescanオプションを用いることで起動時にブロックチェインのデータのみからリカバリします。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished"/>
-=======
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>MITソフトウェアライセンスのもとで配布されています。付属のCOPYINGファイルまたは&lt;http://www.opensource.org/licenses/mit-license.php&gt;を参照してください。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3194,14 +2850,8 @@ Address: %4
         <translation>このコンピュータの %s にバインドすることができません。おそらく Litecoin Core は既に実行されています。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation type="unfinished"/>
-=======
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告: -paytxfee が非常に高く設定されています! これは取引を送信する場合に支払う取引手数料です。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3220,24 +2870,8 @@ Address: %4
         <translation>警告: wallet.dat が壊れたのでデータを復旧しました! オリジナルの wallet.dat は wallet.{timestamp}.bak として %s に保存されました; もしもあなたの残高や取引が正しくないならバックアップから復元してください。</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-=======
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
         <translation>与えられたネットマスクやIPアドレスから接続を行う、ホワイトリストのピア。複数回指定できます。</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3248,14 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>&lt;category&gt;は以下の値を指定できます：</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-=======
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>壊れた wallet.dat から秘密鍵を復旧することを試す</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3291,14 +2919,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@f
         <translation>ブロック データベースを今すぐ再構築しますか?</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation type="unfinished"/>
-=======
         <source>Error initializing block database</source>
         <translation>ブロック データベースの初期化中にエラー</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
@@ -3601,14 +3223,8 @@ rpcpassword=%s
         <translation>RPCサーバのオプション:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"/>
-=======
         <source>RPC support for HTTP persistent connections (default: %d)</source>
         <translation>RPCにおけるHTTPの持続的接続のサポート (初期値: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
@@ -3783,23 +3399,12 @@ rpcpassword=%s
         <translation>受付可能な暗号化方式 (初期値: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation type="unfinished"/>
-=======
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>DNS ルックアップを通してピアアドレスを常に問い合わせる (初期値: %u)</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>セーフモードを無効化し、実際のセーフモードイベントも無効化する (初期値: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3890,14 +3495,8 @@ rpcpassword=%s
         <translation>RPC サービスのスレッド数を設定 (初期値: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-=======
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
         <translation>ウォレットDB環境内にDB_PRIVATEフラグを設定する (デフォルト: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>

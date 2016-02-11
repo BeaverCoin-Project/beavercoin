@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nb" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>Om BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; versjon</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-Dette er eksperimentell programvare.
-
-Distribuert under MIT/X11 programvarelisensen, se medfølgende fil COPYING eller http://www.opensource.org/licenses/mit-license.php.
-
-Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i OpenSSL Toolkit (http://www.openssl.org/) og kryptografisk programvare skrevet av Eric Young (eay@cryptsoft.com) og UPnP programvare skrevet av Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="nb" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -65,14 +22,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>&amp;Kopier</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine BeaverCoin-adresser for mottak av betalinger. Du kan gi forskjellige adresser til alle som skal betale deg for å holde bedre oversikt.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>&amp;Lukk</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -83,14 +34,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Slett den valgte adressen fra listen.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Signer en melding for å bevise at du eier en BeaverCoin-adresse</translation>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>Eksporter data fra nåværende fane til fil</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -109,14 +54,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Velg adressen til å motta mynter med</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Verifiser en melding for å være sikker på at den ble signert av en angitt BeaverCoin-adresse</translation>
-=======
         <source>C&amp;hoose</source>
         <translation>&amp;Velg</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sending addresses</source>
@@ -131,14 +70,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Dette er dine Litecoin-adresser for å sende betalinger. Alltid sjekk beløp og mottakeradresse før sending av mynter.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine Litecoin-adresser for å sende betalinger. Det er anbefalt å bruk en ny mottaksadresse for hver transaksjon.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -231,14 +164,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Bekreft kryptering av lommebok</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE BEAVERCOINS&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE LITECOINS&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -257,18 +184,12 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Lommebok kryptert</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine beavercoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Oppgi adgangsfrasen til lommeboken.&lt;br/&gt;Vennligst bruk en adgangsfrase med &lt;b&gt;ti eller flere tilfeldige tegn&lt;/b&gt;, eller &lt;b&gt;åtte eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine litecoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -338,15 +259,6 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Avslutt applikasjonen</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Vis informasjon om BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>Om &amp;Qt</translation>
     </message>
@@ -395,23 +307,12 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Reindekserer blokker på harddisk...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Send til en BeaverCoin-adresse</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Endre oppsett for BeaverCoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Send til en Litecoin-adresse</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Endre oppsett for Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -434,15 +335,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>&amp;Verifiser melding...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -457,19 +351,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>&amp;Motta</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Adressebok</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;Om BeaverCoin</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>Vis informasjon om Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -484,23 +367,12 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Signér en melding for å bevise at du eier denne adressen</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt BeaverCoin-adresse</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Signer en melding med Litecoin-adressene dine for å bevise at du eier dem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Litecoin-adresse</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -523,23 +395,12 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <translation>Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>BeaverCoinklient</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til BeaverCoin-nettverket</numerusform><numerusform>%n aktive forbindelser til BeaverCoin-nettverket</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Forespør betalinger (genererer QR-koder og litecoin: URIer)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>&amp;Om Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -646,22 +507,6 @@ Adresse: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>URI håndtering</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig BeaverCoin-adresse eller feil i URI-parametere.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;låst opp&lt;/b&gt;</translation>
     </message>
@@ -669,14 +514,6 @@ Adresse: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og BeaverCoin må derfor avslutte.</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -728,14 +565,8 @@ Adresse: %4
         <translation>velg (fjern) alle</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Den angitte adressed &quot;%1&quot; er ikke en gyldig BeaverCoin-adresse.</translation>
-=======
         <source>Tree mode</source>
         <translation>Trevisning</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -746,15 +577,8 @@ Adresse: %4
         <translation>Beløp</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Received with label</source>
         <translation>Mottatt med merkelapp</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -801,23 +625,12 @@ Adresse: %4
         <translation>Lås opp ubrukte</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Start BeaverCoin automatisk etter innlogging.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Start BeaverCoin ved systeminnlogging</translation>
-=======
         <source>Copy quantity</source>
         <translation>Kopier mengde</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>Kopier gebyr</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -832,28 +645,16 @@ Adresse: %4
         <translation>Kopier prioritet</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk BeaverCoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
-=======
         <source>Copy dust</source>
         <translation>Kopier støv</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Kopier veksel</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Koble til BeaverCoin-nettverket gjennom en SOCKS proxy (f.eks. ved tilkobling gjennom Tor).</translation>
-=======
         <source>highest</source>
         <translation>høyest</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -912,37 +713,20 @@ Adresse: %4
         <translation>Denne merkelappen blir rød, hvis transaksjonsstørrelsen er større enn 1000 bytes.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Språket for brukergrensesnittet kan settes her. Innstillingen trer i kraft ved omstart av BeaverCoin.</translation>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Dette betyr at et gebyr på minst %1 per KB er påkrevd.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
         <translation>Kan variere +/- 1 byte per input.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av beavercoins.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Om BeaverCoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
-=======
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Transaksjoner med høyere prioritet har mer sannsynlighet for å bli inkludert i en blokk.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Denne merkelappen blir rød, hvis prioriteten er mindre enn "medium".</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -984,15 +768,8 @@ Adresse: %4
         <translation>&amp;Adresse</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Denne innstillingen trer i kraft etter omstart av BeaverCoin.</translation>
-=======
         <source>New receiving address</source>
         <translation>Ny mottaksadresse</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -1003,15 +780,8 @@ Adresse: %4
         <translation>Rediger mottaksadresse</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med BeaverCoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
-=======
         <source>Edit sending address</source>
         <translation>Rediger utsendingsadresse</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1056,14 +826,8 @@ Adresse: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>Kan ikke starte beavercoin: klikk-og-betal håndterer</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1187,14 +951,8 @@ Adresse: %4
 <context>
     <name>OptionsDialog</name>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Vis BeaverCoin-Qt hjelpemelding for å få en liste med mulige kommandolinjevalg.</translation>
-=======
         <source>Options</source>
         <translation>Innstillinger</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Main</source>
@@ -1209,51 +967,28 @@ Adresse: %4
         <translation>&amp;Start Litecoin ved systeminnlogging</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin - vindu for feilsøk</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>BeaverCoin Kjerne</translation>
-=======
         <source>Size of &amp;database cache</source>
         <translation>Størrelse på &amp;database hurtigbuffer</translation>
     </message>
     <message>
         <source>MB</source>
         <translation>MB</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Antall script &amp;verifikasjonstråder</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åpne BeaverCoin loggfil for feilsøk fra datamappen. Dette kan ta noen sekunder for store loggfiler.</translation>
-=======
         <source>Accept connections from outside</source>
         <translation>Tillat tilkoblinger fra utsiden</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Allow incoming connections</source>
         <translation>Tillatt innkommende tilkoblinger</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Velkommen til BeaverCoin RPC konsoll.</translation>
-=======
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP-adressen til proxyen (f.eks. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1264,21 +999,8 @@ Adresse: %4
         <translation>Tredjepart transaksjon URLer</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation>Send BeaverCoins</translation>
-=======
         <source>Active command-line options that override above options:</source>
         <translation>Aktive kommandolinjevalg som overstyrer valgene ovenfor:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1309,28 +1031,16 @@ Adresse: %4
         <translation>Aktiver &amp;myntkontroll funksjoner</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation>S&amp;end</translation>
-=======
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
         <translation>Hvis du sperrer for bruk av ubekreftet veksel, kan ikke vekselen fra transaksjonen bli brukt før transaksjonen har minimum en bekreftelse. Dette påvirker også hvordan balansen din blir beregnet.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Bruk ubekreftet veksel</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Bekreft sending av beavercoins</translation>
-=======
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Åpne automatisk Litecoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1365,14 +1075,8 @@ Adresse: %4
         <translation>Vis kun ikon i systemkurv etter minimering av vinduet.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Feil: Transaksjonen ble avvist. Dette kan skje om noe av beløpet allerede var brukt, f.eks. hvis du kopierte wallet.dat og noen beavercoins ble brukt i kopien men ikke ble markert som brukt her.</translation>
-=======
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimer til systemkurv istedenfor oppgavelinjen</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
@@ -1387,14 +1091,8 @@ Adresse: %4
         <translation>&amp;Visning</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen betalingen skal sendes til  (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>User Interface &amp;language:</source>
         <translation>&amp;Språk for brukergrensesnitt</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
@@ -1425,14 +1123,8 @@ Adresse: %4
         <translation>standardverdi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Skriv inn en BeaverCoin adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>none</source>
         <translation>ingen</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -1447,14 +1139,8 @@ Adresse: %4
         <translation>Klienten vil bli lukket, vil du fortsette?</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen for signering av meldingen (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>This change would require a client restart.</source>
         <translation>Denne endringen krever omstart av klienten.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1488,14 +1174,8 @@ Adresse: %4
         <translation>Under behandling:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne BeaverCoin-adressen</translation>
-=======
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>Totalt antall ubekreftede transaksjoner som ikke teller med i saldo</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Immature:</source>
@@ -1518,23 +1198,12 @@ Adresse: %4
         <translation>Din nåværende saldo</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen meldingen var signert med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte BeaverCoin-adressen</translation>
-=======
         <source>Your current balance in watch-only addresses</source>
         <translation>Din nåværende balanse i kun observerbare adresser</translation>
     </message>
     <message>
         <source>Spendable:</source>
         <translation>Kan brukes:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1545,29 +1214,16 @@ Adresse: %4
         <translation>Ubekreftede transaksjoner til kun observerbare adresser</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Skriv inn en BeaverCoin adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Mined balance in watch-only addresses that has not yet matured</source>
         <translation>Utvunnet balanse i kun observerbare adresser som ennå ikke har modnet</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Nåværende totale balanse i kun observerbare adresser</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Angi BeaverCoin signatur</translation>
-=======
         <source>out of sync</source>
         <translation>ute av synk</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -1621,14 +1277,8 @@ Adresse: %4
         <translation>Filhåndtering for betalingsetterspørring</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Betalingsetterspørringsfil kan ikke leses! Dette kan være forårsaket av en ugyldig betalingsetterspørringsfil.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -2769,18 +2419,12 @@ Adresse: %4
         <translation>Transaksjons-ID</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererte beavercoins må modnes 120 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet til nettverket for å legges til i blokkjeden. Hvis den ikke kommer inn i kjeden får den tilstanden &quot;ikke akseptert&quot; og vil ikke kunne brukes. Dette skjer noen ganger hvis en annen node genererer en blokk noen sekunder fra din.</translation>
-=======
         <source>Merchant</source>
         <translation>Forhandler</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Genererte litecoins må modnes %1 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet på nettverket for å bli lagt til i kjeden av blokker. Hvis den ikke kommer med i kjeden vil den endre seg til "ikke akseptert" og pengene vil ikke kunne brukes. Dette vil noen ganger skje hvis en annen node genererer en blokk noen sekunder i tid fra din egen.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug information</source>
@@ -3331,14 +2975,8 @@ Adresse: %4
         <translation>Sett databasen sin størrelse på hurtigbufferen i megabytes (%d til %d, standardverdi: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>Send BeaverCoins</translation>
-=======
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Sett maks blokkstørrelse i bytes (standardverdi: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -3373,28 +3011,16 @@ Adresse: %4
         <translation>Du må gjenoppbygge databasen med å bruke -reindex for å endre -txindex</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>BeaverCoin versjon</translation>
-=======
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Importerer blokker fra ekstern fil blk000??.dat</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Tillat JSON-RPC-tilkoblinger fra angitt kilde. Gyldig for &lt;ip&gt; er en enkelt IP (f. eks. 1.2.3.4), et nettverk/nettmaske (f. eks. 1.2.3.4/255.255.255.0) eller et nettverk/CIDR (f. eks. 1.2.3.4/24). Dette alternativet kan angis flere ganger</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Send kommando til -server eller beavercoind</translation>
-=======
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
         <translation>En feil oppstod under oppsett av RPC-adressen %s port %u for lytting: %s</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3409,23 +3035,12 @@ Adresse: %4
         <translation>Ute av stand til å låse datamappen %s. Litecoin Core kjører sannsynligvis allerede.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: beavercoind.pid)</translation>
-=======
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Ratebegrens gratistransaksjoner kontinuerlig til &lt;n&gt;*1000 bytes per minutt (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Opprett nye filer med standardtillatelser i systemet, i stedet for umask 077 (kun virksom med lommebokfunksjonalitet slått av)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3436,14 +3051,8 @@ Adresse: %4
         <translation>Feil: Argumentet -socks er ikke støttet. Det er ikke lenger mulig å sette SOCKS-versjon; bare SOCKS5-proxyer er støttet.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Lytt etter tilkoblinger på &lt;port&gt; (standardverdi: 9333 eller testnet: 19333)</translation>
-=======
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Utfør kommando når et relevant varsel er mottatt eller vi ser en veldig lang gaffel (%s i kommando er erstattet med melding)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3470,14 +3079,8 @@ Adresse: %4
         <translation>Maksimal sum av gebyrer som kan brukes i en enkelt lommebokstransaksjon, settes den for lavt kan store transaksjoner bli avbrutt (standardverdi: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Lytt etter JSON-RPC tilkoblinger på &lt;port&gt; (standardverdi: 9332 or testnet: 19332)</translation>
-=======
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Søk etter nodeadresser via DNS-oppslag, hvis vi har få adresser å koble til (standard: 1 med mindre -connect)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3499,59 +3102,17 @@ Adresse: %4
         <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=beavercoinrpc
-=======
 rpcuser=litecoinrpc
->>>>>>> pr/5
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-=======
 for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
->>>>>>> pr/5
 </source>
         <translation>For å bruke litecoind, eller -server valget til litecoin-qt, må du angi et rpcpassord i konfigurasjonsfilen:
 %s
 Det anbefales at du bruker det følgende tilfeldige passordet:
-<<<<<<< HEAD
-rpcbruker=beavercoinrpc
-rpcpassord=%s
-(du behøver ikke å huske passordet)
-Brukernavnet og passordet MÅ IKKE være like.
-Om filen ikke eksisterer, opprett den nå med eier-kun-les filrettigheter.
-Det er også anbefalt at å sette varselsmelding slik du får melding om problemer.
-For eksempel: varselmelding=echo %%s | mail -s &quot;BeaverCoin varsel&quot; admin@foo.com</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>En feil oppstod under oppsettet av RPC port %u for IPv6, tilbakestilles til IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind til angitt adresse. Bruk [vertsmaskin]:port notasjon for IPv6</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
-=======
 rpcuser=litecoinrpc
 rpcpassword=%s
 (du behøver ikke å huske passordet)
@@ -3560,7 +3121,6 @@ Om filen ikke eksisterer, opprett den med eier-kun-les filrettigheter.
 Det er også anbefalt at å sette varselsmelding slik du får melding om problemer;
 for eksempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
 </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
@@ -3587,14 +3147,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Koble til via SOCKS5-proxy</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke BeaverCoin fungere riktig.</translation>
-=======
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
         <translation>Copyright (C) 2009-%i utviklerne av Bitcoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3793,14 +3347,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Denne hjelpemeldingen</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valg: (se BeaverCoin Wiki for instruksjoner for oppsett av SSL)</translation>
-=======
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Tillat oppslag i DNS for -addnode, -seednode og -connect</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3951,23 +3499,12 @@ for eksempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Setter flagget DB_PRIVATE i miljøet til lommebokdatabasen (standardverdi: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start BeaverCoin på nytt for å fullføre</translation>
-=======
         <source>Specify configuration file (default: %s)</source>
         <translation>Angi konfigurasjonsfil (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Angi tidsavbrudd for forbindelse i millisekunder (minimum: 1, standardverdi: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4014,20 +3551,6 @@ for eksempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Legg til node for tilkobling og hold forbindelsen åpen</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen. Sannsynligvis kjører BeaverCoin allerede.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Gebyr per KB for transaksjoner du sender</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>Laster lommebok...</translation>
     </message>

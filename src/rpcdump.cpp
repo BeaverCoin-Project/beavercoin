@@ -93,8 +93,6 @@ Value importprivkey(const Array& params, bool fHelp)
 
     EnsureWalletIsUnlocked();
 
-    EnsureWalletIsUnlocked();
-
     string strSecret = params[0].get_str();
     string strLabel = "";
     if (params.size() > 1)

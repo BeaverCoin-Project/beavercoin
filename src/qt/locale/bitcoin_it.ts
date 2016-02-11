@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>Info su BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>Versione di &lt;b&gt;BeaverCoin&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-Questo è un software sperimentale.
-
-Distribuito sotto la licenza software MIT/X11, vedi il file COPYING incluso oppure su http://www.opensource.org/licenses/mit-license.php.
-
-Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso del Toolkit OpenSSL (http://www.openssl.org/), software crittografico scritto da Eric Young (eay@cryptsoft.com) e software UPnP scritto da Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Copyright</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation>Sviluppatori di BeaverCoin</translation>
-    </message>
-</context>
-=======
 <TS language="it" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -65,14 +22,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>&amp;Copia</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi BeaverCoin per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>C&amp;hiudi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -83,14 +34,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Rimuove dalla lista l'indirizzo attualmente selezionato</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>Esporta su file i dati contenuti nella tabella corrente</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -109,14 +54,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Scegli l'indirizzo con cui ricevere litecoin</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Verifica un messaggio per accertarsi che sia firmato con un indirizzo BeaverCoin specifico</translation>
-=======
         <source>C&amp;hoose</source>
         <translation>Sc&amp;egli</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sending addresses</source>
@@ -127,18 +66,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
-=======
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Questo è un elenco di indirizzi Litecoin a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare litecoin.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Questi sono i tuoi indirizzi Litecoin che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -149,19 +82,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>&amp;Modifica</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>Invia &amp;BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Esporta gli indirizzi della rubrica</translation>
-=======
         <source>Export Address List</source>
         <translation>Esporta Lista Indirizzi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -242,14 +164,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Conferma la cifratura del portamonete</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>Attenzione: se si cifra il portamonete e si perde la frase d&apos;ordine, &lt;b&gt;SI PERDERANNO TUTTI I PROPRI BEAVERCOIN&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Attenzione: perdendo la passphrase di un portamonete cifrato &lt;b&gt;TUTTI I PROPRI LITECOIN ANDRANNO PERSI&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -268,18 +184,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Portamonete cifrato</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>BeaverCoin verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Inserisci la nuova passphrase per il portamonete.&lt;br/&gt;Si consiglia di utilizzare &lt;b&gt;almeno dieci caratteri casuali&lt;/b&gt; oppure &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Litecoin si chiuderà per portare a termine il processo di cifratura. Ricorda che cifrare il tuo portamonete non può fornire una protezione totale contro i furti causati da infezioni malware.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -349,15 +259,6 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>Mostra informazioni su BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>Informazioni su &amp;Qt</translation>
     </message>
@@ -406,23 +307,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Re-indicizzazione blocchi su disco...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Invia monete ad un indirizzo beavercoin</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>Modifica configurazione opzioni per beavercoin</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Invia fondi ad un indirizzo Litecoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Modifica opzioni di configurazione per Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -445,15 +335,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -472,15 +355,6 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Mostra le informazioni su Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>&amp;Info su BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-=======
->>>>>>> pr/5
         <source>&amp;Show / Hide</source>
         <translation>&amp;Mostra / Nascondi</translation>
     </message>
@@ -493,23 +367,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Cifra le chiavi private che appartengono al tuo portamonete</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo BeaverCoin per dimostrare di possederli</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Verifica i messaggi per accertarsi che siano stati firmati con gli indirizzi BeaverCoin specificati</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Firma messaggi con i tuoi indirizzi Litecoin per dimostrarne il possesso</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifica che i messaggi siano stati firmati con gli indirizzi Litecoin specificati</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -532,23 +395,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <translation>Litecoin Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>BeaverCoin client</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>%n connessione attiva alla rete BeaverCoin</numerusform><numerusform>%n connessioni attive alla rete BeaverCoin</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Richiedi pagamenti (genera codici QR e litecoin: URI)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>&amp;Informazioni su Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -656,37 +508,12 @@ Indirizzo: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Gestione URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo BeaverCoin invalido o da parametri URI non corretti.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-<<<<<<< HEAD
-        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>Riscontrato un errore irreversibile. BeaverCoin non può più continuare in sicurezza e verrà terminato.</translation>
-=======
         <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -739,14 +566,8 @@ Indirizzo: %4
         <translation>(de)seleziona tutto</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo beavercoin valido.</translation>
-=======
         <source>Tree mode</source>
         <translation>Modalità Albero</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -757,15 +578,8 @@ Indirizzo: %4
         <translation>Importo</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Received with label</source>
         <translation>Ricevuto con l'etichetta</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -812,23 +626,12 @@ Indirizzo: %4
         <translation>Sbloccare non spesi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Avvia automaticamente BeaverCoin all&apos;accensione del computer</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>&amp;Fai partire BeaverCoin all&apos;avvio del sistema</translation>
-=======
         <source>Copy quantity</source>
         <translation>Copia quantità</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>Copia commissione</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -843,28 +646,16 @@ Indirizzo: %4
         <translation>Copia priorità</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client BeaverCoin sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
-=======
         <source>Copy dust</source>
         <translation>Copia trascurabile</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Copia resto</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connettiti alla rete Bitcon attraverso un proxy SOCKS (ad esempio quando ci si collega via Tor)</translation>
-=======
         <source>highest</source>
         <translation>massima</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -923,14 +714,8 @@ Indirizzo: %4
         <translation>Questa etichetta diventerà rossa se la dimensione della transazione supererà i 1000 byte.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di BeaverCoin.</translation>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>In tal caso sarà necessaria una commissione di almeno %1 per ogni kB.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -941,14 +726,8 @@ Indirizzo: %4
         <translation>Le transazioni con priorità più alta hanno più probabilità di essere incluse in un blocco.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Se mostrare l&apos;indirizzo BeaverCoin nella transazione o meno.</translation>
-=======
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Questa etichetta diventerà rossa se la priorità sarà inferiore a "media".</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -990,15 +769,8 @@ Indirizzo: %4
         <translation>&amp;Indirizzo</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>L&apos;impostazione avrà effetto dopo il riavvio di BeaverCoin.</translation>
-=======
         <source>New receiving address</source>
         <translation>Nuovo indirizzo di ricezione</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -1009,15 +781,8 @@ Indirizzo: %4
         <translation>Modifica indirizzo di ricezione</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network BeaverCoin dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
-=======
         <source>Edit sending address</source>
         <translation>Modifica indirizzo d'invio</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1062,14 +827,8 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1812,14 +1571,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Benvenuto nella console RPC di Litecoin.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Mostra il messaggio di aiuto di BeaverCoin-QT per avere la lista di tutte le opzioni della riga di comando di BeaverCoin.</translation>
-=======
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Usa le frecce direzionali per scorrere la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt; per cancellarla.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1834,51 +1587,28 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>%1 KB</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin - Finestra debug</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation type="unfinished"/>
-=======
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>via %1</source>
         <translation>via %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file di log del debug di BeaverCoin dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
-=======
         <source>never</source>
         <translation>mai</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Inbound</source>
         <translation>In entrata</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>Benvenuto nella console RPC di BeaverCoin</translation>
-=======
         <source>Outbound</source>
         <translation>In uscita</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Unknown</source>
@@ -2062,9 +1792,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
-        <translation>Spedisci BeaverCoin</translation>
-=======
         <translation>Invia Litecoin</translation>
     </message>
     <message>
@@ -2190,7 +1917,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>(confirmation may take longer)</source>
         <translation>(la conferma potrebbe richiedere più tempo)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2229,14 +1955,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Conferma l'invio di litecoin</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Conferma la spedizione di beavercoin</translation>
-=======
         <source>%1 to %2</source>
         <translation>%1 a %2</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2331,14 +2051,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Sei sicuro di voler inviare?</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcuni beavercoin nel portamonete sono stati già spesi, ad esempio se è stata usata una copia del file wallet.dat e i beavercoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
-=======
         <source>added as transaction fee</source>
         <translation>aggiunto come tassa di transazione</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2352,16 +2066,6 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Paga &amp;a:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;indirizzo del beneficiario a cui inviare il pagamento (ad esempio Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-=======
->>>>>>> pr/5
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Inserisci un'etichetta per questo indirizzo, per aggiungerlo alla rubrica</translation>
     </message>
@@ -2433,14 +2137,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Arresto di Litecoin Core in corso...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inserisci un indirizzo BeaverCoin (ad esempio Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Non spegnere il computer fino a quando questa finestra non si sarà chiusa.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2458,14 +2156,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Puoi firmare messaggi con i tuoi indirizzi in modo da dimostrarne il possesso. Presta attenzione a non firmare dichiarazioni vaghe, attacchi di phishing potrebbero cercare di spingerti ad apporre la tua firma su di esse. Firma solo dichiarazioni completamente dettagliate e delle quali condividi in pieno il contenuto.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inserisci un indirizzo BeaverCoin (ad esempio Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>L'indirizzo Litecoin da utilizzare per firmare il messaggio</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2496,14 +2188,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2526,23 +2212,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Inserisci l'indirizzo del firmatario, il messaggio (assicurandoti di copiare esattamente anche i ritorni a capo, gli spazi, le tabulazioni, etc..) e la firma qui sotto, per verificare il messaggio. Presta attenzione a non vedere nella sola firma più di quanto non sia riportato nel messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inserisci un indirizzo BeaverCoin (ad esempio Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirizzo BeaverCoin specificato</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>L'indirizzo Litecoin con cui è stato contrassegnato il messaggio</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verifica il messaggio per accertare che sia stato firmato con l'indirizzo specificato</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2553,31 +2228,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Reimposta tutti i campi della verifica messaggio</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inserisci un indirizzo BeaverCoin (ad esempio Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Clicca &quot;Firma il messaggio&quot; per ottenere la firma</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>Inserisci firma BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-=======
         <source>Click "Sign Message" to generate signature</source>
         <translation>Clicca "Firma il messaggio" per ottenere la firma</translation>
     </message>
     <message>
->>>>>>> pr/5
         <source>The entered address is invalid.</source>
         <translation>L'indirizzo inserito non è valido.</translation>
     </message>
@@ -2587,11 +2241,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-<<<<<<< HEAD
-        <translation>L&apos;indirizzo beavercoin inserito non è associato a nessuna chiave.</translation>
-=======
         <translation>L'indirizzo litecoin inserito non è associato a nessuna chiave.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2633,18 +2283,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation>Sviluppatori di BeaverCoin</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2765,18 +2409,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>ID della transazione</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Bisogna attendere 120 blocchi prima di spendere I beavercoin generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo.</translation>
-=======
         <source>Merchant</source>
         <translation>Commerciante</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>È necessario attendere %1 blocchi prima che i litecoin generati possano essere spesi. Al momento della generazione questo blocco è stato trasmesso alla rete in modo da poter essere aggiunto alla block chain. Se l'inserimento avrà esito negativo lo stato del blocco sarà modificato in "non accettato" ed esso risulterà non spendibile. Ciò può verificarsi occasionalmente nel caso in cui un altro blocco sia stato generato entro pochi secondi dal tuo.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug information</source>
@@ -3323,14 +2961,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Ricostruzione dell'indice della block chain dai file blk000??.dat correnti</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>Spedisci BeaverCoin</translation>
-=======
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Imposta la dimensione della cache del database in megabyte (%d a %d, predefinito: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
@@ -3365,29 +2997,16 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Opzioni portamonete:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>Versione di BeaverCoin</translation>
-=======
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>È necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Importa blocchi da un file blk000??.dat esterno</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>Manda il comando a -server o beavercoind
-</translation>
-=======
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Permette connessioni JSON-RPC dall'origine specificata. I valori validi per &lt;ip&gt; sono un singolo IP (ad es. 1.2.3.4), una network/netmask (ad es. 1.2.3.4/255.255.255.0) oppure una network/CIDR (ad es. 1.2.3.4/24). Questa opzione può essere specificata più volte.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3402,25 +3021,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Non è possibile ottenere un lock sulla cartella %s. Probabilmente Litecoin Core è già in esecuzione.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Specifica il file di configurazione (di default: beavercoin.conf)
-</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Specifica il file pid (default: beavercoind.pid)
-</translation>
-=======
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Limita la quantità di transazioni gratuite ad &lt;n&gt;*1000 byte al minuto (predefinito: %u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Crea nuovi file con i permessi di default del sistema, invece che con umask 077 (ha effetto solo con funzionalità di portamonete disabilitate)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3431,14 +3037,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Errore: individuato argomento -socks non supportato. Non è più possibile impostare la versione SOCKS, solamente i proxy SOCKS5 sono supportati.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Ascolta le connessioni JSON-RPC su &lt;porta&gt; (default: 9333 o testnet: 19333)</translation>
-=======
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Esegue un comando in caso di ricezione di un allarme pertinente o se si rileva un fork molto lungo (%s in cmd è sostituito dal messaggio)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3465,14 +3065,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Commissioni massime totali da includere in una singola transazione dal portamonete. Un'impostazione troppo bassa potrebbe provocare il fallimento di transazioni di grosse dimensioni (predefinito: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Attendi le connessioni JSON-RPC su &lt;porta&gt; (default: 9332 or testnet: 19332)</translation>
-=======
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Ottiene gli indirizzi dei peer attraverso interrogazioni DNS, in caso di scarsa disponibilità (predefinito: 1 a meno che -connect non sia specificato)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3494,51 +3088,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=beavercoinrpc
-=======
 rpcuser=litecoinrpc
->>>>>>> pr/5
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Errore riscontrato durante l&apos;impostazione della porta RPC %u per l&apos;ascolto su IPv6, tornando su IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Collega all&apos;indirizzo indicato e resta sempre in ascolto su questo. Usa la notazione [host]:porta per l&apos;IPv6</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente BeaverCoin è già in esecuzione.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcuni beavercoin nel portamonete sono stati già spesi, ad esempio se è stata usata una copia del file wallet.dat e i beavercoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Errore: questa transazione necessita di una commissione di almeno %s a causa del suo ammontare, della sua complessità, o dell&apos;uso di fondi recentemente ricevuti!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
-=======
 for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
 </source>
         <translation>Per utilizzare litecoind o l'opzione -server in Litecoin Core è necessario specificare una rpcpassword nel file di configurazione:
@@ -3551,7 +3106,6 @@ Il nome utente e la password NON DEVONO corrispondere.
 Se il file non esiste si raccomanda di crearlo con permessi di lettura per il solo proprietario.
 Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche di eventuali problemi, ad es. alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
 </translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
@@ -3574,14 +3128,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Impossibile risolvere indirizzo -whitebind: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato BeaverCoin non funziona correttamente.</translation>
-=======
         <source>Connect through SOCKS5 proxy</source>
         <translation>Connessione attraverso un proxy SOCKS5</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
@@ -3676,14 +3224,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Invia le informazioni di trace/debug alla console invece che al file debug.log</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation>Scrittura nel database dei beavercoin fallita</translation>
-=======
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Invia transazioni a zero commissioni se possibile (predefinito: %u)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3786,14 +3328,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Questo messaggio di aiuto</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>Opzioni SSL: (vedi il wiki di BeaverCoin per le istruzioni di configurazione SSL)</translation>
-=======
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Consente interrogazioni DNS per -addnode, -seednode e -connect</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3944,23 +3480,12 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Imposta il flag DB_PRIVATE nell'ambiente di database del portamonete (predefinito: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>Errore caricamento wallet.dat: il wallet richiede una versione nuova di BeaverCoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Il portamonete deve essere riscritto: riavviare BeaverCoin per completare</translation>
-=======
         <source>Specify configuration file (default: %s)</source>
         <translation>Specifica il file di configurazione (predefinito: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Specifica il timeout di connessione in millisecondi (minimo:1, predefinito: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4004,21 +3529,7 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-<<<<<<< HEAD
-        <translation>Elérendő csomópont megadása and attempt to keep the connection open</translation>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente BeaverCoin è già in esecuzione.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Commissione per KB da aggiungere alle transazioni in uscita</translation>
-=======
         <translation>Aggiunge un nodo a cui connettersi e tenta di mantenere aperta la connessione</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Loading wallet...</source>

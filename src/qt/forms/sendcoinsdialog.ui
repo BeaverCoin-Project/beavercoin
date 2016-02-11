@@ -7,21 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>850</width>
-<<<<<<< HEAD
-    <height>400</height>
-=======
     <height>526</height>
->>>>>>> pr/5
    </rect>
   </property>
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
-<<<<<<< HEAD
-  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0">
-=======
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0,0">
->>>>>>> pr/5
    <property name="bottomMargin">
     <number>8</number>
    </property>
@@ -47,11 +39,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayoutCoinControl2">
       <property name="spacing">
-<<<<<<< HEAD
-       <number>-1</number>
-=======
        <number>0</number>
->>>>>>> pr/5
       </property>
       <property name="leftMargin">
        <number>0</number>
@@ -121,12 +109,9 @@
             <property name="text">
              <string>Inputs...</string>
             </property>
-<<<<<<< HEAD
-=======
             <property name="autoDefault">
              <bool>false</bool>
             </property>
->>>>>>> pr/5
            </widget>
           </item>
           <item>
@@ -191,9 +176,6 @@
            <string notr="true"/>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayoutCoinControl5">
-<<<<<<< HEAD
-           <property name="margin">
-=======
            <property name="leftMargin">
             <number>0</number>
            </property>
@@ -204,7 +186,6 @@
             <number>0</number>
            </property>
            <property name="bottomMargin">
->>>>>>> pr/5
             <number>0</number>
            </property>
            <item>
@@ -237,16 +218,11 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlQuantityText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>Quantity:</string>
@@ -258,15 +234,6 @@
                </item>
                <item row="0" column="1">
                 <widget class="QLabel" name="labelCoinControlQuantity">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -286,16 +253,11 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlBytesText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>Bytes:</string>
@@ -304,15 +266,6 @@
                </item>
                <item row="1" column="1">
                 <widget class="QLabel" name="labelCoinControlBytes">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -348,16 +301,11 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlAmountText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>Amount:</string>
@@ -369,15 +317,6 @@
                </item>
                <item row="0" column="1">
                 <widget class="QLabel" name="labelCoinControlAmount">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -385,11 +324,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string notr="true">0.00 BTC</string>
-=======
                   <string notr="true">0.00 LTC</string>
->>>>>>> pr/5
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -398,16 +333,11 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlPriorityText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>Priority:</string>
@@ -416,15 +346,6 @@
                </item>
                <item row="1" column="1">
                 <widget class="QLabel" name="labelCoinControlPriority">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -432,11 +353,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string>medium</string>
-=======
                   <string notr="true">medium</string>
->>>>>>> pr/5
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -464,16 +381,11 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlFeeText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>Fee:</string>
@@ -485,15 +397,6 @@
                </item>
                <item row="0" column="1">
                 <widget class="QLabel" name="labelCoinControlFee">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -501,11 +404,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string notr="true">0.00 BTC</string>
-=======
                   <string notr="true">0.00 LTC</string>
->>>>>>> pr/5
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -514,13 +413,6 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlLowOutputText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-                 </property>
-                 <property name="text">
-                  <string>Low Output:</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
@@ -529,21 +421,11 @@
                  </property>
                  <property name="text">
                   <string>Dust:</string>
->>>>>>> pr/5
                  </property>
                 </widget>
                </item>
                <item row="1" column="1">
                 <widget class="QLabel" name="labelCoinControlLowOutput">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -551,11 +433,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string>no</string>
-=======
                   <string notr="true">no</string>
->>>>>>> pr/5
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -583,16 +461,11 @@
                </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelCoinControlAfterFeeText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>After Fee:</string>
@@ -604,15 +477,6 @@
                </item>
                <item row="0" column="1">
                 <widget class="QLabel" name="labelCoinControlAfterFee">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -620,11 +484,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string notr="true">0.00 BTC</string>
-=======
                   <string notr="true">0.00 LTC</string>
->>>>>>> pr/5
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -633,16 +493,11 @@
                </item>
                <item row="1" column="0">
                 <widget class="QLabel" name="labelCoinControlChangeText">
-<<<<<<< HEAD
-                 <property name="styleSheet">
-                  <string notr="true">font-weight:bold;</string>
-=======
                  <property name="font">
                   <font>
                    <weight>75</weight>
                    <bold>true</bold>
                   </font>
->>>>>>> pr/5
                  </property>
                  <property name="text">
                   <string>Change:</string>
@@ -651,15 +506,6 @@
                </item>
                <item row="1" column="1">
                 <widget class="QLabel" name="labelCoinControlChange">
-<<<<<<< HEAD
-                 <property name="font">
-                  <font>
-                   <family>Monospace</family>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-=======
->>>>>>> pr/5
                  <property name="cursor">
                   <cursorShape>IBeamCursor</cursorShape>
                  </property>
@@ -667,11 +513,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-<<<<<<< HEAD
-                  <string notr="true">0.00 BTC</string>
-=======
                   <string notr="true">0.00 LTC</string>
->>>>>>> pr/5
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -701,25 +543,16 @@
           </property>
           <item>
            <widget class="QCheckBox" name="checkBoxCoinControlChange">
-<<<<<<< HEAD
-            <property name="text">
-             <string>custom change address</string>
-=======
             <property name="toolTip">
              <string>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</string>
             </property>
             <property name="text">
              <string>Custom change address</string>
->>>>>>> pr/5
             </property>
            </widget>
           </item>
           <item>
-<<<<<<< HEAD
-           <widget class="QLineEdit" name="lineEditCoinControlChange">
-=======
            <widget class="QValidatedLineEdit" name="lineEditCoinControlChange">
->>>>>>> pr/5
             <property name="enabled">
              <bool>false</bool>
             </property>
@@ -784,11 +617,7 @@
         <x>0</x>
         <y>0</y>
         <width>830</width>
-<<<<<<< HEAD
-        <height>165</height>
-=======
         <height>68</height>
->>>>>>> pr/5
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -1523,11 +1352,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string>123.456 BVC</string>
-=======
           <string notr="true">123.456 LTC</string>
->>>>>>> pr/5
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>

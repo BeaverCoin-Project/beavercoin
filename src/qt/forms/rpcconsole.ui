@@ -11,11 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-<<<<<<< HEAD
-   <string>BeaverCoin - Debug window</string>
-=======
    <string>Debug window</string>
->>>>>>> pr/5
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -40,11 +36,7 @@
           </font>
          </property>
          <property name="text">
-<<<<<<< HEAD
-          <string>BeaverCoin Core</string>
-=======
           <string>General</string>
->>>>>>> pr/5
          </property>
         </widget>
        </item>
@@ -339,11 +331,7 @@
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
-=======
           <string>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
->>>>>>> pr/5
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -354,35 +342,6 @@
         </widget>
        </item>
        <item row="16" column="0">
-<<<<<<< HEAD
-        <widget class="QLabel" name="labelCLOptions">
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>Command-line options</string>
-         </property>
-        </widget>
-       </item>
-       <item row="17" column="0">
-        <widget class="QPushButton" name="showCLOptionsButton">
-         <property name="toolTip">
-          <string>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</string>
-         </property>
-         <property name="text">
-          <string>&amp;Show</string>
-         </property>
-         <property name="autoDefault">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="18" column="0">
-=======
->>>>>>> pr/5
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>

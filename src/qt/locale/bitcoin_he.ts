@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>אודות לייטקוין</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>גרסת &lt;b&gt;לייטקוין&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-זוהי תוכנה ניסיונית.
-
-מופצת תחת רישיון התוכנה MIT/X11, ראה את הקובץ המצורף COPYING או http://www.opensource.org/licenses/mit-license.php.
-
-המוצר הזה כולל תוכנה שפותחה ע&quot;י פרויקט OpenSSL לשימוש בתיבת הכלים OpenSSL (http://www.openssl.org/) ותוכנה קריפטוגרפית שנכתבה ע&quot;י אריק יאנג (eay@cryptsoft.com) ותוכנת UPnP שנכתבה ע&quot;י תומס ברנרד.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>זכויות יוצרים</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-=======
 <TS language="he" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -61,14 +18,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ה&amp;עתקה</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>אלה כתובת הלייטקוין שלך עבור קבלת תשלומים. ייתכן ותרצה לתת כתובת שונה לכל שולח כדי שתוכל לעקוב אחר מי משלם לך.</translation>
-=======
         <source>C&amp;lose</source>
         <translation>סגירה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -79,14 +30,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>מחיקת הכתובת שנבחרה מהרשימה</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>חתום על הודעה בכדי להוכיח כי אתה הבעלים של כתובת לייטקוין.</translation>
-=======
         <source>Export the data in the current tab to a file</source>
         <translation>יצוא הנתונים מהלשונית הנוכחית לקובץ</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Export</source>
@@ -105,14 +50,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>נא לבחור את הכתובת המבוקשת לקבלת המטבעות</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>אמת הודעה בכדי להבטיח שהיא נחתמה עם כתובת לייטקוין מסוימת.</translation>
-=======
         <source>C&amp;hoose</source>
         <translation>בחירה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sending addresses</source>
@@ -123,14 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>כתובות לקבלה</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלה כתובת הלייטקוין שלך עבור שליחת תשלומים. תמיד בדוק את מספר ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
-=======
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>אלה כתובת ללייטקוין שלך לצורך שליחת תשלומים. תמיד יש לבדוק את הכמות ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -227,14 +160,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>אישור הצפנת הארנק</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-        <translation>אזהרה: אם אתה מצפין את הארנק ומאבד את הסיסמא, אתה &lt;b&gt;תאבד את כל הלייטקוינים שלך&lt;/b&gt;!</translation>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>אזהרה: הצפנת הארנק ואיבוד מילת הצופן עשויה להוביל &lt;b&gt;לאיבוד כל הלייטקוינים שלך&lt;/b&gt;!</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -253,18 +180,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>הארנק הוצפן</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>לייטקוין ייסגר עכשיו כדי להשלים את תהליך ההצפנה. זכור שהצפנת הארנק שלך אינו יכול להגן באופן מלא על הלייטקוינים שלך מתוכנות זדוניות המושתלות על המחשב.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>נא להזין את מילת הצופן החדשה לארנק.&lt;br/&gt;כדאי להשתמש במילת צופן המורכבת מ&lt;b&gt;עשרה תווים אקראיים ומעלה&lt;/b&gt;, או &lt;b&gt;שמונה מילים ומעלה&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>לייטקוין ייסגר כעת כדי להשלים את תהליך ההצפנה. עליך לזכור שהצפנת הארנק שלך אינה מגנה באופן מלא על הלייטקוינים שלך מתכניות זדוניות המושתלות על המחשב.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -331,16 +252,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Quit application</source>
-<<<<<<< HEAD
-        <translation>סגור תוכנה</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>הצג מידע על לייטקוין</translation>
-=======
         <translation>יציאה מהתכנית</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -391,23 +303,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>המקטעים נוספים למפתח בכונן…</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>שלח מטבעות לכתובת לייטקוין</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>שנה אפשרויות תצורה עבור לייטקוין</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>שליחת מטבעות לכתובת לייטקוין</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>שינוי התצורה של לייטקוין</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -430,13 +331,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;אימות הודעה…</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-=======
         <source>Litecoin</source>
->>>>>>> pr/5
         <translation>לייטקוין</translation>
     </message>
     <message>
@@ -452,14 +347,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;קבלה</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>אודות לייטקוין</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>הצגת מידע על ליבת לייטקוין</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -474,21 +363,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>חתום על הודעות עם כתובות הלייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>חתום על הודעות עם כתובות ללייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
->>>>>>> pr/5
         <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת לייטקוין מסוימות</translation>
     </message>
     <message>
@@ -512,23 +391,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>תוכנת לייטקוין</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>חיבור פעיל אחד לרשת הלייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת הלייטקוין</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :litecoin)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>על &amp;אודות ליבת לייטקוין</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -618,37 +486,12 @@ Address: %4
 כתובת: %4</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>תפעול URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>לא ניתן לנתח URI! זה יכול להיגרם כתוצאה מכתובת לייטקוין לא תקינה או פרמטרי URI חסרי צורה תקינה.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;פתוח&lt;/b&gt; כרגע</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-<<<<<<< HEAD
-        <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; וכרגע &lt;b&gt;נעול&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>שגיאה סופנית אירעה. לייטקוין אינו יכול להמשיך לפעול בבטחה ולכן ייסגר.</translation>
-=======
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -701,14 +544,8 @@ Address: %4
         <translation>מצב עץ</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>הכתובת שהוכנסה &quot;%1&quot; אינה כתובת לייטקוין תקינה.</translation>
-=======
         <source>List mode</source>
         <translation>מצב רשימה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Amount</source>
@@ -719,15 +556,8 @@ Address: %4
         <translation>תאריך</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Confirmations</source>
         <translation>אישורים</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Confirmed</source>
@@ -774,23 +604,12 @@ Address: %4
         <translation>העתקת אחרי עמלה</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>הפעל את לייטקוין באופן עצמאי לאחר התחברות למערכת.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>התחל את לייטקוין בעת התחברות למערכת</translation>
-=======
         <source>Copy bytes</source>
         <translation>העתקת בתים</translation>
     </message>
     <message>
         <source>Copy priority</source>
         <translation>העתקת עדיפות</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy dust</source>
@@ -805,28 +624,16 @@ Address: %4
         <translation>הגבוה ביותר</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>פתח את פורט לייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מאופשר ונתמך ע&quot;י הנתב.</translation>
-=======
         <source>higher</source>
         <translation>גבוה יותר</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>high</source>
         <translation>גבוה</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>התחבר לרשת הלייטקוין דרך פרוקסי SOCKS (למשל בעת התחברות דרך Tor).</translation>
-=======
         <source>medium-high</source>
         <translation>בינוני - גבוה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>medium</source>
@@ -885,14 +692,8 @@ Address: %4
         <translation>תווית זו מאדימה אם העדיפות היא פחות מ„בינוני“</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>ניתן לקבוע כאן את שפת ממשק המשתמש. הגדרה זו תחול לאחר הפעלה מחדש של לייטקוין.</translation>
-=======
         <source>(no label)</source>
         <translation>(אין תווית)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>change from %1 (%2)</source>
@@ -910,14 +711,8 @@ Address: %4
         <translation>עריכת כתובת</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>האם להציג כתובות לייטקוין ברשימת הפעולות או לא.</translation>
-=======
         <source>&amp;Label</source>
         <translation>ת&amp;ווית</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -956,15 +751,8 @@ Address: %4
         <translation>הכתובת שהוכנסה „%1“ אינה כתובת לייטקוין תקנית.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>הגדרה זו תחול לאחר הפעלה מחדש של לייטקוין.</translation>
-=======
         <source>Could not unlock wallet.</source>
         <translation>פתיחת הארנק נכשלה.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -978,15 +766,8 @@ Address: %4
         <translation>תיקיית נתונים חדשה תיווצר.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הלייטקוין לאחר כינון חיבור, אך התהליך טרם הסתיים.</translation>
-=======
         <source>name</source>
         <translation>שם</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
@@ -1052,14 +833,8 @@ Address: %4
         <translation>הצגת מסך פתיחה בעת הפעלה (בררת מחדל: 1)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>לא ניתן להתחיל את לייטקוין: מפעיל לחץ-לתשלום </translation>
-=======
         <source>Choose data directory on startup (default: 0)</source>
         <translation>בחירת תיקיית נתונים עם ההפעלה (בררת מחדל: 0)</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -1187,14 +962,8 @@ Address: %4
         <translation>&amp;איפוס אפשרויות</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>הצג את הודעה העזרה של beavercoin-qt כדי לקבל רשימה של אפשרויות שורת פקודה של לייטקוין.</translation>
-=======
         <source>&amp;Network</source>
         <translation>&amp;רשת</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -2003,51 +1772,28 @@ Address: %4
         <translation>לאחר עמלה:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>לייטקוין - חלון ניפוי</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>ליבת לייטקוין</translation>
-=======
         <source>Change:</source>
         <translation>עודף:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation>אם אפשרות זו מופעלת אך כתובת העודף ריקה או שגויה, העודף יישלח לכתובת חדשה שתיווצר.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Custom change address</source>
         <translation>כתובת לעודף מותאמת אישית</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>פתח את קובץ יומן הניפוי מתיקיית הנתונים הנוכחית. זה עשוי לקחת מספר שניות עבור קובצי יומן גדולים.</translation>
-=======
         <source>Send to multiple recipients at once</source>
         <translation>שליחה למספר מוטבים בו־זמנית</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Add &amp;Recipient</source>
         <translation>הוספת &amp;מוטב</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>ברוכים הבאים ללוח בקרת RPC של לייטקוין</translation>
-=======
         <source>Clear all fields of the form.</source>
         <translation>ניקוי של כל השדות בטופס.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Dust:</source>
@@ -2082,14 +1828,8 @@ Address: %4
         <translation>העתקת כמות</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 לייטקוין</translation>
-=======
         <source>Copy amount</source>
         <translation>העתקת סכום</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy fee</source>
@@ -2176,16 +1916,7 @@ Address: %4
     </message>
     <message>
         <source>Pay &amp;To:</source>
-<<<<<<< HEAD
-        <translation>שלם &amp;ל:</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>הכתובת שאליה ישלח התשלום (למשל Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <translation>לשלם ל&amp;טובת:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -2259,14 +1990,8 @@ Address: %4
         <translation>ליבת לייטקוין נסגרת…</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>הכנס כתובת לייטקוין (למשל Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>אין לכבות את המחשב עד שחלון זה נעלם.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2284,14 +2009,8 @@ Address: %4
         <translation>ניתן לחתום על הודעות עם הכתובות שלך כדי להוכיח שהן בבעלותך. מומלץ להיזהר לא לחתום על משהו מפוקפק, שכן התקפות דיוג עשויות לגרום לך בעורמה למסור את זהותך. רצוי לחתום רק על הצהרות מפורטות לחלוטין שהסכמת עמן.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>הכתובת איתה לחתום על ההודעה (למשל Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>כתובת ללייטקוין אתה לחתום אתה את ההודעה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2322,14 +2041,8 @@ Address: %4
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>חתום על ההודעה כדי להוכיח שכתובת הלייטקוין הזו בבעלותך.</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת ללייטקוין הזו בבעלותך.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2352,23 +2065,12 @@ Address: %4
         <translation>הכנס למטה את הכתובת החותמת, ההודעה (ודא שאתה מעתיק מעברי שורה, רווחים, טאבים וכו' באופן מדויק) והחתימה כדי לאמת את ההודעה. היזהר לא לפרש את החתימה כיותר ממה שמופיע בהודעה החתומה בעצמה, כדי להימנע מליפול קורבן למתקפת איש-באמצע.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>הכתובת איתה ההודעה נחתמה (למשל Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>אמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הלייטקוין הנתונה</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>כתובת ללייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת ללייטקוין הנתונה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2376,31 +2078,11 @@ Address: %4
     </message>
     <message>
         <source>Reset all verify message fields</source>
-<<<<<<< HEAD
-        <translation>אפס את כל שדות אימות הודעה</translation>
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>הכנס כתובת לייטקוין (למשל Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>לחץ &quot;חתום על ההודעה&quot; כדי לחולל חתימה</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>הכנס חתימת לייטקוין</translation>
-=======
         <translation>איפוס כל שדות אימות ההודעה</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
         <translation>יש ללחוץ על „חתימה על ההודעה“ כדי לחולל חתימה</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2454,18 +2136,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation type="unfinished"/>
-=======
         <source>Litecoin Core</source>
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>מתכנתי ליבת ביטקוין</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2942,72 +2618,12 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>גרסת לייטקוין</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>שימוש:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>שלח פקודה ל -server או beavercoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>רשימת פקודות</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>קבל עזרה עבור פקודה</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-=======
->>>>>>> pr/5
         <source>Options:</source>
         <translation>אפשרויות:</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>ציין קובץ הגדרות (ברירת מחדל: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: beavercoind.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation>ציין תיקיית נתונים</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>קבע את גודל המטמון של מסד הנתונים במגהבייט (ברירת מחדל: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: 9333 או ברשת הבדיקה: 19333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>החזק לכל היותר &lt;n&gt; חיבורים לעמיתים (ברירת מחדל: 125)</translation>
-=======
         <source>Specify data directory</source>
         <translation>ציון תיקיית נתונים</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
@@ -3015,31 +2631,7 @@ Address: %4
     </message>
     <message>
         <source>Specify your own public address</source>
-<<<<<<< HEAD
-        <translation>ציין את הכתובת הפומבית שלך</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>סף להתנתקות מעמיתים הנוהגים שלא כהלכה (ברירת מחדל: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>מספר שניות למנוע מעמיתים הנוהגים שלא כהלכה מלהתחבר מחדש (ברירת מחדל: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>אירעה שגיאה בעת הגדרת פורט RPC %u להאזנה ב-IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>האזן לחיבורי JSON-RPC ב- &lt;port&gt; (ברירת מחדל: 9332 או רשת בדיקה: 19332)</translation>
-=======
         <translation>נא לציין את הכתובת הפומבית שלך</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -3055,49 +2647,11 @@ Address: %4
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-<<<<<<< HEAD
-        <translation>קבל חיבורים מבחוץ (ברירת מחדל: 1 ללא -proxy או -connect)</translation>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, עליך לקבוע סיסמת RPC בקובץ הקונפיגורציה:
- %s
-מומלץ להשתמש בסיסמא האקראית הבאה:
-rpcuser=beavercoinrpc
-rpcpassword=%s
-(אין צורך לזכור את הסיסמה)
-אסור ששם המשתמש והסיסמא יהיו זהים.
-אם הקובץ אינו קיים, צור אותו עם הרשאות קריאה לבעלים בלבד.
-זה מומלץ לסמן alertnotify כדי לקבל דיווח על תקלות;
-למשל: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com 
-</translation>
-=======
         <translation>קבלת חיבורים מבחוץ (בררת מחדל: 1 ללא ‎-proxy או ‎-connect)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-<<<<<<< HEAD
-        <translation>קשור עם כתובת נתונה והאזן לה תמיד. השתמש בסימון [host]:port עבוד IPv6.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>לא מסוגל להשיג נעילה על תיקיית הנתונים %s. כנראה שלייטקוין כבר רץ.</translation>
-=======
         <translation>להתאגד לכתובת נתונה להאזין לה תמיד. יש להשתמש בצורה ‎[host]:port עבור IPv6.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
@@ -3128,14 +2682,8 @@ rpcpassword=%s
         <translation>אזהרה: נראה שלא כל הרשת מסכימה! נראה שישנם כורים שנתקלים בבעיות.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>אזהרה: אנא בדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך אינו נכון לייטקוין לא יעבוד כראוי.</translation>
-=======
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>אזהרה: נראה שישנה אי־הסכמה בינינו לבין שאר העמיתים שלנו! יתכן שעדיף לשדרג או שכל שאר העמיתים צריכים לשדרג.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3346,14 +2894,8 @@ rpcpassword=%s
         <translation>מסכת הרשת שצוינה עם ‎-whitelist שגויה: '%s'</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation>אפשרויות SSL: (ראה את הויקי של לייטקוין עבור הוראות הגדרת SSL)</translation>
-=======
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>עליך לציין פתחה עם ‎-whitebind:‏ '%s'</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3480,20 +3022,6 @@ rpcpassword=%s
         <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק מושחת</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק דורש גרסה חדשה יותר של לייטקוין</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>יש לכתוב מחדש את הארנק: אתחל את לייטקוין לסיום</translation>
-    </message>
-    <message>
-        <location line="-95"/>
-=======
->>>>>>> pr/5
         <source>Error loading wallet.dat</source>
         <translation>שגיאה בטעינת הקובץ wallet.dat</translation>
     </message>
@@ -3530,20 +3058,6 @@ rpcpassword=%s
         <translation>הוספת מפרק להתחברות ולנסות לשמור על החיבור פתוח</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>לא ניתן לקשור ל-%s במחשב זה. לייטקוין כנראה עדיין רץ.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>עמלה להוסיף לפעולות שאתה שולח עבור כל KB</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>הארנק בטעינה…</translation>
     </message>

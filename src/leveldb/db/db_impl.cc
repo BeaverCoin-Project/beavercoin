@@ -133,8 +133,7 @@ DBImpl::DBImpl(const Options& raw_options, const std::string& dbname)
       seed_(0),
       tmp_batch_(new WriteBatch),
       bg_compaction_scheduled_(false),
-      manual_compaction_(NULL),
-      consecutive_compaction_errors_(0) {
+      manual_compaction_(NULL) {
   mem_->Ref();
   has_imm_.Release_Store(NULL);
 

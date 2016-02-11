@@ -1,47 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BeaverCoin</source>
-        <translation>BeaverCoin hakkında</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;BeaverCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BeaverCoin&lt;/b&gt; sürüm</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
- Bu yazılım deneme safhasındadır.
-
- MIT/X11 yazılım lisansı kapsamında yayınlanmıştır, COPYING dosyasına ya da http://www.opensource.org/licenses/mit-license.php sayfasına bakınız.
-
- Bu ürün OpenSSL projesi tarafından OpenSSL araç takımı (http://www.openssl.org/) için geliştirilen yazılımlar, Eric Young (eay@cryptsoft.com) tarafından hazırlanmış şifreleme yazılımları ve Thomas Bernard tarafından programlanmış UPnP yazılımı içerir.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Telif hakkı</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The BeaverCoin developers</source>
-        <translation>BeaverCoin geliştiricileri</translation>
-    </message>
-</context>
-=======
 <TS language="tr" version="2.1">
->>>>>>> pr/5
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -53,24 +10,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Yeni bir adres oluştur</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+14"/>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Şu anda seçili olan adresi panoya kopyala</translation>
-    </message>
-    <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Yeni adres</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BeaverCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için BeaverCoin adresleridir. Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
-=======
         <source>&amp;New</source>
         <translation>&amp;Yeni</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -81,14 +22,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+11"/>
-        <source>Sign a message to prove you own a BeaverCoin address</source>
-        <translation>Bir BeaverCoin adresinin sizin olduğunu ispatlamak için mesaj imzalayın</translation>
-=======
         <source>C&amp;lose</source>
         <translation>K&amp;apat</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -107,18 +42,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Dışa aktar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BeaverCoin address</source>
-        <translation>Belirtilen BeaverCoin adresi ile imzalandığını doğrulamak için bir mesajı kontrol et</translation>
-=======
         <source>&amp;Delete</source>
         <translation>&amp;Sil</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Litecoin yollanacak adresi seç</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
@@ -141,14 +70,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Bunlar ödeme yapmak için kullanacağınız Litecoin adreslerinizdir. Litecoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BeaverCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme yapmak için kullanacağınız BeaverCoin adreslerinizdir. BeaverCoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
-=======
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Bunlar ödeme almak için kullanacağınız Litecoin adreslerinizdir. Her muamele için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -241,12 +164,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdan şifrelenmesini teyit eder</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BEAVERCOINS&lt;/b&gt;!</source>
-=======
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
->>>>>>> pr/5
         <translation>Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -266,18 +184,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdan şifrelendi</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-56"/>
-        <source>BeaverCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your beavercoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için BeaverCoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BeaverCoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
-=======
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Cüzdan için yeni parolayı giriniz.&lt;br/&gt;Lütfen &lt;b&gt;on ya da daha fazla rastgele karakter&lt;/b&gt; veya &lt;b&gt;sekiz ya da daha fazla kelime&lt;/b&gt; içeren bir parola kullanınız.</translation>
     </message>
     <message>
         <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>Şifreleme işlemini tamamlamak için Litecoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Litecoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -347,15 +259,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Uygulamadan çık</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+4"/>
-        <source>Show information about BeaverCoin</source>
-        <translation>BeaverCoin hakkında bilgi göster</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-=======
->>>>>>> pr/5
         <source>About &amp;Qt</source>
         <translation>&amp;Qt hakkında</translation>
     </message>
@@ -404,23 +307,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Diskteki bloklar yeniden endeksleniyor...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-347"/>
-        <source>Send coins to a BeaverCoin address</source>
-        <translation>Bir BeaverCoin adresine BeaverCoin yolla</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for BeaverCoin</source>
-        <translation>BeaverCoin seçeneklerinin yapılandırmasını değiştir</translation>
-=======
         <source>Send coins to a Litecoin address</source>
         <translation>Bir Litecoin adresine Litecoin yolla</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
         <translation>Litecoin seçeneklerinin yapılandırmasını değiştir</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -443,15 +335,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mesaj &amp;kontrol et...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>BeaverCoin</source>
-        <translation>BeaverCoin</translation>
-=======
         <source>Litecoin</source>
         <translation>Litecoin</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Wallet</source>
@@ -466,19 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Al</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Adresler</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About BeaverCoin</source>
-        <translation>BeaverCoin &amp;Hakkında</translation>
-=======
         <source>Show information about Litecoin Core</source>
         <translation>Litecoin Çekirdeği hakkında bilgi göster</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -493,23 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdanınızın özel anahtarlarını şifrele</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Sign messages with your BeaverCoin addresses to prove you own them</source>
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için BeaverCoin adresleri ile imzala</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BeaverCoin addresses</source>
-        <translation>Belirtilen BeaverCoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
-=======
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Litecoin adresleri ile imzala</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Belirtilen Litecoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;File</source>
@@ -532,23 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Litecoin Çekirdeği</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+47"/>
-        <source>BeaverCoin client</source>
-        <translation>BeaverCoin istemcisi</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to BeaverCoin network</source>
-        <translation><numerusform>BeaverCoin şebekesine %n faal bağlantı</numerusform><numerusform>BeaverCoin şebekesine %n faal bağlantı</numerusform></translation>
-=======
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Ödeme talep et (QR kodu ve litecoin URI'si oluşturur)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>Litecoin Çekirdeği &amp;hakkında</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -655,22 +507,6 @@ Adres: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>URI yönetimi</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BeaverCoin address or malformed URI parameters.</source>
-        <translation>URI okunamadı! Sebebi geçersiz bir BeaverCoin adresi veya hatalı URI parametreleri olabilir.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-=======
->>>>>>> pr/5
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilidi açıktır&lt;/b&gt;</translation>
     </message>
@@ -678,14 +514,6 @@ Adres: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilitlidir&lt;/b&gt;</translation>
     </message>
-<<<<<<< HEAD
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BeaverCoin can no longer continue safely and will quit.</source>
-        <translation>Ciddi bir hata oluştu. BeaverCoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
-    </message>
-=======
->>>>>>> pr/5
 </context>
 <context>
     <name>ClientModel</name>
@@ -737,14 +565,8 @@ Adres: %4
         <translation>tümünü seç(me)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BeaverCoin address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir BeaverCoin adresi değildir.</translation>
-=======
         <source>Tree mode</source>
         <translation>Ağaç kipi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>List mode</source>
@@ -755,15 +577,8 @@ Adres: %4
         <translation>Meblağ</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>BeaverCoin-Qt</source>
-        <translation>BeaverCoin-Qt</translation>
-=======
         <source>Received with label</source>
         <translation>Şu etiketle alındı</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Received with address</source>
@@ -810,23 +625,12 @@ Adres: %4
         <translation>Harcanmamışın kilidini aç</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+31"/>
-        <source>Automatically start BeaverCoin after logging in to the system.</source>
-        <translation>Sistemde oturum açıldığında BeaverCoin&apos;i otomatik olarak başlat.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start BeaverCoin on system login</source>
-        <translation>BeaverCoin&apos;i sistem oturumuyla &amp;başlat</translation>
-=======
         <source>Copy quantity</source>
         <translation>Miktarı kopyala</translation>
     </message>
     <message>
         <source>Copy fee</source>
         <translation>Ücreti kopyala</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy after fee</source>
@@ -841,28 +645,16 @@ Adres: %4
         <translation>Önceliği kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+6"/>
-        <source>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide BeaverCoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
-=======
         <source>Copy dust</source>
         <translation>Tozu kopyala</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy change</source>
         <translation>Para üstünü kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>BeaverCoin şebekesine SOCKS vekil sunucusu vasıtasıyla bağlan (mesela Tor ile bağlanıldığında).</translation>
-=======
         <source>highest</source>
         <translation>azami</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>higher</source>
@@ -921,37 +713,20 @@ Adres: %4
         <translation>Eğer muamele boyutu 1000 bayttan büyükse bu etkiket kırmızı olur.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar BeaverCoin tekrar başlatıldığında etkinleşecektir.</translation>
-=======
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Bu, kB başına en az %1 ücret gerektiği anlamnına gelir.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
         <translation>Girdi başına +/- 1 bayt değişebilir.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>BeaverCoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show BeaverCoin addresses in the transaction list or not.</source>
-        <translation>Muamele listesinde BeaverCoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
-=======
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Yüksek öncelikli muamelelerin bir bloğa dahil olmaları daha olasıdır.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>Eğer öncelik "ortadan" düşükse bu etiket kırmızı olur.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
@@ -993,15 +768,8 @@ Adres: %4
         <translation>&amp;Adres</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting BeaverCoin.</source>
-        <translation>Bu ayarlar BeaverCoin tekrar başlatıldığında etkinleşecektir.</translation>
-=======
         <source>New receiving address</source>
         <translation>Yeni alım adresi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>New sending address</source>
@@ -1012,15 +780,8 @@ Adres: %4
         <translation>Alım adresini düzenle</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BeaverCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
-=======
         <source>Edit sending address</source>
         <translation>Gönderi adresini düzenle</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1065,14 +826,8 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start beavercoin: click-to-pay handler</source>
-        <translation>BeaverCoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Çekirdeği</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>version</source>
@@ -1933,14 +1688,8 @@ Adres: %4
         <translation>Göster</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Show the BeaverCoin-Qt help message to get a list with possible BeaverCoin command-line options.</source>
-        <translation>Mevcut BeaverCoin komut satırı seçeneklerinin listesini içeren BeaverCoin-Qt yardımını göster.</translation>
-=======
         <source>Remove the selected entries from the list</source>
         <translation>Seçilen unsurları listeden kaldır</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Remove</source>
@@ -1955,55 +1704,31 @@ Adres: %4
         <translation>Mesajı kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-104"/>
-        <source>BeaverCoin - Debug window</source>
-        <translation>BeaverCoin - Hata ayıklama penceresi</translation>
-=======
         <source>Copy amount</source>
         <translation>Meblağı kopyala</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-<<<<<<< HEAD
-        <location line="+25"/>
-        <source>BeaverCoin Core</source>
-        <translation>BeaverCoin Çekirdeği</translation>
-=======
         <source>QR Code</source>
         <translation>QR Kodu</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Copy &amp;URI</source>
         <translation>&amp;URI'yi kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+7"/>
-        <source>Open the BeaverCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Güncel veri klasöründen BeaverCoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
-=======
         <source>Copy &amp;Address</source>
         <translation>&amp;Adresi kopyala</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>&amp;Save Image...</source>
         <translation>Resmi ka&amp;ydet...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BeaverCoin RPC console.</source>
-        <translation>BeaverCoin RPC konsoluna hoş geldiniz.</translation>
-=======
         <source>Request payment to %1</source>
         <translation>%1 unsuruna ödeme talep et</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Payment information</source>
@@ -2073,9 +1798,6 @@ Adres: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-<<<<<<< HEAD
-        <translation>BeaverCoin yolla</translation>
-=======
         <translation>Litecoin yolla</translation>
     </message>
     <message>
@@ -2201,7 +1923,6 @@ Adres: %4
     <message>
         <source>(confirmation may take longer)</source>
         <translation>(teyit daha uzun süre alabilir)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2348,16 +2069,7 @@ Adres: %4
     </message>
     <message>
         <source>Pay &amp;To:</source>
-<<<<<<< HEAD
-        <translation>&amp;Şu kişiye öde:</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ödemenin gönderileceği adres (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <translation>&amp;Şu adrese öde:</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -2431,14 +2143,8 @@ Adres: %4
         <translation>Litecoin Çekirdeği kapanıyor...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>BeaverCoin adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Bu pencere kalkıncaya dek bilgisayarı kapatmayınız.</translation>
->>>>>>> pr/5
     </message>
 </context>
 <context>
@@ -2456,14 +2162,8 @@ Adres: %4
         <translation>Bir adresin sizin olduğunu ispatlamak için adresinizle mesaj imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Mesajın imzalanmasında kullanılacak adres (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-=======
         <source>The Litecoin address to sign the message with</source>
         <translation>Mesajın imzalanmasında kullanılacak Litecoin adresi</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2494,14 +2194,8 @@ Adres: %4
         <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>Sign the message to prove you own this BeaverCoin address</source>
-        <translation>Bu BeaverCoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
-=======
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Bu Litecoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2524,23 +2218,12 @@ Adres: %4
         <translation>İmza için kullanılan adresi, mesajı (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıda giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya mâni olmak için imzadan, imzalı mesajın içeriğini aşan bir anlam çıkarmamaya dikkat ediniz.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Mesajı imzalamak için kullanılmış olan adres (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BeaverCoin address</source>
-        <translation>Belirtilen BeaverCoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
-=======
         <source>The Litecoin address the message was signed with</source>
         <translation>Mesajın imzalanmasında kullanılan Litecoin adresi</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Belirtilen Litecoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2551,25 +2234,8 @@ Adres: %4
         <translation>Tüm mesaj kontrolü alanlarını sıfırla</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a BeaverCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>BeaverCoin adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>İmzayı oluşturmak için &quot;Mesaj İmzala&quot; unsurunu tıklayın</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter BeaverCoin signature</source>
-        <translation>BeaverCoin imzası gir</translation>
-=======
         <source>Click "Sign Message" to generate signature</source>
         <translation>İmzayı oluşturmak için "Mesaj İmzala" unsurunu tıklayın</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2623,18 +2289,12 @@ Adres: %4
 <context>
     <name>SplashScreen</name>
     <message>
-<<<<<<< HEAD
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BeaverCoin developers</source>
-        <translation>BeaverCoin geliştiricileri</translation>
-=======
         <source>Litecoin Core</source>
         <translation>Litecoin Çekirdeği</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
         <translation>Bitcoin Çekirdeği geliştiricileri</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>[testnet]</source>
@@ -2755,18 +2415,12 @@ Adres: %4
         <translation>Muamele tanımlayıcı</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan BeaverCoin&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
-=======
         <source>Merchant</source>
         <translation>Tüccar</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Oluşturulan litecoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Debug information</source>
@@ -3317,14 +2971,8 @@ Adres: %4
         <translation>Veritabanı önbellek boyutunu megabayt olarak belirt (%d ilâ %d, varsayılan: %d)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>BeaverCoin yolla</translation>
-=======
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Azami blok boyutunu bayt olarak ayarla (varsayılan: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -3359,28 +3007,16 @@ Adres: %4
         <translation>-txindex'i değiştirmek için veritabanını -reindex kullanarak tekrar inşa etmeniz gerekmektedir</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BeaverCoin version</source>
-        <translation>BeaverCoin sürümü</translation>
-=======
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Harici blk000??.dat dosyasından blokları içe aktarır</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Belirtilen kaynaktan JSON-RPC bağlantılarını kabul et. Bir &lt;ip&gt; için geçerli olanlar şunlardır: salt IP adresi (mesela 1.2.3.4), bir şebeke/ağ maskesi (örneğin 1.2.3.4/255.255.255.0) ya da bir şebeke/CIDR (mesela 1.2.3.4/24). Bu seçenek birden fazla kez belirtilebilir</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-29"/>
-        <source>Send command to -server or beavercoind</source>
-        <translation>-server ya da beavercoind&apos;ye komut gönder</translation>
-=======
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
         <translation>Dinleme için RPC adresi %s port %u kurulurken bir hata meydana geldi: %s</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3395,23 +3031,12 @@ Adres: %4
         <translation>%s veri dizininde kilit elde edilemedi. Litecoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+24"/>
-        <source>Specify configuration file (default: beavercoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: beavercoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: beavercoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: beavercoind.pid)</translation>
-=======
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Devamlı olarak ücretsiz muameleleri dakikada &lt;n&gt;*1000 bayt olarak sınırla (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Yeni dosyaları umask 077 yerine varsayılan izinlerle oluştur (sadece devre dışı cüzdan işlevselliği ile etkilidir)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3422,14 +3047,8 @@ Adres: %4
         <translation>Hata: Desteklenmeyen -socks argümanı bulundu. SOCKS sürümünün ayarlanması artık mümkün değildir, sadece SOCKS5 vekilleri desteklenmektedir.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 9333 ya da testnet: 19333)</translation>
-=======
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>İlgili bir uyarı alındığında ya da gerçekten uzun bir çatallama gördüğümüzde komutu çalıştır (komuttaki %s mesaj ile değiştirilir)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3456,14 +3075,8 @@ Adres: %4
         <translation>Tek cüzdan muamelesinde kullanılacak azami toplam ücret, çok düşük ayarlamak büyük muameleleri iptal edebilir (varsayılan: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 9332 veya tesnet: 19332)</translation>
-=======
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Adres sayısı azaldıysa DNS sorgulamasıyla eş adresleri ara (varsayılan: 1 -connect kullanılmadıysa)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3485,84 +3098,23 @@ Adres: %4
         <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-<<<<<<< HEAD
-rpcuser=beavercoinrpc
-=======
 rpcuser=litecoinrpc
->>>>>>> pr/5
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-<<<<<<< HEAD
-for example: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-=======
 for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
->>>>>>> pr/5
 </source>
         <translation>litecoind ya da litecoin-qt ile -server seçeneğini kullanmak için yapılandırma dosyasında bir rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-<<<<<<< HEAD
-rpcuser=beavercoinrpc
-=======
 rpcuser=litecoinrpc
->>>>>>> pr/5
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
 Sorunlar hakkında bildiri almak için alertnotify unsurunu ayarlamanız tavsiye edilir;
-<<<<<<< HEAD
-mesela: alertnotify=echo %%s | mail -s &quot;BeaverCoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>IPv6 üzerinde dinlemek için %u numaralı RPC portu kurulurken bir hata meydana geldi, IPv4&apos;e dönülüyor: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Belirtilen adrese bağlan ve daima ondan dinle. IPv6 için [makine]:port yazımını kullanınız</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BeaverCoin is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi. BeaverCoin muhtemelen hâlihazırda çalışmaktadır.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Hata: Muamele reddedildi! Cüzdanınızdaki madenî paraların bazıları zaten harcanmış olduğunda bu meydana gelebilir. Örneğin wallet.dat dosyasının bir kopyasını kullandıysanız ve kopyada para harcandığında ancak burada harcandığı işaretlenmediğinde.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Hata: Muamelenin miktarı, karmaşıklığı ya da yakın geçmişte alınan fonların kullanılması nedeniyle bu muamele en az %s tutarında ücret gerektirmektedir!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>İlgili bir uyarı alındığında komut çalıştır (komuttaki %s mesaj ile değiştirilecektir)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Bir cüzdan muamelesi değiştiğinde komutu çalıştır (komuttaki %s TxID ile değiştirilecektir)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Yüksek öncelikli/düşük ücretli muamelelerin boyutunu bayt olarak tanımla (varsayılan: 27000)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - beavercoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
-=======
 mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
 </translation>
     </message>
@@ -3573,7 +3125,6 @@ mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
         <translation>Uyarı: Lütfen bilgisayarınızın saat ve tarihinin doğru olduğunu kontol ediniz! Saatinizde gecikme varsa Litecoin Çekirdeği doğru şekilde çalışamaz.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3584,14 +3135,8 @@ mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Herkese açık REST taleplerini kabul et (varsayılan: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BeaverCoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse BeaverCoin gerektiği gibi çalışamaz.</translation>
-=======
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>-whitebind adresi çözümlenemedi: '%s'</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3702,14 +3247,8 @@ mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Muamelenin imzalanması başarısız oldu</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation>BeaverCoin oluştur (varsayılan: 0)</translation>
-=======
         <source>This is experimental software.</source>
         <translation>Bu, deneysel bir yazılımdır.</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3796,14 +3335,8 @@ mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Bu yardım mesajı</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+5"/>
-        <source>SSL options: (see the BeaverCoin Wiki for SSL setup instructions)</source>
-        <translation> SSL seçenekleri: (SSL kurulum bilgisi için BeaverCoin vikisine bakınız)</translation>
-=======
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>-addnode, -seednode ve -connect için DNS aramalarına izin ver</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3954,23 +3487,12 @@ mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Cüzdan veritabanı ortamında DB_PRIVATE bayrağını koyar (varsayılan: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BeaverCoin</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir BeaverCoin sürümüne ihtiyacı var</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BeaverCoin to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için BeaverCoin&apos;i yeniden başlatınız</translation>
-=======
         <source>Specify configuration file (default: %s)</source>
         <translation>Yapılandırma dosyası belirtiniz (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Bağlantı zaman aşım süresini milisaniye olarak belirt (asgari: 1, varsayılan: %d)</translation>
->>>>>>> pr/5
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4017,20 +3539,6 @@ mesela: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
         <translation>Bağlanılacak düğüm ekle ve bağlantıyı zinde tutmaya çalış</translation>
     </message>
     <message>
-<<<<<<< HEAD
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BeaverCoin is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. BeaverCoin muhtemelen hâlihazırda çalışmaktadır.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Yolladığınız muameleler için eklenecek KB başı ücret</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-=======
->>>>>>> pr/5
         <source>Loading wallet...</source>
         <translation>Cüzdan yükleniyor...</translation>
     </message>

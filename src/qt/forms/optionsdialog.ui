@@ -30,74 +30,7 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Automatically start BeaverCoin after logging in to the system.</string>
-         </property>
-         <property name="text">
-          <string>&amp;Start BeaverCoin on system login</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <spacer name="verticalSpacer_Main">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_2_Main">
-         <item>
-          <spacer name="horizontalSpacer_2_Main">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
-          <widget class="QPushButton" name="resetButton">
-           <property name="toolTip">
-            <string>Reset all client options to default.</string>
-           </property>
-           <property name="text">
-            <string>&amp;Reset Options</string>
-           </property>
-           <property name="autoDefault">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="tabWallet">
-      <attribute name="title">
-       <string>W&amp;allet</string>
-      </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_Network">
-       <item>
-        <widget class="QLabel" name="transactionFeeInfoLabel">
-         <property name="text">
-          <string>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-=======
           <string>Automatically start Litecoin after logging in to the system.</string>
->>>>>>> pr/5
          </property>
          <property name="text">
           <string>&amp;Start Litecoin on system login</string>
@@ -148,23 +81,6 @@
         </layout>
        </item>
        <item>
-<<<<<<< HEAD
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="spendZeroConfChange">
-         <property name="text">
-          <string>Spend unconfirmed change  (experts only)</string>
-         </property>
-        </widget>
-=======
         <layout class="QHBoxLayout" name="horizontalLayout_3_Main">
          <item>
           <widget class="QLabel" name="threadsScriptVerifLabel">
@@ -200,10 +116,9 @@
           </spacer>
          </item>
         </layout>
->>>>>>> pr/5
        </item>
        <item>
-        <spacer name="verticalSpacer">
+        <spacer name="verticalSpacer_Main">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -215,8 +130,6 @@
          </property>
         </spacer>
        </item>
-<<<<<<< HEAD
-=======
       </layout>
      </widget>
      <widget class="QWidget" name="tabWallet">
@@ -266,7 +179,6 @@
          </property>
         </spacer>
        </item>
->>>>>>> pr/5
       </layout>
      </widget>
      <widget class="QWidget" name="tabNetwork">
@@ -277,11 +189,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Automatically open the BeaverCoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
-=======
           <string>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
->>>>>>> pr/5
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -301,11 +209,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-<<<<<<< HEAD
-          <string>Connect to the BeaverCoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
-=======
           <string>Connect to the Litecoin network through a SOCKS5 proxy.</string>
->>>>>>> pr/5
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy (default proxy):</string>
@@ -471,11 +375,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-<<<<<<< HEAD
-            <string>The user interface language can be set here. This setting will take effect after restarting BeaverCoin.</string>
-=======
             <string>The user interface language can be set here. This setting will take effect after restarting Litecoin.</string>
->>>>>>> pr/5
            </property>
           </widget>
          </item>
@@ -506,16 +406,6 @@
         </layout>
        </item>
        <item>
-<<<<<<< HEAD
-        <widget class="QCheckBox" name="displayAddresses">
-         <property name="toolTip">
-          <string>Whether to show BeaverCoin addresses in the transaction list or not.</string>
-         </property>
-         <property name="text">
-          <string>&amp;Display addresses in transaction list</string>
-         </property>
-        </widget>
-=======
         <layout class="QHBoxLayout" name="horizontalLayout_3_Display">
          <item>
           <widget class="QLabel" name="thirdPartyTxUrlsLabel">
@@ -538,17 +428,6 @@
           </widget>
          </item>
         </layout>
->>>>>>> pr/5
-       </item>
-       <item>
-        <widget class="QCheckBox" name="coinControlFeatures">
-         <property name="toolTip">
-          <string>Whether to show coin control features or not.</string>
-         </property>
-         <property name="text">
-          <string>Display coin &amp;control features (experts only!)</string>
-         </property>
-        </widget>
        </item>
        <item>
         <spacer name="verticalSpacer_Display">
