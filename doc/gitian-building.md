@@ -394,5 +394,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[beavercoin/gitian.sigs](https://github.com/beavercoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[beavercoin/gitian.sigs](https://github.com/beavercoin-project/gitian.sigs.bvc/) repository, or if that's not possible create a pull
 request. 

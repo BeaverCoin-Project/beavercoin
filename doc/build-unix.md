@@ -15,12 +15,6 @@ the usage of the absolute path.
 To Build
 ---------------------
 
-<<<<<<< HEAD
-	cd src/
-	make -f makefile.unix		# Headless beavercoin
-
-See readme-qt.rst for instructions on building BeaverCoin-Qt, the graphical user interface.
-=======
 ```bash
 ./autogen.sh
 ./configure
@@ -29,7 +23,6 @@ make install # optional
 ```
 
 This will build beavercoin-qt as well if the dependencies are met.
->>>>>>> pr/5
 
 Dependencies
 ---------------------
@@ -106,8 +99,6 @@ are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
 To build without GUI pass `--without-gui`.
 
-<<<<<<< HEAD
-=======
 To build with Qt 4 you need the following:
 
     sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
@@ -123,7 +114,6 @@ libqrencode (optional) can be installed with:
 Once these are installed, they will be found by configure and a beavercoin-qt executable will be
 built by default.
 
->>>>>>> pr/5
 Notes
 -----
 The release is built with GCC and then "strip beavercoind" to strip the debug
@@ -191,10 +181,6 @@ If you need to build Boost yourself:
 
 Security
 --------
-<<<<<<< HEAD
-To help make your beavercoin installation more secure by making certain attacks impossible to
-exploit even if a vulnerability is found, you can take the following measures:
-=======
 To help make your beavercoin installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
@@ -206,7 +192,6 @@ Hardening Flags:
 
 
 Hardening enables the following features:
->>>>>>> pr/5
 
 * Position Independent Executable
     Build position independent code to take advantage of Address Space Layout Randomization
@@ -218,18 +203,9 @@ Hardening enables the following features:
     On an Amd64 processor where a library was not compiled with -fPIC, this will cause an error
     such as: "relocation R_X86_64_32 against `......' can not be used when making a shared object;"
 
-<<<<<<< HEAD
-    To build with PIE, use:
-    make -f makefile.unix ... -e PIE=1
-
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
     	scanelf -e ./beavercoin
-=======
-    To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-
-    	scanelf -e ./beavercoin
->>>>>>> pr/5
 
     The output should contain:
      TYPE
@@ -243,11 +219,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-<<<<<<< HEAD
     `scanelf -e ./beavercoin`
-=======
-    `scanelf -e ./beavercoin`
->>>>>>> pr/5
 
     the output should contain:
 	STK/REL/PTL

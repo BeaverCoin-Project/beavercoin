@@ -144,7 +144,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("beavercointools.com", "dnsseed.beavercointools.com"));
         vSeeds.push_back(CDNSSeedData("beavercoinpool.org", "dnsseed.beavercoinpool.org"));
-        vSeeds.push_back(CDNSSeedData("xurious.com", "dnsseed.ltc.xurious.com"));
+        vSeeds.push_back(CDNSSeedData("xurious.com", "dnsseed.bvc.xurious.com"));
         vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
         vSeeds.push_back(CDNSSeedData("weminemnc.com", "dnsseed.weminemnc.com"));
 
@@ -207,7 +207,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("beavercointools.com", "testnet-seed.beavercointools.com"));
-        vSeeds.push_back(CDNSSeedData("xurious.com", "testnet-seed.ltc.xurious.com"));
+        vSeeds.push_back(CDNSSeedData("xurious.com", "testnet-seed.bvc.xurious.com"));
         vSeeds.push_back(CDNSSeedData("wemine-testnet.com", "dnsseed.wemine-testnet.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(111);
